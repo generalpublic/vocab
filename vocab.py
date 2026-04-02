@@ -676,6 +676,16 @@ SCENARIOS = {
         "Take a cliche ('time heals all wounds') and rewrite it so it feels true again.",
         "Write a paragraph that builds tension using only short, declarative sentences.",
     ],
+    "faith": [
+        "Write a reflection on a passage of Scripture that unsettled you -- what did it demand that you weren't ready to give?",
+        "Take a doctrine you've held since childhood and examine it as if encountering it for the first time. What's shocking about it?",
+        "Write about a moment where obedience to God contradicted every instinct you had. What did you learn about trust?",
+        "Explore the tension between God's sovereignty and human suffering without resolving it neatly. Sit in the discomfort.",
+        "Write about a sin you once rationalized. Trace the moment conviction broke through -- what Scripture or truth pierced it?",
+        "Describe what it means to fear the Lord to someone who thinks God is only love. Use no cliches.",
+        "Write about a season of spiritual dryness. How did God prove faithful when you felt nothing?",
+        "Take a parable of Jesus and rewrite its truth for your current life circumstance. What is He saying to you today?",
+    ],
 }
 
 CONSTRAINTS = {
@@ -747,7 +757,12 @@ def cmd_daily(args):
 
     selected = smart_select(enriched, n, prompts_log=prompts_log)
 
-    style = args.style or random.choice(list(SCENARIOS.keys()))
+    if args.style:
+        style = args.style
+    else:
+        styles = list(SCENARIOS.keys())
+        weights = [2 if s == "faith" else 1 for s in styles]
+        style = random.choices(styles, weights=weights, k=1)[0]
     if style not in SCENARIOS:
         print(f"Unknown style. Available: {', '.join(SCENARIOS.keys())}")
         return
@@ -1623,7 +1638,7 @@ def main():
     # daily
     p = sub.add_parser("daily", help="Morning writing prompt")
     p.add_argument("-n", type=int, help="Number of words (default 3)")
-    p.add_argument("--style", choices=["punchy", "persuasive", "measured", "craft"])
+    p.add_argument("--style", choices=["punchy", "persuasive", "measured", "craft", "faith"])
 
     # wotd
     sub.add_parser("wotd", help="Word of the day")
