@@ -1,0 +1,782 @@
+[
+  {
+    "word": "Hegemony",
+    "pos": ["noun"],
+    "pronunciation": "heh-JEM-uh-nee",
+    "definition": "Dominance or leadership of one group, state, or ideology over others, especially through cultural or ideological means rather than direct force.",
+    "register": ["formal", "academic"],
+    "tags": ["power", "politics", "culture"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "The cultural hegemony of Western media shapes global beauty standards in ways that often go unexamined.", "why": "Correctly uses hegemony to describe dominance operating through culture rather than coercion, which is its Gramscian sense."},
+      {"context": "professional", "sentence": "The company's hegemony over the streaming market has discouraged new entrants for nearly a decade.", "why": "Applies hegemony to market dominance, conveying not just market share but structural control over the competitive landscape."},
+      {"context": "creative writing", "sentence": "Under the hegemony of the old families, even the language spoken in the valley had bent toward their dialect.", "why": "Illustrates cultural hegemony through language shift, showing dominance as pervasive and naturalized rather than imposed by decree."}
+    ],
+    "misuses": [
+      {"wrong": "The hegemony of the earthquake devastated the city.", "problem": "Hegemony refers to systemic dominance by a group or ideology, not the force or impact of a natural event.", "use_instead": "devastation, impact, or magnitude"},
+      {"wrong": "She established hegemony over her own emotions.", "problem": "Hegemony describes power relations between groups or systems, not personal self-control.", "use_instead": "mastery, command, or discipline"}
+    ],
+    "related": [
+      {"word": "supremacy", "distinction": "Supremacy emphasizes being on top; hegemony emphasizes the systemic mechanisms that maintain dominance."},
+      {"word": "imperialism", "distinction": "Imperialism typically involves territorial or economic expansion; hegemony can operate through consent and cultural absorption."},
+      {"word": "dominion", "distinction": "Dominion implies sovereign authority over a domain; hegemony implies influence that shapes norms and beliefs."}
+    ],
+    "triggers": [
+      "When describing how a dominant group maintains power through culture, ideology, or consent rather than force",
+      "When analyzing how norms or standards reflect the interests of a ruling class or dominant institution",
+      "When critiquing structural power that appears natural or inevitable but is actually constructed"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Subaltern",
+    "pos": ["noun", "adjective"],
+    "pronunciation": "SUB-ul-turn",
+    "definition": "A person or group marginalized by and subordinate to the dominant power structure, especially one whose voice is excluded from mainstream discourse.",
+    "register": ["academic", "literary"],
+    "tags": ["power", "marginalization", "postcolonial"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Spivak's foundational question — can the subaltern speak? — remains urgent in an era where representation is often mistaken for inclusion.", "why": "References the term's origin in postcolonial theory and correctly frames the subaltern as structurally silenced, not merely underrepresented."},
+      {"context": "professional", "sentence": "Our research methodology must account for subaltern perspectives that traditional surveys systematically fail to capture.", "why": "Uses subaltern as an adjective to describe perspectives excluded by dominant research frameworks, appropriate in social science contexts."},
+      {"context": "creative writing", "sentence": "The subaltern did not protest; protest requires a language the powerful will hear, and she had not been taught it.", "why": "Dramatizes the concept of structural voicelessness — the subaltern's silence is not passivity but a consequence of exclusion from the discourse itself."}
+    ],
+    "misuses": [
+      {"wrong": "He felt subaltern after losing the argument.", "problem": "Subaltern describes structural, systemic marginalization — not a temporary feeling of defeat or inferiority.", "use_instead": "humbled, diminished, or chastened"},
+      {"wrong": "The subaltern employee complained to HR about overtime.", "problem": "A low-ranking employee with access to institutional grievance channels is not subaltern; the term implies exclusion from the very mechanisms of redress.", "use_instead": "subordinate, junior, or lower-ranking"}
+    ],
+    "related": [
+      {"word": "marginalized", "distinction": "Marginalized is broader and more general; subaltern specifically implies exclusion from the mechanisms of discourse and representation."},
+      {"word": "disenfranchised", "distinction": "Disenfranchised means stripped of specific rights (especially voting); subaltern describes a deeper structural condition of voicelessness."},
+      {"word": "oppressed", "distinction": "Oppressed emphasizes active domination; subaltern emphasizes the erasure and inaudibility of the dominated group."}
+    ],
+    "triggers": [
+      "When discussing populations whose perspectives are structurally excluded from dominant discourse, not merely underrepresented",
+      "When analyzing postcolonial or power dynamics where certain groups lack access to the language and institutions of self-representation",
+      "When critiquing the assumption that giving someone a platform automatically constitutes meaningful inclusion"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Interpellate",
+    "pos": ["verb"],
+    "pronunciation": "in-TUR-puh-layt",
+    "definition": "To constitute an individual as a subject by addressing or hailing them within an ideological framework, thereby assigning them a social identity they come to recognize as their own.",
+    "register": ["academic"],
+    "tags": ["ideology", "identity", "philosophy"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Advertising interpellates consumers not by describing products but by constructing the kind of person who needs them.", "why": "Correctly uses interpellate in the Althusserian sense — ideology creates subject positions that individuals then inhabit, rather than persuading pre-existing subjects."},
+      {"context": "professional", "sentence": "Political messaging interpellates voters as patriots, taxpayers, or victims, framing policy debates through identity before evidence.", "why": "Shows how interpellation operates in political communication by assigning identity categories that shape how people receive information."},
+      {"context": "creative writing", "sentence": "The uniform interpellated her before she chose it — the moment she put it on, she was already the soldier they needed.", "why": "Dramatizes interpellation as something that precedes conscious choice, showing how material and symbolic structures constitute identity."}
+    ],
+    "misuses": [
+      {"wrong": "The teacher interpellated the students about their homework.", "problem": "This confuses interpellate with interrogate. Interpellate is about ideological subject-formation, not questioning.", "use_instead": "interrogated, questioned, or asked"},
+      {"wrong": "He interpellated his friend into joining the club.", "problem": "Interpellate does not mean to recruit or persuade. It describes how ideology constitutes subjects, not how individuals convince others.", "use_instead": "persuaded, recruited, or enlisted"}
+    ],
+    "related": [
+      {"word": "hail", "distinction": "Hail is the everyday metaphor Althusser uses; interpellate is the theoretical term for the process by which hailing constitutes subjects."},
+      {"word": "indoctrinate", "distinction": "Indoctrinate implies deliberate teaching of beliefs; interpellate describes an unconscious process of identity-formation through ideology."},
+      {"word": "socialize", "distinction": "Socialize describes learning norms; interpellate specifically describes the moment ideology constitutes you as a particular kind of subject."}
+    ],
+    "triggers": [
+      "When analyzing how ideology or institutions assign identity positions that people adopt as natural or self-evident",
+      "When describing how media, advertising, or political rhetoric constructs its audience rather than addressing a pre-existing one",
+      "When discussing the mechanism by which people come to see themselves through the categories that power provides"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Panopticon",
+    "pos": ["noun"],
+    "pronunciation": "pan-OP-tih-kon",
+    "definition": "A structure or system designed so that all occupants can be observed from a single point without knowing when they are being watched, inducing self-regulation through the internalization of surveillance.",
+    "register": ["academic", "literary"],
+    "tags": ["surveillance", "power", "control"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Social media functions as a digital panopticon: users curate their behavior not because they are watched at every moment, but because they might be.", "why": "Correctly captures the Foucauldian insight that the panopticon's power lies in potential observation, not constant monitoring."},
+      {"context": "professional", "sentence": "Employee monitoring software creates a workplace panopticon that may increase short-term compliance at the cost of long-term trust.", "why": "Applies the concept to a concrete organizational context while preserving the key mechanism — self-regulation through awareness of possible surveillance."},
+      {"context": "creative writing", "sentence": "The village needed no watchtower; gossip was its panopticon, and every curtain its eye.", "why": "Extends the metaphor beyond literal architecture to social surveillance, showing how the principle operates through informal mechanisms."}
+    ],
+    "misuses": [
+      {"wrong": "The panopticon of the telescope revealed distant galaxies.", "problem": "Panopticon does not mean an all-seeing device. It describes a system of power based on the internalization of surveillance.", "use_instead": "lens, instrument, or scope"},
+      {"wrong": "She had a panopticon view of the entire city from her balcony.", "problem": "Panopticon is not a synonym for panoramic. It specifically references a power dynamic, not a wide view.", "use_instead": "panoramic, sweeping, or commanding"}
+    ],
+    "related": [
+      {"word": "surveillance", "distinction": "Surveillance is the act of watching; the panopticon is a system where the possibility of being watched produces self-discipline."},
+      {"word": "Big Brother", "distinction": "Big Brother (Orwell) implies a known, visible, totalitarian watcher; the panopticon's power is that you never know if you are being watched."},
+      {"word": "synopticon", "distinction": "In a synopticon the many watch the few (e.g., celebrity culture); in a panopticon the few watch the many."}
+    ],
+    "triggers": [
+      "When analyzing how awareness of potential observation changes behavior even without actual surveillance",
+      "When describing systems — digital, institutional, or social — that produce compliance through internalized self-monitoring",
+      "When critiquing how power operates invisibly by making subjects discipline themselves"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Necropolitics",
+    "pos": ["noun"],
+    "pronunciation": "NEK-roh-pol-ih-tiks",
+    "definition": "The exercise of sovereign power through the determination of who may live and who must die, especially as applied to populations rendered expendable by political, racial, or economic systems.",
+    "register": ["academic"],
+    "tags": ["power", "sovereignty", "death"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Mbembe's concept of necropolitics reveals how certain populations are managed not through the fostering of life but through systematic exposure to death.", "why": "Correctly frames necropolitics as an extension and critique of Foucauldian biopolitics, shifting focus from making-live to letting-die."},
+      {"context": "professional", "sentence": "The allocation of ventilators during the pandemic exposed the necropolitics embedded in triage protocols that devalued disabled lives.", "why": "Applies necropolitics to a concrete policy context where decisions about resource allocation functioned as decisions about who would die."},
+      {"context": "creative writing", "sentence": "The border was not a line on a map; it was necropolitics made visible — a place where the state decided which bodies could stop moving.", "why": "Grounds the abstract concept in physical geography, showing how sovereign power over death manifests spatially."}
+    ],
+    "misuses": [
+      {"wrong": "The necropolitics of the horror movie kept audiences terrified.", "problem": "Necropolitics is a theoretical framework about sovereign power over life and death, not a synonym for death-related content or aesthetics.", "use_instead": "morbidity, death imagery, or macabre elements"},
+      {"wrong": "Office necropolitics killed the proposal before it reached the board.", "problem": "Using necropolitics as a metaphor for bureaucratic obstruction trivializes a concept about actual death and expendable populations.", "use_instead": "politics, obstruction, or bureaucratic inertia"}
+    ],
+    "related": [
+      {"word": "biopolitics", "distinction": "Biopolitics (Foucault) focuses on governing populations through the management of life; necropolitics focuses on sovereignty exercised through the administration of death."},
+      {"word": "genocide", "distinction": "Genocide is the deliberate destruction of a group; necropolitics encompasses subtler mechanisms — neglect, exposure, abandonment — that produce death without direct extermination."},
+      {"word": "disposability", "distinction": "Disposability describes the condition of being expendable; necropolitics names the sovereign logic and political framework that produces that condition."}
+    ],
+    "triggers": [
+      "When analyzing how political systems determine which populations are exposed to premature death through policy, neglect, or structural violence",
+      "When critiquing the sovereign power to designate certain lives as expendable or ungrievable",
+      "When discussing how borders, carceral systems, or public health infrastructure function as mechanisms of death governance"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Alterity",
+    "pos": ["noun"],
+    "pronunciation": "al-TAIR-ih-tee",
+    "definition": "The state of being fundamentally other; the irreducible quality of difference that resists assimilation into the self or the familiar.",
+    "register": ["academic", "literary"],
+    "tags": ["philosophy", "otherness", "identity"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Levinas argues that ethics begins with the encounter with alterity — the recognition that the other cannot be reduced to a version of oneself.", "why": "Correctly grounds alterity in Levinasian ethics, where the otherness of the other is the foundation of ethical responsibility."},
+      {"context": "professional", "sentence": "Cross-cultural research must respect the alterity of its subjects rather than interpreting unfamiliar practices through the researcher's own cultural lens.", "why": "Uses alterity to caution against ethnocentric reduction, appropriate in social science methodology discussions."},
+      {"context": "creative writing", "sentence": "He stared at the creature and understood for the first time what alterity meant: not strangeness, but an intelligence that would never share his grammar.", "why": "Dramatizes alterity as irreducible difference — not mere unfamiliarity but a fundamental gap in mutual comprehension."}
+    ],
+    "misuses": [
+      {"wrong": "The alterity of the two proposals made comparison difficult.", "problem": "Alterity does not mean mere difference or dissimilarity between comparable things. It refers to a radical, irreducible otherness.", "use_instead": "disparity, divergence, or dissimilarity"},
+      {"wrong": "She felt a sense of alterity after changing her hairstyle.", "problem": "Alterity is not a feeling of being different. It is a philosophical concept about the fundamental otherness of another being or perspective.", "use_instead": "alienation, unfamiliarity, or self-consciousness"}
+    ],
+    "related": [
+      {"word": "otherness", "distinction": "Otherness is the general state of being different; alterity is a philosophical term emphasizing that this difference is irreducible and cannot be absorbed into the self."},
+      {"word": "alienation", "distinction": "Alienation implies estrangement from something once familiar; alterity describes a fundamental difference that was never assimilable."},
+      {"word": "difference", "distinction": "Difference can be measured and compared; alterity resists comparison because the other exceeds the categories of the self."}
+    ],
+    "triggers": [
+      "When discussing the ethical encounter with what is fundamentally other and cannot be reduced to familiar categories",
+      "When critiquing attempts to assimilate, explain away, or domesticate radical difference",
+      "When analyzing how literature, philosophy, or culture grapples with the limits of understanding across unbridgeable gaps"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Liminality",
+    "pos": ["noun"],
+    "pronunciation": "lim-ih-NAL-ih-tee",
+    "definition": "The quality of being in a transitional or threshold state between two established conditions, characterized by ambiguity, disorientation, and the dissolution of fixed identity or structure.",
+    "register": ["academic", "literary"],
+    "tags": ["transition", "anthropology", "identity"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "The liminality of adolescence — no longer child, not yet adult — makes it a period uniquely susceptible to both transformation and exploitation.", "why": "Correctly applies liminality to a developmental threshold where established categories dissolve and identity is in flux."},
+      {"context": "professional", "sentence": "Organizations undergoing mergers exist in a state of liminality where old hierarchies have dissolved but new ones have not yet solidified.", "why": "Extends liminality beyond anthropology to organizational change, capturing the productive ambiguity of structural transition."},
+      {"context": "creative writing", "sentence": "Dawn was liminality made visible — the hour that belonged to neither night nor day, when the world forgot its rules.", "why": "Uses dawn as a concrete image of threshold experience, capturing the dissolution of categories that defines liminality."}
+    ],
+    "misuses": [
+      {"wrong": "The liminality of the border fence separated the two countries.", "problem": "Liminality is not a synonym for boundary or border. It describes the experience of being in a threshold state, not the physical marker between two areas.", "use_instead": "boundary, demarcation, or barrier"},
+      {"wrong": "She enjoyed the liminality of the hotel room.", "problem": "Temporary or transient spaces are not inherently liminal. Liminality requires a transformative threshold where identity or structure is destabilized.", "use_instead": "transience, impermanence, or anonymity"}
+    ],
+    "related": [
+      {"word": "threshold", "distinction": "Threshold is the point of crossing; liminality is the experience of being suspended in the crossing itself, between departure and arrival."},
+      {"word": "transition", "distinction": "Transition implies a movement from A to B; liminality emphasizes the disorienting middle space where neither A nor B applies."},
+      {"word": "ambiguity", "distinction": "Ambiguity means having multiple interpretations; liminality specifically involves the dissolution of established categories during a passage between states."}
+    ],
+    "triggers": [
+      "When describing the disorienting experience of being between two established states, identities, or structures",
+      "When analyzing rites of passage, cultural transitions, or historical moments where old orders have collapsed and new ones have not yet formed",
+      "When capturing the creative or destabilizing potential of threshold spaces in literature or lived experience"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Heterodoxy",
+    "pos": ["noun"],
+    "pronunciation": "HET-er-oh-dok-see",
+    "definition": "Belief or practice that departs from accepted or established doctrine, especially within a religious, intellectual, or ideological tradition.",
+    "register": ["formal", "academic"],
+    "tags": ["dissent", "belief", "tradition"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "What begins as heterodoxy in one generation often hardens into the orthodoxy of the next, a cycle that every intellectual tradition must reckon with.", "why": "Correctly positions heterodoxy in dynamic relation to orthodoxy, showing how established and dissenting positions can reverse over time."},
+      {"context": "professional", "sentence": "Her heterodoxy on monetary policy — advocating deficit spending during a surplus — initially marginalized her within the department but ultimately proved prescient.", "why": "Applies heterodoxy to a professional context where departure from accepted doctrine carries real institutional consequences."},
+      {"context": "creative writing", "sentence": "His heterodoxy was quiet, almost invisible: he simply refused to repeat what he did not believe, and let the silence speak for itself.", "why": "Dramatizes heterodoxy as a subtle act of non-compliance rather than dramatic rebellion, showing that dissent from doctrine need not be loud."}
+    ],
+    "misuses": [
+      {"wrong": "Her heterodoxy in fashion made her a trendsetter.", "problem": "Heterodoxy specifically refers to departure from established doctrine or belief systems, not unconventional personal style.", "use_instead": "unconventionality, eclecticism, or nonconformity"},
+      {"wrong": "The heterodoxy of the menu surprised diners expecting traditional cuisine.", "problem": "Heterodoxy applies to systems of belief, not to novelty in food, design, or consumer products.", "use_instead": "novelty, inventiveness, or unorthodoxy"}
+    ],
+    "related": [
+      {"word": "heresy", "distinction": "Heresy implies a punishable violation of doctrine; heterodoxy is departure from accepted belief without necessarily implying condemnation."},
+      {"word": "dissent", "distinction": "Dissent is disagreement with authority or prevailing opinion; heterodoxy specifically denotes deviation from established doctrine."},
+      {"word": "nonconformity", "distinction": "Nonconformity is broad refusal to follow convention; heterodoxy specifically targets doctrinal or ideological departure."}
+    ],
+    "triggers": [
+      "When describing intellectual or doctrinal positions that depart from the accepted mainstream of a tradition",
+      "When analyzing how systems of belief police their boundaries and respond to internal dissent",
+      "When discussing thinkers or movements that challenge established orthodoxy within their own tradition"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Weltschmerz",
+    "pos": ["noun"],
+    "pronunciation": "VELT-shmairts",
+    "definition": "A deep, pervasive sadness arising from the recognition that the world as it is can never match the world as it ought to be; world-weariness born of idealistic disappointment.",
+    "register": ["literary", "formal"],
+    "tags": ["emotion", "philosophy", "German"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "The Weltschmerz that pervades Romantic literature is not mere pessimism but the grief of idealism confronting an indifferent world.", "why": "Correctly identifies Weltschmerz as rooted in the gap between ideals and reality, distinguishing it from simple negativity."},
+      {"context": "professional", "sentence": "A certain Weltschmerz afflicts seasoned policy analysts who have watched promising reforms die in committee for decades.", "why": "Applies the concept to professional disillusionment while preserving the essential element — disappointment born of having believed in better outcomes."},
+      {"context": "creative writing", "sentence": "She did not hate the world. That would have been easier. What she felt was Weltschmerz — the exhaustion of loving a world that refused to be lovable.", "why": "Dramatizes the paradox at the heart of Weltschmerz: it requires caring deeply about the world, not rejecting it."}
+    ],
+    "misuses": [
+      {"wrong": "He had Weltschmerz after his team lost the championship.", "problem": "Weltschmerz is not disappointment over a specific event but a pervasive existential sadness about the state of the world.", "use_instead": "disappointment, dejection, or heartbreak"},
+      {"wrong": "Monday morning Weltschmerz made her dread the office.", "problem": "Routine dissatisfaction or dread about mundane obligations is not Weltschmerz, which requires a philosophical dimension of idealistic disappointment.", "use_instead": "malaise, dread, or ennui"}
+    ],
+    "related": [
+      {"word": "ennui", "distinction": "Ennui is listless boredom or dissatisfaction; Weltschmerz is active grief at the gap between how the world is and how it should be."},
+      {"word": "melancholy", "distinction": "Melancholy is a general, often pleasurable sadness; Weltschmerz is specifically rooted in disillusionment with the world's failure to meet one's ideals."},
+      {"word": "pessimism", "distinction": "Pessimism expects the worst; Weltschmerz mourns the best that never came, implying a prior idealism that pessimism lacks."}
+    ],
+    "triggers": [
+      "When describing sadness that arises specifically from the gap between one's ideals for the world and its actual condition",
+      "When analyzing literature or thought characterized by disillusionment born of deep moral or aesthetic investment in the world",
+      "When capturing the emotional state of someone who cares too much about the world to be indifferent, but sees too clearly to be hopeful"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Saudade",
+    "pos": ["noun"],
+    "pronunciation": "sow-DAH-djee",
+    "definition": "A deep, bittersweet longing for something absent — a person, place, time, or state of being — accompanied by the melancholic awareness that what is missed may never return.",
+    "register": ["literary"],
+    "tags": ["emotion", "longing", "Portuguese"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Saudade is the emotional architecture of the Portuguese diaspora — not homesickness, which implies a home that still exists, but longing for a home that has become unreachable through time.", "why": "Correctly distinguishes saudade from homesickness by emphasizing the irretrievability of what is longed for, which is central to the concept."},
+      {"context": "professional", "sentence": "The brand's campaign tapped into a collective saudade for pre-digital childhood, resonating with consumers who knew that world was gone for good.", "why": "Applies saudade to marketing strategy, correctly identifying the emotion as longing for something acknowledged as irrecoverable."},
+      {"context": "creative writing", "sentence": "She carried the saudade like an heirloom — not for him, exactly, but for the version of herself that had believed in him.", "why": "Demonstrates that saudade can be for a past self or state of being, not just a person or place, and that it coexists with the knowledge of irrecoverability."}
+    ],
+    "misuses": [
+      {"wrong": "I feel saudade for the pizza we had last week.", "problem": "Saudade implies profound, melancholic longing for something that may never return, not casual desire to repeat a pleasant experience.", "use_instead": "craving, missing, or nostalgia"},
+      {"wrong": "His saudade for the promotion kept him working late.", "problem": "Saudade is for something lost or absent, not for something desired but not yet attained.", "use_instead": "ambition, yearning, or aspiration"}
+    ],
+    "related": [
+      {"word": "nostalgia", "distinction": "Nostalgia is often warm and can be indulged pleasurably; saudade includes an ache — the awareness that what is missed is permanently gone."},
+      {"word": "hiraeth", "distinction": "Hiraeth (Welsh) is longing for a homeland; saudade is broader, encompassing longing for any absent thing — person, time, feeling — that cannot return."},
+      {"word": "longing", "distinction": "Longing is a general desire for something absent; saudade adds the specific emotional coloring of bittersweet acceptance that the absence is permanent."}
+    ],
+    "triggers": [
+      "When describing longing for something whose absence is acknowledged as permanent, not temporary",
+      "When capturing the bittersweet coexistence of love and loss in memory",
+      "When writing about diaspora, exile, or the emotional residue of irreversible change"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Hiraeth",
+    "pos": ["noun"],
+    "pronunciation": "HEER-eye-th",
+    "definition": "A profound, often untranslatable longing for a homeland or a spiritual home that may no longer exist or may never have existed, carrying a sense of grief for what has been lost to time.",
+    "register": ["literary"],
+    "tags": ["emotion", "longing", "Welsh"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Hiraeth is not homesickness in the conventional sense; it is longing for a Wales that exists more fully in song and memory than in any recoverable geography.", "why": "Correctly captures hiraeth's quality of longing for a place that may be more mythic than real, distinguishing it from simple homesickness."},
+      {"context": "professional", "sentence": "The urban planning report acknowledged a collective hiraeth among displaced communities — a longing not just for demolished buildings but for the social world those buildings had sheltered.", "why": "Extends hiraeth beyond literal geography to the social and emotional world that place sustains, appropriate in policy discourse."},
+      {"context": "creative writing", "sentence": "He had never been to the country his grandmother described, yet the hiraeth for it lived in him like a second heartbeat.", "why": "Illustrates how hiraeth can be inherited — a longing for a homeland never personally experienced but carried through cultural memory."}
+    ],
+    "misuses": [
+      {"wrong": "She felt hiraeth for her favorite restaurant after it closed.", "problem": "Hiraeth carries spiritual and cultural weight — longing for a homeland or a way of being, not disappointment about a closed business.", "use_instead": "nostalgia, wistfulness, or regret"},
+      {"wrong": "His hiraeth for summer vacation made winter unbearable.", "problem": "Hiraeth is not seasonal preference or anticipation. It involves a deep, often ancestral longing for something irretrievably lost.", "use_instead": "longing, impatience, or yearning"}
+    ],
+    "related": [
+      {"word": "saudade", "distinction": "Saudade is longing for any absent thing; hiraeth is specifically tied to homeland, place, and cultural belonging."},
+      {"word": "homesickness", "distinction": "Homesickness assumes a home that exists and can be returned to; hiraeth can be for a home that never existed or has been destroyed."},
+      {"word": "nostalgia", "distinction": "Nostalgia is longing for a past time; hiraeth is longing for a place or spiritual home, and that place may be more mythic than historical."}
+    ],
+    "triggers": [
+      "When describing longing for a homeland or cultural origin that may be irretrievable or partly imagined",
+      "When writing about displacement, diaspora, or inherited grief for a lost place",
+      "When capturing the spiritual dimension of belonging to a place that exists more in memory or myth than in present reality"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Duende",
+    "pos": ["noun"],
+    "pronunciation": "DWEN-day",
+    "definition": "A heightened, almost mystical power of artistic expression that arises from an encounter with darkness, mortality, or raw human vulnerability — an aesthetic force that transcends technique.",
+    "register": ["literary", "formal"],
+    "tags": ["art", "emotion", "Spanish"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Lorca distinguished duende from muse and angel: where the muse inspires and the angel illuminates, duende wounds — it is art that has passed through the awareness of death.", "why": "Correctly grounds duende in Lorca's framework, emphasizing its connection to mortality and dark emotion rather than mere inspiration."},
+      {"context": "professional", "sentence": "The performance had technical flaws, but it possessed a duende that left the audience shaken in a way no polished rendition could have achieved.", "why": "Correctly positions duende as exceeding and sometimes opposing technical perfection, residing in raw emotional truth."},
+      {"context": "creative writing", "sentence": "Duende is what separates the singer who performs the song from the singer the song passes through like a blade.", "why": "Captures duende as a force that acts on the artist rather than being wielded by them, and associates it with vulnerability and intensity."}
+    ],
+    "misuses": [
+      {"wrong": "The dancer had such duende — her moves were technically perfect.", "problem": "Duende is not technical excellence. It often manifests despite or in tension with technique, arising from emotional rawness and proximity to darkness.", "use_instead": "precision, virtuosity, or mastery"},
+      {"wrong": "The comedy show had real duende — everyone was laughing.", "problem": "Duende is associated with dark, intense, often painful emotion — not with humor or lightheartedness.", "use_instead": "energy, charisma, or wit"}
+    ],
+    "related": [
+      {"word": "charisma", "distinction": "Charisma is personal magnetism; duende is an aesthetic force connected to mortality and darkness that passes through the artist."},
+      {"word": "sublime", "distinction": "The sublime overwhelms with grandeur or terror; duende is more intimate — it arises from human vulnerability and the awareness of death."},
+      {"word": "pathos", "distinction": "Pathos evokes pity or sadness in the audience; duende transforms the artist and audience alike through an encounter with something elemental."}
+    ],
+    "triggers": [
+      "When describing art that achieves power through raw vulnerability, mortality-awareness, or emotional darkness rather than technical polish",
+      "When analyzing performances or works that transcend skill and seem to channel something beyond the artist's conscious control",
+      "When distinguishing between art that is merely excellent and art that is transformatively, almost dangerously alive"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Jouissance",
+    "pos": ["noun"],
+    "pronunciation": "zhoo-ee-SAHNS",
+    "definition": "An intense, transgressive pleasure that exceeds ordinary satisfaction, often intertwined with pain, disruption, or the dissolution of the self — pleasure pushed past the boundary of comfort.",
+    "register": ["academic", "literary"],
+    "tags": ["psychoanalysis", "pleasure", "French"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Barthes draws a distinction between plaisir and jouissance: the former confirms and comforts, while the latter destabilizes and undoes the reading subject.", "why": "Correctly references Barthes's distinction, positioning jouissance as a pleasure that disrupts rather than satisfies the subject."},
+      {"context": "professional", "sentence": "The user interface exploits a feedback loop of jouissance — the scroll is not satisfying but compulsive, a pleasure inseparable from the anxiety of missing something.", "why": "Applies jouissance to UX analysis, capturing how digital design can produce a pleasure that is simultaneously uncomfortable and compulsive."},
+      {"context": "creative writing", "sentence": "It was not pleasure she felt at the edge of the cliff but jouissance — the part of her that wanted to jump not to die but to dissolve.", "why": "Dramatizes jouissance as pleasure intertwined with self-dissolution, capturing the Lacanian sense of enjoyment that exceeds the pleasure principle."}
+    ],
+    "misuses": [
+      {"wrong": "The jouissance of the chocolate cake was undeniable.", "problem": "Jouissance is not a fancy word for enjoyment or sensory pleasure. It specifically involves transgression, excess, or the dissolution of the self.", "use_instead": "pleasure, delight, or indulgence"},
+      {"wrong": "The children's jouissance at the playground was contagious.", "problem": "Jouissance is not innocent joy or happiness. It carries connotations of excess, disruption, and the blurring of pleasure and pain.", "use_instead": "joy, delight, or exuberance"}
+    ],
+    "related": [
+      {"word": "pleasure", "distinction": "Pleasure operates within the bounds of comfort and satisfaction; jouissance exceeds those bounds into territory where pleasure and pain become indistinguishable."},
+      {"word": "ecstasy", "distinction": "Ecstasy implies being transported beyond the self; jouissance specifically involves a pleasure that disrupts or dissolves the self's coherence."},
+      {"word": "bliss", "distinction": "Bliss suggests serene fulfillment; jouissance is turbulent, often uncomfortable, and inseparable from transgression."}
+    ],
+    "triggers": [
+      "When describing pleasure that exceeds comfort and verges on disruption, compulsion, or self-dissolution",
+      "When analyzing how texts, experiences, or systems produce enjoyment that is simultaneously destabilizing",
+      "When distinguishing between satisfaction that confirms the self and intensity that undoes it"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Anomie",
+    "pos": ["noun"],
+    "pronunciation": "AN-uh-mee",
+    "definition": "A condition of social or individual breakdown characterized by the absence of shared norms, purpose, or moral regulation, often resulting from rapid change or the collapse of established structures.",
+    "register": ["academic", "formal"],
+    "tags": ["sociology", "disorder", "alienation"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Durkheim identified anomie as the pathology of modernity: not lawlessness, but the disorientation that follows when social norms can no longer keep pace with economic transformation.", "why": "Correctly roots anomie in Durkheim's sociology and distinguishes it from mere disorder — it is specifically normative breakdown."},
+      {"context": "professional", "sentence": "The rapid restructuring produced a state of organizational anomie — employees no longer knew what was valued, rewarded, or expected.", "why": "Applies anomie to a corporate context where the dissolution of shared norms creates confusion and disengagement."},
+      {"context": "creative writing", "sentence": "After the ceasefire, the city entered an anomie worse than war: the violence had given everything a terrible clarity, and peace had taken even that away.", "why": "Dramatizes anomie as the loss of structure and meaning, showing that even destructive order can be preferable to normative vacuum."}
+    ],
+    "misuses": [
+      {"wrong": "The anomie of the crowded subway made her claustrophobic.", "problem": "Anomie is not discomfort or chaos in a physical sense. It describes the breakdown of social norms and shared purpose.", "use_instead": "chaos, congestion, or disorder"},
+      {"wrong": "He felt anomie after skipping breakfast.", "problem": "Anomie is a sociological condition of normative collapse, not a personal feeling of being off or unwell.", "use_instead": "discomfort, unease, or lethargy"}
+    ],
+    "related": [
+      {"word": "alienation", "distinction": "Alienation is estrangement from others or oneself; anomie is the breakdown of the normative framework that gives social life coherence."},
+      {"word": "nihilism", "distinction": "Nihilism is the philosophical position that life lacks meaning; anomie is a sociological condition where shared meaning has dissolved."},
+      {"word": "chaos", "distinction": "Chaos implies disorder in general; anomie specifically refers to the absence of moral or social regulation."}
+    ],
+    "triggers": [
+      "When describing the social or psychological disorientation that follows the collapse of shared norms and expectations",
+      "When analyzing periods of rapid change — economic, political, or cultural — that outpace society's ability to maintain moral coherence",
+      "When writing about the vacuum of meaning that emerges when established structures dissolve"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Abulia",
+    "pos": ["noun"],
+    "pronunciation": "uh-BOO-lee-uh",
+    "definition": "A pathological inability to make decisions or exercise will, characterized not by laziness or indifference but by the genuine incapacity to translate intention into action.",
+    "register": ["formal", "academic"],
+    "tags": ["psychology", "will", "paralysis"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Hamlet's abulia is not cowardice but a crisis of will — he knows what must be done and cannot bridge the gap between knowledge and action.", "why": "Correctly applies abulia to a literary figure whose paralysis stems from incapacity of will, not from lack of information or courage."},
+      {"context": "professional", "sentence": "Decision fatigue in executive leadership can tip into genuine abulia, where the sheer volume of choices produces a paralysis that no amount of data can resolve.", "why": "Distinguishes abulia from ordinary indecision, showing it as a threshold condition where the will itself becomes incapacitated."},
+      {"context": "creative writing", "sentence": "She stood in the doorway for so long that the light changed. It was not that she could not decide; it was that the part of her that decided had gone silent.", "why": "Dramatizes abulia as the absence of the decision-making faculty itself, not as deliberation or hesitation."}
+    ],
+    "misuses": [
+      {"wrong": "His abulia about which restaurant to choose was amusing.", "problem": "Abulia is a clinical or near-clinical condition of will-paralysis, not casual indecisiveness about low-stakes choices.", "use_instead": "indecision, dithering, or vacillation"},
+      {"wrong": "Abulia set in after three hours of the boring lecture.", "problem": "Abulia is not boredom-induced inattention. It is a genuine incapacity of will, often associated with neurological or psychiatric conditions.", "use_instead": "torpor, listlessness, or disengagement"}
+    ],
+    "related": [
+      {"word": "apathy", "distinction": "Apathy is not caring; abulia is caring but being unable to act — the will exists but cannot execute."},
+      {"word": "procrastination", "distinction": "Procrastination is voluntary delay; abulia is involuntary paralysis of the will."},
+      {"word": "akrasia", "distinction": "Akrasia is acting against one's better judgment; abulia is being unable to act at all despite having judgment."}
+    ],
+    "triggers": [
+      "When describing a paralysis of will that goes beyond ordinary indecision into genuine incapacity",
+      "When analyzing characters or individuals whose problem is not ignorance or fear but the inability to translate intention into action",
+      "When distinguishing between not wanting to act and being unable to act"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Recherche",
+    "pos": ["adjective"],
+    "pronunciation": "reh-SHAIR-shay",
+    "definition": "Exquisitely rare, refined, or exotic to the point of being obscure; suggesting a taste so cultivated it borders on preciousness.",
+    "register": ["literary", "formal"],
+    "tags": ["refinement", "rarity", "aesthetics"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "His allusions were so recherche that even his academic peers required footnotes, raising the question of whether erudition serves or obstructs communication.", "why": "Correctly uses recherche to describe references that are refined to the point of obscurity, and implicitly questions whether this is a virtue."},
+      {"context": "professional", "sentence": "The menu featured recherche ingredients — foraged sumac, heritage grains, fermented botanicals — that signaled exclusivity over accessibility.", "why": "Applies recherche to describe culinary choices that are deliberately rare and refined, carrying a faint note of performative refinement."},
+      {"context": "creative writing", "sentence": "Her apartment was recherche in every detail: the lamp was Bauhaus, the novels were untranslated, and the tea was from a monastery she would never name.", "why": "Illustrates recherche through accumulating details that suggest a cultivated rareness, with an undertone of deliberate obscurity."}
+    ],
+    "misuses": [
+      {"wrong": "The recherche sunset painted the sky in brilliant colors.", "problem": "Recherche describes refined rarity in taste or selection, not natural beauty. A sunset is not curated or cultivated.", "use_instead": "stunning, resplendent, or breathtaking"},
+      {"wrong": "She did a recherche job on the report.", "problem": "Recherche does not mean thorough or well-researched. It describes something exquisitely rare or refined to the point of obscurity.", "use_instead": "thorough, meticulous, or exhaustive"}
+    ],
+    "related": [
+      {"word": "esoteric", "distinction": "Esoteric means understood by few due to specialized knowledge; recherche emphasizes the exquisite rarity and cultivated taste of the thing itself."},
+      {"word": "rarefied", "distinction": "Rarefied means elevated or exclusive; recherche adds the connotation of deliberate, almost precious refinement in selection."},
+      {"word": "precious", "distinction": "Precious (in the pejorative sense) implies excessive delicacy; recherche implies genuine rarity that may or may not tip into preciousness."}
+    ],
+    "triggers": [
+      "When describing tastes, references, or objects so refined and rare they approach or cross into deliberate obscurity",
+      "When characterizing a person or aesthetic sensibility that prizes the exquisitely uncommon",
+      "When subtly questioning whether extreme refinement serves appreciation or merely signals exclusivity"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Sui Generis",
+    "pos": ["adjective"],
+    "pronunciation": "SOO-ee JEN-er-iss",
+    "definition": "Constituting a class of its own; unique in a way that resists categorization or comparison with anything else.",
+    "register": ["formal", "academic", "legal"],
+    "tags": ["uniqueness", "classification", "Latin"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Borges is sui generis among writers of fiction — his works resist absorption into any genre, movement, or national tradition.", "why": "Correctly uses sui generis to describe a figure whose uniqueness is categorical, not merely exceptional within a category."},
+      {"context": "professional", "sentence": "The court treated the case as sui generis, declining to apply existing precedent on the grounds that no prior ruling addressed a comparable set of facts.", "why": "Uses the term in its legal sense, where sui generis signals that established categories do not apply and the matter must be judged on its own terms."},
+      {"context": "creative writing", "sentence": "She was sui generis, which is a polite way of saying that no one knew what to do with her.", "why": "Captures the social reality of being uncategorizable — uniqueness as both distinction and isolation."}
+    ],
+    "misuses": [
+      {"wrong": "The restaurant's pasta was sui generis — the best I've ever had.", "problem": "Sui generis does not mean best or exceptional. It means in a class of its own, defying comparison entirely.", "use_instead": "exceptional, outstanding, or unparalleled"},
+      {"wrong": "Each snowflake is sui generis.", "problem": "All snowflakes are unique in the same way — they belong to the category of snowflakes. Sui generis means resisting categorization itself.", "use_instead": "unique, distinct, or individual"}
+    ],
+    "related": [
+      {"word": "unique", "distinction": "Unique means one of a kind; sui generis means constituting its own kind — a stronger claim about categorical difference."},
+      {"word": "unprecedented", "distinction": "Unprecedented means never done before; sui generis means defying existing categories, not merely being first."},
+      {"word": "idiosyncratic", "distinction": "Idiosyncratic means having distinctive quirks; sui generis means being so distinctive that no existing category applies."}
+    ],
+    "triggers": [
+      "When something is not merely unusual but fundamentally resists classification within existing categories",
+      "When describing a person, work, or phenomenon that no comparison adequately captures",
+      "When arguing that existing frameworks or precedents do not apply to the case at hand"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Bravura",
+    "pos": ["noun", "adjective"],
+    "pronunciation": "bruh-VYOOR-uh",
+    "definition": "A display of daring, brilliant technical skill or style, especially in artistic performance; audacious virtuosity that dazzles through its sheer ambition and execution.",
+    "register": ["formal", "literary"],
+    "tags": ["performance", "skill", "art"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "The final chapter is a bravura display of structural ingenuity, folding every subplot into a single scene that resolves the novel without simplifying it.", "why": "Correctly uses bravura to describe technical brilliance that is both daring and executed with skill, applied to literary craft."},
+      {"context": "professional", "sentence": "Her bravura closing argument — delivered without notes and weaving together three weeks of testimony — visibly shifted the jury's attention.", "why": "Applies bravura to professional performance where daring skill and showmanship converge to impressive effect."},
+      {"context": "creative writing", "sentence": "The solo was pure bravura: reckless, impossible, so fast the notes blurred into a single shining line, and when it ended, the silence was absolute.", "why": "Captures bravura's essence — technical audacity that risks failure and produces something dazzling."}
+    ],
+    "misuses": [
+      {"wrong": "He showed bravura by jumping into the freezing lake.", "problem": "Bravura is not bravery or physical courage. It specifically refers to brilliant, daring skill in performance or craft.", "use_instead": "bravery, daring, or boldness"},
+      {"wrong": "The bravura of the sunset impressed everyone.", "problem": "Bravura describes human skill and performance, not natural phenomena.", "use_instead": "splendor, magnificence, or grandeur"}
+    ],
+    "related": [
+      {"word": "virtuosity", "distinction": "Virtuosity is exceptional technical skill; bravura adds the element of daring, showmanship, and audacity."},
+      {"word": "panache", "distinction": "Panache is stylish flair and confidence; bravura emphasizes technical brilliance and ambitious execution more than personal style."},
+      {"word": "tour de force", "distinction": "Tour de force is an impressive achievement of strength or skill; bravura specifically emphasizes dazzling, audacious performance."}
+    ],
+    "triggers": [
+      "When describing a performance or execution that combines exceptional skill with audacious ambition",
+      "When praising artistic or professional work that dazzles through its sheer technical daring",
+      "When distinguishing between competent execution and execution that takes risks and succeeds brilliantly"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Fait Accompli",
+    "pos": ["noun"],
+    "pronunciation": "fate ah-kom-PLEE",
+    "definition": "A thing that has already been done or decided, leaving others no option but to accept it; an irreversible action presented as settled before those affected can respond.",
+    "register": ["formal"],
+    "tags": ["strategy", "power", "French"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "By the time the public learned of the demolition, it was a fait accompli — the building was rubble and the permits had already been approved retroactively.", "why": "Correctly illustrates fait accompli as a strategic action completed before opposition can mobilize, emphasizing its irreversibility."},
+      {"context": "professional", "sentence": "The CEO restructured the division over the weekend and presented it as a fait accompli at Monday's board meeting, leaving directors with no practical recourse.", "why": "Shows fait accompli as a deliberate power move in an organizational context — acting first and presenting the result as settled."},
+      {"context": "creative writing", "sentence": "She did not ask for a divorce; she mailed the papers. He opened the envelope and understood: this was not a conversation but a fait accompli.", "why": "Dramatizes the fait accompli's core dynamic — one party acts unilaterally, and the other can only receive the result."}
+    ],
+    "misuses": [
+      {"wrong": "Passing the exam was a fait accompli — she had studied all week.", "problem": "Fait accompli does not mean a foregone conclusion or inevitable outcome. It means something already done that others must accept.", "use_instead": "foregone conclusion, certainty, or sure thing"},
+      {"wrong": "The fait accompli of gravity keeps us on the ground.", "problem": "Fait accompli refers to deliberate human actions presented as settled, not natural laws or constants.", "use_instead": "fact, reality, or law"}
+    ],
+    "related": [
+      {"word": "foregone conclusion", "distinction": "A foregone conclusion is something expected to happen; a fait accompli has already happened and is presented as irreversible."},
+      {"word": "ultimatum", "distinction": "An ultimatum is a final demand before action; a fait accompli bypasses demands entirely — the action is already taken."},
+      {"word": "coup", "distinction": "A coup is a sudden seizure of power; a fait accompli is any irreversible action, not necessarily involving power seizure."}
+    ],
+    "triggers": [
+      "When describing a deliberate action completed before affected parties can object or respond",
+      "When analyzing power dynamics where one party presents an irreversible decision as settled fact",
+      "When writing about strategic maneuvering that forecloses opposition by acting first"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Sangfroid",
+    "pos": ["noun"],
+    "pronunciation": "sahn-FRWAH",
+    "definition": "Composure and coolness of mind under strain or danger; the ability to remain calm and collected in situations that would unsettle most people.",
+    "register": ["formal", "literary"],
+    "tags": ["composure", "character", "French"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "What distinguished the commander was not tactical brilliance but sangfroid — the capacity to think clearly while others around her succumbed to panic.", "why": "Correctly positions sangfroid as composure under pressure, not mere indifference, emphasizing it as a quality that enables clear action."},
+      {"context": "professional", "sentence": "The surgeon's sangfroid during the unexpected complication reassured the entire operating team and prevented a cascade of errors.", "why": "Applies sangfroid to a high-stakes professional scenario where composure is not merely admirable but functionally critical."},
+      {"context": "creative writing", "sentence": "He delivered the news of his own ruin with such sangfroid that for a moment she thought he was joking.", "why": "Dramatizes sangfroid as composure so extreme it becomes unsettling, raising the question of whether it masks feeling or genuinely transcends it."}
+    ],
+    "misuses": [
+      {"wrong": "She approached the buffet with admirable sangfroid.", "problem": "Sangfroid specifically implies composure under strain or danger, not calm behavior in ordinary, low-stakes situations.", "use_instead": "composure, poise, or nonchalance"},
+      {"wrong": "His sangfroid about the environment frustrated activists.", "problem": "Sangfroid is not apathy or indifference. It is active composure in the face of pressure, not a lack of caring.", "use_instead": "indifference, apathy, or complacency"}
+    ],
+    "related": [
+      {"word": "composure", "distinction": "Composure is maintaining calm in general; sangfroid specifically implies coolness under extreme pressure or danger."},
+      {"word": "stoicism", "distinction": "Stoicism is a philosophy of enduring hardship without complaint; sangfroid is the practical quality of remaining cool-headed in crisis."},
+      {"word": "aplomb", "distinction": "Aplomb is self-assured poise in social situations; sangfroid is coolness specifically in the face of danger or crisis."}
+    ],
+    "triggers": [
+      "When describing composure that is specifically remarkable because the situation calls for panic or distress",
+      "When characterizing someone whose calm under pressure enables clear thinking and effective action",
+      "When capturing the unnerving quality of someone who remains unmoved by circumstances that would overwhelm others"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Inscrutable",
+    "pos": ["adjective"],
+    "pronunciation": "in-SKROO-tuh-bul",
+    "definition": "Impossible to understand, interpret, or read; presenting a surface that resists all attempts at penetration or analysis.",
+    "register": ["formal", "literary"],
+    "tags": ["mystery", "opacity", "character"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Kafka's parables are inscrutable by design — they invite interpretation while ensuring that no interpretation can fully account for them.", "why": "Correctly uses inscrutable to describe a deliberate resistance to interpretation, not mere confusion or obscurity."},
+      {"context": "professional", "sentence": "The regulator's inscrutable silence on the proposed merger left both companies unable to plan their next move.", "why": "Applies inscrutable to institutional opacity that creates strategic uncertainty, appropriate in business or legal contexts."},
+      {"context": "creative writing", "sentence": "His face was inscrutable, which she had once mistaken for depth; now she suspected it was simply empty.", "why": "Subverts the assumption that inscrutability implies hidden richness, suggesting it may conceal nothing at all."}
+    ],
+    "misuses": [
+      {"wrong": "The inscrutable math problem took her three hours.", "problem": "Inscrutable means resistant to interpretation, not merely difficult. A math problem that is solvable in three hours is difficult, not inscrutable.", "use_instead": "difficult, challenging, or complex"},
+      {"wrong": "The inscrutable weather made packing a challenge.", "problem": "Inscrutable implies a deliberate or inherent resistance to being read. Unpredictable weather is simply variable, not mysteriously opaque.", "use_instead": "unpredictable, variable, or changeable"}
+    ],
+    "related": [
+      {"word": "enigmatic", "distinction": "Enigmatic suggests an intriguing mystery that invites curiosity; inscrutable emphasizes the impossibility of penetrating the mystery."},
+      {"word": "opaque", "distinction": "Opaque means not transparent or clear; inscrutable implies active resistance to being understood, not merely lack of clarity."},
+      {"word": "cryptic", "distinction": "Cryptic means deliberately obscure, often in language; inscrutable describes a broader, often non-verbal impenetrability."}
+    ],
+    "triggers": [
+      "When describing something that resists all attempts at interpretation, not merely something unclear or confusing",
+      "When characterizing a person, text, or institution whose opacity is defining rather than incidental",
+      "When conveying the experience of confronting a surface that offers no entry point for understanding"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Protean",
+    "pos": ["adjective"],
+    "pronunciation": "PROH-tee-un",
+    "definition": "Able to change form, nature, or character with fluid ease; versatile and adaptable to an extraordinary degree, often suggesting something elusive or hard to pin down.",
+    "register": ["formal", "literary"],
+    "tags": ["change", "versatility", "mythology"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Shakespeare's genius was protean: he inhabited comic, tragic, and historical modes with equal authority, never settling into a signature style that could contain him.", "why": "Correctly uses protean to describe versatility that involves genuine transformation across forms, not just range within a single mode."},
+      {"context": "professional", "sentence": "The startup's protean business model — pivoting from hardware to software to services within two years — confused investors but ultimately proved adaptive.", "why": "Applies protean to strategic adaptability, capturing both the positive (adaptive) and potentially destabilizing (confusing) aspects of constant transformation."},
+      {"context": "creative writing", "sentence": "She was protean in conversation — agreeing with everyone so completely that by evening no one could say what she actually believed.", "why": "Illustrates the shadow side of being protean: adaptability so complete it becomes evasion, echoing Proteus's shapeshifting to avoid being caught."}
+    ],
+    "misuses": [
+      {"wrong": "The protean skyscraper dominated the city skyline.", "problem": "Protean means capable of change and transformation. A static building, no matter how impressive, is not protean.", "use_instead": "imposing, towering, or monumental"},
+      {"wrong": "She had a protean collection of shoes.", "problem": "Having many of something is not protean. Protean describes the capacity to transform, not the accumulation of variety.", "use_instead": "extensive, varied, or eclectic"}
+    ],
+    "related": [
+      {"word": "versatile", "distinction": "Versatile means capable in many areas; protean implies fluid transformation between forms, often with an elusive quality."},
+      {"word": "mercurial", "distinction": "Mercurial emphasizes unpredictable changeability, often in mood; protean emphasizes the ability to assume genuinely different forms."},
+      {"word": "chameleonic", "distinction": "Chameleonic implies changing to blend in; protean implies changing form entirely, not merely adapting surface appearance."}
+    ],
+    "triggers": [
+      "When describing someone or something that genuinely transforms across forms, modes, or identities rather than merely having range",
+      "When capturing the elusive quality of something that cannot be pinned to a single identity or definition",
+      "When alluding to adaptability so fluid it may conceal a lack of fixed essence"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Mercurial",
+    "pos": ["adjective"],
+    "pronunciation": "mur-KYOOR-ee-ul",
+    "definition": "Subject to sudden, unpredictable changes of mood, behavior, or disposition; volatile in a way that is both captivating and destabilizing.",
+    "register": ["formal", "literary"],
+    "tags": ["temperament", "change", "volatility"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Byron's mercurial temperament was not incidental to his art; it was the engine of a poetics that thrived on contradiction and emotional extremity.", "why": "Correctly links mercurial temperament to creative output, showing volatility as generative rather than merely chaotic."},
+      {"context": "professional", "sentence": "Working under a mercurial executive requires constant recalibration — priorities that were urgent at nine may be irrelevant by noon.", "why": "Applies mercurial to leadership style, capturing the unpredictability that makes such figures both dynamic and exhausting."},
+      {"context": "creative writing", "sentence": "He loved her, but loving someone mercurial is like holding weather: you cannot grip it, and the moment you describe it, it has already changed.", "why": "Uses a metaphor to dramatize the essential quality of mercurial temperament — not just changeability but the impossibility of fixing it in place."}
+    ],
+    "misuses": [
+      {"wrong": "The mercurial rise of the stock market excited investors.", "problem": "Mercurial describes temperament and dispositional volatility, not upward movement. A rising market is not mercurial; a volatile one might be.", "use_instead": "rapid, meteoric, or dramatic"},
+      {"wrong": "Mercury is a mercurial element because it is liquid at room temperature.", "problem": "While mercurial derives from Mercury, using it to describe the literal properties of mercury is a tautology that loses the word's figurative meaning.", "use_instead": "liquid, fluid, or volatile (in the chemical sense)"}
+    ],
+    "related": [
+      {"word": "volatile", "distinction": "Volatile implies instability that may be dangerous; mercurial implies unpredictability that may be charismatic or creative."},
+      {"word": "capricious", "distinction": "Capricious implies whimsical, unmotivated changes; mercurial implies rapid, intense shifts that may have emotional depth."},
+      {"word": "protean", "distinction": "Protean describes fluid transformation across forms; mercurial describes rapid shifts in mood or temperament within a single personality."}
+    ],
+    "triggers": [
+      "When describing a temperament characterized by rapid, unpredictable shifts that are both fascinating and destabilizing",
+      "When characterizing creative or charismatic personalities whose volatility is inseparable from their appeal",
+      "When capturing the experience of relating to someone whose emotional weather changes without warning"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Limpid",
+    "pos": ["adjective"],
+    "pronunciation": "LIM-pid",
+    "definition": "Perfectly clear and transparent, whether of liquids, prose, or expression; free from obscurity or turbulence, allowing meaning or light to pass through without distortion.",
+    "register": ["literary", "formal"],
+    "tags": ["clarity", "style", "aesthetics"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Orwell's prose is limpid in the highest sense: not simple, but so clear that the complexity of the thought is visible rather than hidden by the language.", "why": "Correctly distinguishes limpid prose from simplistic prose — limpidity means transparency, not shallowness."},
+      {"context": "professional", "sentence": "The financial report was remarkably limpid — every figure was contextualized, every projection supported, with no jargon obscuring the underlying logic.", "why": "Applies limpid to professional communication where clarity is an achievement, not a given, and signals respect for the reader."},
+      {"context": "creative writing", "sentence": "Her voice was limpid, each word arriving as if it had never been spoken before and would never need to be spoken again.", "why": "Extends limpidity from visual clarity to vocal quality, suggesting a purity and transparency that makes each word feel inevitable."}
+    ],
+    "misuses": [
+      {"wrong": "The limpid steak was perfectly cooked.", "problem": "Limpid means clear and transparent. It does not apply to food texture, taste, or preparation.", "use_instead": "tender, succulent, or perfectly prepared"},
+      {"wrong": "She felt limpid after the meditation session.", "problem": "Limpid describes the quality of an object, text, or expression, not a subjective emotional state.", "use_instead": "serene, calm, or clear-headed"}
+    ],
+    "related": [
+      {"word": "lucid", "distinction": "Lucid means clear and easy to understand, often of thought or speech; limpid adds a visual, almost physical quality of transparency."},
+      {"word": "pellucid", "distinction": "Pellucid is nearly synonymous but slightly more formal; limpid carries a softer, more aesthetic connotation."},
+      {"word": "transparent", "distinction": "Transparent is literal or figurative see-through quality; limpid implies an aesthetic dimension — transparency that is beautiful, not just functional."}
+    ],
+    "triggers": [
+      "When describing prose, speech, or expression that achieves transparency without sacrificing depth",
+      "When praising clarity that is an aesthetic achievement rather than mere simplicity",
+      "When capturing the quality of something — liquid, voice, writing — through which meaning or light passes without distortion"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Shibboleth",
+    "pos": ["noun"],
+    "pronunciation": "SHIB-uh-leth",
+    "definition": "A word, phrase, practice, or belief that functions as a test of group membership, distinguishing insiders from outsiders; by extension, a custom or belief held uncritically as a marker of belonging.",
+    "register": ["formal", "academic"],
+    "tags": ["identity", "language", "group dynamics"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "The pronunciation of certain words functions as a shibboleth in class-stratified societies, revealing social origin before a sentence is complete.", "why": "Correctly uses shibboleth in its original sense — a linguistic marker that identifies group membership — and extends it to class analysis."},
+      {"context": "professional", "sentence": "Fluency in the company's proprietary jargon operates as a shibboleth: new hires who adopt it quickly are accepted, while those who resist it remain outsiders.", "why": "Applies shibboleth to organizational culture, showing how language functions as a gate for belonging."},
+      {"context": "creative writing", "sentence": "He learned the shibboleths — the right wines, the right schools, the right way to hold a glass — but the old families could always tell, the way a dog can smell fear.", "why": "Dramatizes shibboleths as social performances that can be learned but not always convincingly performed, revealing the limits of assimilation."}
+    ],
+    "misuses": [
+      {"wrong": "Math is a shibboleth for many students.", "problem": "A shibboleth is not a difficult subject or obstacle. It is a marker of group identity that distinguishes insiders from outsiders.", "use_instead": "challenge, obstacle, or stumbling block"},
+      {"wrong": "Her shibboleth was always telling the truth.", "problem": "A shibboleth is not a personal principle or habit. It is a shared marker that signals group membership.", "use_instead": "principle, creed, or conviction"}
+    ],
+    "related": [
+      {"word": "password", "distinction": "A password is deliberately chosen for security; a shibboleth is a cultural or linguistic marker that reveals group membership, often unconsciously."},
+      {"word": "touchstone", "distinction": "A touchstone is a standard for judging quality; a shibboleth is a marker for judging belonging."},
+      {"word": "dogma", "distinction": "Dogma is prescribed belief; a shibboleth is a belief or practice that functions primarily as a test of allegiance rather than a truth claim."}
+    ],
+    "triggers": [
+      "When describing words, practices, or beliefs that function primarily as markers of group membership and identity",
+      "When analyzing how communities police their boundaries through linguistic or cultural tests",
+      "When critiquing beliefs held not for their truth value but as signals of belonging"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Apocryphal",
+    "pos": ["adjective"],
+    "pronunciation": "uh-POK-rih-ful",
+    "definition": "Of doubtful authenticity or authorship, though widely circulated and often believed; describing a story or account that is probably fabricated but has become accepted through repetition.",
+    "register": ["formal", "literary"],
+    "tags": ["truth", "narrative", "authenticity"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "The apocryphal story of Newton's apple persists not because it is true but because it satisfies the narrative desire for a single, dramatic moment of discovery.", "why": "Correctly uses apocryphal to describe a widely circulated story of doubtful authenticity, and explains why such stories endure despite their questionable truth."},
+      {"context": "professional", "sentence": "The company's origin story — two founders in a garage, one lightbulb moment — is almost certainly apocryphal, but it serves the brand's mythology too well to correct.", "why": "Applies apocryphal to corporate mythology, showing how fabricated narratives persist because they serve institutional purposes."},
+      {"context": "creative writing", "sentence": "Every family has its apocryphal tales — the ancestor who fought a bear, the uncle who met the president — stories too good to verify and too necessary to question.", "why": "Captures the social function of apocryphal stories: they are believed not despite being unverifiable but because they serve identity and cohesion."}
+    ],
+    "misuses": [
+      {"wrong": "The apocryphal evidence was presented in court.", "problem": "Apocryphal describes stories or accounts of doubtful authenticity, not fraudulent or fabricated evidence in a legal sense.", "use_instead": "fabricated, falsified, or fraudulent"},
+      {"wrong": "Her apocryphal talent for painting surprised everyone.", "problem": "Apocryphal does not mean hidden or unexpected. It means of doubtful authenticity, typically applied to stories or attributions.", "use_instead": "hidden, unexpected, or latent"}
+    ],
+    "related": [
+      {"word": "spurious", "distinction": "Spurious means false or fake; apocryphal means of doubtful authenticity — it may be true but probably isn't."},
+      {"word": "legendary", "distinction": "Legendary means famous, often with mythic overtones; apocryphal specifically questions the authenticity of what is told."},
+      {"word": "mythical", "distinction": "Mythical means belonging to myth; apocryphal describes stories that present themselves as factual but are probably not."}
+    ],
+    "triggers": [
+      "When describing a widely circulated story whose truth is doubtful but whose cultural function is clear",
+      "When analyzing how communities or institutions sustain narratives that serve identity despite questionable authenticity",
+      "When flagging an attribution, origin story, or anecdote as likely fabricated but too embedded to easily dislodge"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  }
+]

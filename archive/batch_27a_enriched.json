@@ -1,0 +1,1639 @@
+[
+  {
+    "word": "Tendentious",
+    "pos": [
+      "adjective"
+    ],
+    "pronunciation": "ten-DEN-shus",
+    "definition": "expressing or intending to promote a particular cause or point of view, especially a controversial one; biased in argumentation",
+    "register": [
+      "formal",
+      "academic"
+    ],
+    "tags": [
+      "rhetoric",
+      "bias",
+      "argumentation"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "essay",
+        "sentence": "The documentary's tendentious framing of the data made it difficult to take its conclusions seriously.",
+        "why": "Correctly identifies bias embedded in presentation rather than in the facts themselves, distinguishing slant from outright falsehood."
+      },
+      {
+        "context": "academic",
+        "sentence": "Critics dismissed the paper as tendentious, arguing that the author cherry-picked sources to support a predetermined thesis.",
+        "why": "Applies to scholarly work where selective evidence reveals an agenda, appropriate in peer review discourse."
+      },
+      {
+        "context": "journalism",
+        "sentence": "What began as a straightforward news report devolved into a tendentious editorial that alienated moderate readers.",
+        "why": "Highlights the shift from neutral reporting to biased advocacy, a key distinction in media criticism."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "Her tendentious research methodology produced replicable results across three labs.",
+        "problem": "Tendentious implies bias and agenda, which contradicts replicable, objective results.",
+        "use_instead": "rigorous or meticulous"
+      },
+      {
+        "wrong": "He made a tendentious effort to help the community.",
+        "problem": "Tendentious describes argumentative bias, not earnest effort. Confuses it with tenacious.",
+        "use_instead": "tenacious or determined"
+      }
+    ],
+    "related": [
+      {
+        "word": "partisan",
+        "distinction": "Partisan signals loyalty to a side; tendentious describes the slant of the argument itself regardless of party allegiance."
+      },
+      {
+        "word": "polemical",
+        "distinction": "Polemical is openly combative; tendentious can be subtler, disguising bias as neutrality."
+      },
+      {
+        "word": "specious",
+        "distinction": "Specious means superficially plausible but wrong; tendentious means deliberately slanted, not necessarily incorrect."
+      }
+    ],
+    "triggers": [
+      "When critiquing an argument that pretends to be neutral but clearly pushes an agenda",
+      "When describing scholarship or journalism that selectively marshals evidence toward a conclusion",
+      "When you need a more precise word than 'biased' that implies intentional rhetorical slant"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Casuistry",
+    "pos": [
+      "noun"
+    ],
+    "pronunciation": "KAZH-oo-is-tree",
+    "definition": "the use of clever but unsound reasoning, especially in relation to moral questions; specious or oversubtle argumentation designed to rationalize or mislead",
+    "register": [
+      "formal",
+      "academic"
+    ],
+    "tags": [
+      "rhetoric",
+      "ethics",
+      "reasoning"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "essay",
+        "sentence": "The administration's defense amounted to casuistry â€” a web of technicalities deployed to obscure a straightforward ethical violation.",
+        "why": "Correctly frames casuistry as the use of legalistic reasoning to evade moral accountability."
+      },
+      {
+        "context": "argument",
+        "sentence": "Calling the layoffs a 'workforce optimization initiative' is the kind of casuistry that erodes public trust in corporate language.",
+        "why": "Identifies euphemistic reframing as a form of moral rationalization, which is the core of casuistry."
+      },
+      {
+        "context": "academic",
+        "sentence": "Historically, casuistry was a legitimate method of applied ethics before it became synonymous with intellectual dishonesty.",
+        "why": "Acknowledges the term's dual history â€” both a genuine ethical tradition and a pejorative â€” showing scholarly precision."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "The scientist's casuistry led to a groundbreaking discovery.",
+        "problem": "Casuistry implies specious moral reasoning, not productive intellectual work.",
+        "use_instead": "ingenuity or reasoning"
+      },
+      {
+        "wrong": "She appreciated his casuistry in handling the delicate negotiation.",
+        "problem": "Casuistry is pejorative, implying dishonest rationalization, not diplomatic skill.",
+        "use_instead": "tact or diplomacy"
+      }
+    ],
+    "related": [
+      {
+        "word": "sophistry",
+        "distinction": "Sophistry is broad deceptive reasoning; casuistry specifically involves moral or ethical rationalizations."
+      },
+      {
+        "word": "equivocation",
+        "distinction": "Equivocation is deliberate ambiguity in language; casuistry is a structured argument designed to justify questionable ethics."
+      },
+      {
+        "word": "rationalization",
+        "distinction": "Rationalization is the psychological act of self-justification; casuistry is the formal argumentative technique used to do it."
+      }
+    ],
+    "triggers": [
+      "When someone constructs elaborate justifications for ethically questionable behavior",
+      "When technical correctness is used to dodge moral responsibility",
+      "When you want to name the rhetorical strategy of making the wrong thing sound permissible"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Apophasis",
+    "pos": [
+      "noun"
+    ],
+    "pronunciation": "uh-PAH-fuh-sis",
+    "definition": "a rhetorical device in which the speaker raises a subject by pretending to deny it or pass over it, thereby drawing attention to it while maintaining plausible deniability",
+    "register": [
+      "formal",
+      "academic"
+    ],
+    "tags": [
+      "rhetoric",
+      "irony",
+      "persuasion"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "essay",
+        "sentence": "When the senator said 'I won't even mention my opponent's tax scandal,' he deployed apophasis with surgical precision.",
+        "why": "Classic example of the device: the denial itself is the mention, illustrating the paradox at the heart of apophasis."
+      },
+      {
+        "context": "journalism",
+        "sentence": "The press secretary's apophasis â€” 'I'm not going to dignify those allegations with a response' â€” ensured the allegations dominated the next news cycle.",
+        "why": "Shows how apophasis functions in media strategy, where denying engagement becomes a form of engagement."
+      },
+      {
+        "context": "academic",
+        "sentence": "Cicero's use of apophasis in the Pro Caelio allowed him to introduce damaging claims about the prosecution while appearing magnanimous.",
+        "why": "Places the term in its classical rhetorical tradition, demonstrating scholarly precision."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "Her apophasis about the project showed she was genuinely uninterested.",
+        "problem": "Apophasis is a deliberate rhetorical strategy, not genuine disinterest. The whole point is that the speaker is interested.",
+        "use_instead": "indifference or disregard"
+      },
+      {
+        "wrong": "The apophasis in his speech made his argument more straightforward.",
+        "problem": "Apophasis is inherently indirect; it cannot make an argument more straightforward.",
+        "use_instead": "clarity or directness"
+      }
+    ],
+    "related": [
+      {
+        "word": "litotes",
+        "distinction": "Litotes uses understatement via negation ('not bad'); apophasis raises a topic by denying it will be raised."
+      },
+      {
+        "word": "innuendo",
+        "distinction": "Innuendo is an indirect hint; apophasis is a specific rhetorical structure where the denial is the assertion."
+      },
+      {
+        "word": "praeteritio",
+        "distinction": "Praeteritio is a near-synonym from the Latin tradition; apophasis comes from the Greek. Both describe the same device."
+      }
+    ],
+    "triggers": [
+      "When analyzing speeches or writing where someone claims they won't mention something â€” and just did",
+      "When you need to name the technique of strategic denial that functions as assertion",
+      "When discussing political rhetoric, courtroom strategy, or passive-aggressive communication"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Chiasmus",
+    "pos": [
+      "noun"
+    ],
+    "pronunciation": "ky-AZ-mus",
+    "definition": "a rhetorical figure in which two or more clauses are structured in reversed parallel order (AB:BA), creating a mirror effect that emphasizes contrast or connection",
+    "register": [
+      "formal",
+      "academic"
+    ],
+    "tags": [
+      "rhetoric",
+      "style",
+      "structure"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "essay",
+        "sentence": "Kennedy's 'Ask not what your country can do for you â€” ask what you can do for your country' remains the most famous chiasmus in American oratory.",
+        "why": "Identifies the AB:BA reversal structure precisely and places it in its most recognizable context."
+      },
+      {
+        "context": "academic",
+        "sentence": "The chiasmus in Milton's line â€” 'The mind is its own place, and in itself / Can make a heaven of hell, a hell of heaven' â€” enacts the very reversal it describes.",
+        "why": "Shows how chiasmus can mirror thematic content, not just syntactic structure, demonstrating analytical depth."
+      },
+      {
+        "context": "creative writing",
+        "sentence": "She built the closing line as a chiasmus, letting the inverted structure carry the emotional weight the words alone could not.",
+        "why": "Describes a writer's deliberate craft choice, appropriate for discussing technique in fiction or poetry."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "The report used chiasmus to present data in a clear table format.",
+        "problem": "Chiasmus is a figure of speech involving inverted parallel clauses, not a data presentation method.",
+        "use_instead": "symmetry or parallel structure"
+      },
+      {
+        "wrong": "His chiasmus of the two arguments confused the audience.",
+        "problem": "Chiasmus is a stylistic device, not a mixing or confusing of arguments.",
+        "use_instead": "conflation or juxtaposition"
+      }
+    ],
+    "related": [
+      {
+        "word": "antimetabole",
+        "distinction": "Antimetabole repeats the same words in reverse order; chiasmus reverses the grammatical structure but may use different words."
+      },
+      {
+        "word": "parallelism",
+        "distinction": "Parallelism repeats a structure in the same order; chiasmus inverts it."
+      },
+      {
+        "word": "antithesis",
+        "distinction": "Antithesis contrasts opposing ideas; chiasmus specifically uses reversed syntactic order to do so."
+      }
+    ],
+    "triggers": [
+      "When analyzing a sentence or speech that uses mirrored or inverted clause structure",
+      "When discussing rhetorical craft in oratory, poetry, or persuasive writing",
+      "When you want to name the specific technique behind a memorable reversal of phrasing"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Anaphora",
+    "pos": [
+      "noun"
+    ],
+    "pronunciation": "uh-NAF-er-uh",
+    "definition": "the deliberate repetition of a word or phrase at the beginning of successive clauses, sentences, or lines, used for emphasis and rhetorical momentum",
+    "register": [
+      "formal",
+      "academic"
+    ],
+    "tags": [
+      "rhetoric",
+      "repetition",
+      "oratory"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "essay",
+        "sentence": "King's 'I have a dream' speech derives much of its power from anaphora, the relentless repetition building toward moral inevitability.",
+        "why": "Correctly identifies the device in its most iconic deployment and explains the effect â€” accumulating force through repetition."
+      },
+      {
+        "context": "academic",
+        "sentence": "The anaphora of 'We shall' in Churchill's address transforms a list of intentions into a collective oath.",
+        "why": "Shows how anaphora functions beyond decoration, binding separate clauses into a unified rhetorical act."
+      },
+      {
+        "context": "creative writing",
+        "sentence": "She leaned into anaphora in the final stanza, repeating 'And still' at the start of each line until the words felt less like language and more like breathing.",
+        "why": "Illustrates a poet's intentional use of the device for rhythmic and emotional effect."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "The anaphora between chapters created a smooth narrative transition.",
+        "problem": "Anaphora is repetition at the start of successive clauses, not a transition device between chapters.",
+        "use_instead": "continuity or through-line"
+      },
+      {
+        "wrong": "He used anaphora to avoid repeating himself.",
+        "problem": "Anaphora is precisely the technique of deliberate repetition; it cannot be used to avoid it.",
+        "use_instead": "variation or paraphrase"
+      }
+    ],
+    "related": [
+      {
+        "word": "epistrophe",
+        "distinction": "Epistrophe repeats words at the end of successive clauses; anaphora repeats at the beginning."
+      },
+      {
+        "word": "polysyndeton",
+        "distinction": "Polysyndeton repeats conjunctions for accumulative effect; anaphora repeats any word or phrase at clause beginnings."
+      },
+      {
+        "word": "refrain",
+        "distinction": "A refrain is a repeated line in song or poetry, usually at intervals; anaphora is consecutive repetition at clause openings."
+      }
+    ],
+    "triggers": [
+      "When analyzing a speech, poem, or essay that uses repeated opening phrases for cumulative force",
+      "When discussing the mechanics of rhetorical momentum and emotional escalation",
+      "When you need to name the specific device behind the hammering repetition at the start of successive lines"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Litotes",
+    "pos": [
+      "noun"
+    ],
+    "pronunciation": "LY-tuh-teez",
+    "definition": "a figure of speech in which an affirmative is expressed by negating its opposite, typically for understatement or ironic effect (e.g., 'not bad' meaning 'good')",
+    "register": [
+      "formal",
+      "academic"
+    ],
+    "tags": [
+      "rhetoric",
+      "understatement",
+      "irony"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "essay",
+        "sentence": "When Austen writes that Mr. Darcy was 'not unhandsome,' she employs litotes to convey attraction through the driest possible phrasing.",
+        "why": "Classic literary example showing how litotes creates tonal restraint â€” saying less to imply more."
+      },
+      {
+        "context": "argument",
+        "sentence": "Calling the financial crisis 'not insignificant' is litotes that allows the speaker to acknowledge severity while maintaining rhetorical composure.",
+        "why": "Demonstrates how litotes functions strategically in argumentation â€” conceding a point without appearing to surrender ground."
+      },
+      {
+        "context": "academic",
+        "sentence": "Old English poetry relied heavily on litotes, using understatement to convey heroic restraint in the face of catastrophe.",
+        "why": "Places litotes in its historical literary tradition, showing awareness of its deep roots in English rhetoric."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "His litotes about the victory made the crowd erupt in wild celebration.",
+        "problem": "Litotes is understatement; it typically dampens rather than inflames emotional response.",
+        "use_instead": "hyperbole or exclamation"
+      },
+      {
+        "wrong": "She used litotes to exaggerate the severity of the problem.",
+        "problem": "Litotes understates by definition. It cannot be used to exaggerate.",
+        "use_instead": "hyperbole or amplification"
+      }
+    ],
+    "related": [
+      {
+        "word": "understatement",
+        "distinction": "Understatement is the broad category; litotes is the specific technique of affirming through double negation."
+      },
+      {
+        "word": "meiosis",
+        "distinction": "Meiosis deliberately belittles or diminishes; litotes understates through negation without necessarily belittling."
+      },
+      {
+        "word": "irony",
+        "distinction": "Irony says the opposite of what is meant; litotes says less than what is meant through negation of the contrary."
+      }
+    ],
+    "triggers": [
+      "When analyzing writing that uses double negatives for deliberate understatement",
+      "When discussing British rhetorical style, where litotes is culturally pervasive",
+      "When you need to name the technique of expressing something positive by denying its negative"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Enthymeme",
+    "pos": [
+      "noun"
+    ],
+    "pronunciation": "EN-thuh-meem",
+    "definition": "a syllogism in which one premise is implied rather than stated, relying on the audience to supply the missing assumption; the dominant form of reasoning in everyday persuasion",
+    "register": [
+      "formal",
+      "academic"
+    ],
+    "tags": [
+      "rhetoric",
+      "logic",
+      "persuasion"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "academic",
+        "sentence": "Aristotle considered the enthymeme the most powerful rhetorical device because it recruits the audience as co-reasoners, making them complicit in the conclusion.",
+        "why": "Accurately reflects Aristotle's Rhetoric and explains the persuasive mechanism of audience participation."
+      },
+      {
+        "context": "essay",
+        "sentence": "The campaign slogan functioned as an enthymeme: it stated the conclusion and one premise, trusting voters to fill in the unstated assumption that made it logical.",
+        "why": "Shows how enthymemes operate in political communication, where brevity demands implied premises."
+      },
+      {
+        "context": "argument",
+        "sentence": "Exposing the hidden premise of an enthymeme is often the fastest way to dismantle a persuasive argument that initially seems airtight.",
+        "why": "Demonstrates practical rhetorical analysis â€” identifying the unstated assumption to challenge the argument."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "His enthymeme was so detailed that every premise was clearly stated.",
+        "problem": "An enthymeme by definition has an unstated premise. A fully stated argument is a complete syllogism.",
+        "use_instead": "syllogism"
+      },
+      {
+        "wrong": "The enthymeme in her poem created a beautiful image.",
+        "problem": "Enthymeme is a logical structure, not an aesthetic or imagistic device.",
+        "use_instead": "metaphor or imagery"
+      }
+    ],
+    "related": [
+      {
+        "word": "syllogism",
+        "distinction": "A syllogism states all premises explicitly; an enthymeme leaves one implicit."
+      },
+      {
+        "word": "premise",
+        "distinction": "A premise is a stated proposition in an argument; an enthymeme specifically relies on an unstated premise."
+      },
+      {
+        "word": "inference",
+        "distinction": "Inference is the cognitive act of drawing conclusions; an enthymeme is the rhetorical structure designed to provoke that inference."
+      }
+    ],
+    "triggers": [
+      "When analyzing an argument that seems persuasive but skips a logical step the audience is expected to fill in",
+      "When discussing how political slogans, ads, or soundbites compress complex arguments into implied reasoning",
+      "When you want to name the specific structure of an argument with a hidden assumption"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Polysyndeton",
+    "pos": [
+      "noun"
+    ],
+    "pronunciation": "pah-lee-SIN-duh-tahn",
+    "definition": "the deliberate use of multiple conjunctions in close succession, especially where they could be omitted, to create a sense of accumulation, weight, or relentlessness",
+    "register": [
+      "formal",
+      "academic"
+    ],
+    "tags": [
+      "rhetoric",
+      "style",
+      "accumulation"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "essay",
+        "sentence": "Hemingway's polysyndeton â€” 'and the rain came and the river rose and the bridge washed away' â€” makes each event feel equally inevitable.",
+        "why": "Correctly identifies how polysyndeton creates a chain of equal, unstoppable events, flattening hierarchy into relentless accumulation."
+      },
+      {
+        "context": "creative writing",
+        "sentence": "She used polysyndeton to slow the reader down, forcing them to absorb each detail and each loss and each silence before reaching the final line.",
+        "why": "Demonstrates the device in practice while describing its effect â€” deceleration and emotional weight."
+      },
+      {
+        "context": "academic",
+        "sentence": "The polysyndeton in Genesis 1 â€” 'and God said... and it was so... and God saw' â€” creates a liturgical rhythm that enacts the ceaselessness of creation.",
+        "why": "Places the device in its most famous textual context and explains its rhetorical function with scholarly precision."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "He removed the polysyndeton to add more conjunctions to the sentence.",
+        "problem": "Polysyndeton is the addition of conjunctions, not their removal. Removing conjunctions is asyndeton.",
+        "use_instead": "asyndeton"
+      },
+      {
+        "wrong": "The polysyndeton made the sentence shorter and punchier.",
+        "problem": "Polysyndeton lengthens and accumulates; it does not create brevity.",
+        "use_instead": "asyndeton or ellipsis"
+      }
+    ],
+    "related": [
+      {
+        "word": "asyndeton",
+        "distinction": "Asyndeton omits conjunctions for speed and compression; polysyndeton multiplies them for weight and accumulation."
+      },
+      {
+        "word": "anaphora",
+        "distinction": "Anaphora repeats any word at clause beginnings; polysyndeton specifically repeats conjunctions between items or clauses."
+      },
+      {
+        "word": "parataxis",
+        "distinction": "Parataxis places clauses side by side without subordination; polysyndeton links them with repeated conjunctions."
+      }
+    ],
+    "triggers": [
+      "When analyzing prose or poetry that chains clauses with repeated 'and' or 'or' for cumulative effect",
+      "When discussing the pacing of a sentence â€” how conjunction repetition slows and weights each element",
+      "When you need to name the opposite technique of asyndeton"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Parataxis",
+    "pos": [
+      "noun"
+    ],
+    "pronunciation": "PAIR-uh-TAK-sis",
+    "definition": "the placing of clauses or phrases one after another without coordinating or subordinating connectives, creating a flat, direct, or democratic relationship between ideas",
+    "register": [
+      "formal",
+      "academic"
+    ],
+    "tags": [
+      "rhetoric",
+      "syntax",
+      "style"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "essay",
+        "sentence": "Camus writes in parataxis â€” short, declarative sentences set side by side â€” refusing to explain causation, letting the reader draw connections.",
+        "why": "Accurately describes how parataxis functions in existentialist prose, where the absence of connectives mirrors philosophical themes."
+      },
+      {
+        "context": "academic",
+        "sentence": "The shift from hypotaxis to parataxis in postmodern fiction reflects a broader skepticism toward hierarchical structures, including syntactic ones.",
+        "why": "Places parataxis in literary-theoretical context, connecting sentence structure to cultural meaning."
+      },
+      {
+        "context": "creative writing",
+        "sentence": "He chose parataxis for the battle scene: short clauses, no subordination, each blow equal to the last.",
+        "why": "Shows a writer's deliberate craft decision, using syntactic flatness to mirror the chaos and equivalence of violence."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "The parataxis of her argument made the logical hierarchy clear.",
+        "problem": "Parataxis eliminates hierarchy by definition. It cannot clarify logical subordination.",
+        "use_instead": "hypotaxis or logical structure"
+      },
+      {
+        "wrong": "He used parataxis to connect his ideas with elaborate transitions.",
+        "problem": "Parataxis is the absence of connectives and transitions, not their use.",
+        "use_instead": "transition or conjunction"
+      }
+    ],
+    "related": [
+      {
+        "word": "hypotaxis",
+        "distinction": "Hypotaxis uses subordinating connectives to create hierarchical relationships; parataxis places clauses side by side without hierarchy."
+      },
+      {
+        "word": "asyndeton",
+        "distinction": "Asyndeton omits conjunctions from a list; parataxis is the broader syntactic principle of juxtaposition without subordination."
+      },
+      {
+        "word": "juxtaposition",
+        "distinction": "Juxtaposition is the general placement of things side by side for contrast; parataxis is the specific syntactic version of this."
+      }
+    ],
+    "triggers": [
+      "When analyzing prose style that uses short, unconnected clauses â€” Hemingway, Camus, McCarthy",
+      "When discussing how syntax itself can carry meaning by refusing logical connectives",
+      "When you need to name the opposite of complex, subordinated sentence structure"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Hermeneutic",
+    "pos": [
+      "adjective",
+      "noun"
+    ],
+    "pronunciation": "hur-muh-NOO-tik",
+    "definition": "relating to the theory and methodology of interpretation, especially of texts, symbols, or cultural phenomena; as a noun, a specific interpretive framework or approach",
+    "register": [
+      "academic",
+      "formal"
+    ],
+    "tags": [
+      "interpretation",
+      "philosophy",
+      "theory"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "academic",
+        "sentence": "A hermeneutic of suspicion reads texts against themselves, searching for what they suppress or disguise as natural.",
+        "why": "Uses the term as a noun (an interpretive framework), accurately invoking Ricoeur's concept in literary and philosophical analysis."
+      },
+      {
+        "context": "essay",
+        "sentence": "The hermeneutic challenge of reading historical documents lies in bridging the gap between the author's world and our own.",
+        "why": "Correctly frames hermeneutics as the problem of interpretation across temporal and cultural distance."
+      },
+      {
+        "context": "argument",
+        "sentence": "His hermeneutic approach to the Constitution treats it as a living text whose meaning evolves, while originalists insist on fixed authorial intent.",
+        "why": "Applies the term to a real interpretive debate, showing how hermeneutic method shapes practical conclusions."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "The hermeneutic data analysis revealed a statistically significant result.",
+        "problem": "Hermeneutic refers to interpretation of meaning, not statistical analysis. These are fundamentally different epistemologies.",
+        "use_instead": "quantitative or empirical"
+      },
+      {
+        "wrong": "She took a hermeneutic approach by reading the book very carefully.",
+        "problem": "Hermeneutic implies a theoretical framework for interpretation, not merely careful reading.",
+        "use_instead": "close reading or attentive"
+      }
+    ],
+    "related": [
+      {
+        "word": "exegesis",
+        "distinction": "Exegesis is the practice of interpreting a specific text; hermeneutics is the theory of interpretation itself."
+      },
+      {
+        "word": "epistemology",
+        "distinction": "Epistemology studies the nature of knowledge broadly; hermeneutics focuses specifically on interpretive understanding."
+      },
+      {
+        "word": "phenomenology",
+        "distinction": "Phenomenology studies experience as it appears to consciousness; hermeneutics studies the interpretation of meaning in texts and culture."
+      }
+    ],
+    "triggers": [
+      "When discussing how a text, law, or cultural artifact should be interpreted and what framework governs that interpretation",
+      "When analyzing the gap between what a text says and what it means in different contexts",
+      "When you need a term for the theoretical dimension of interpretation, not just the act of reading"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Epistemology",
+    "pos": [
+      "noun"
+    ],
+    "pronunciation": "ih-PIS-tuh-MAH-luh-jee",
+    "definition": "the branch of philosophy concerned with the nature, sources, limits, and validity of knowledge; the study of what it means to know something and how knowledge is justified",
+    "register": [
+      "academic",
+      "formal"
+    ],
+    "tags": [
+      "philosophy",
+      "knowledge",
+      "theory"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "academic",
+        "sentence": "The epistemology underpinning empiricism holds that all knowledge derives from sensory experience, while rationalism locates it in reason alone.",
+        "why": "Correctly uses the term to name the foundational framework beneath a philosophical position."
+      },
+      {
+        "context": "essay",
+        "sentence": "The real crisis is not misinformation but epistemology â€” we no longer share a common framework for determining what counts as evidence.",
+        "why": "Elevates a cultural observation to a philosophical level, using epistemology precisely as the system that governs knowledge claims."
+      },
+      {
+        "context": "argument",
+        "sentence": "Before debating the facts, we need to address our epistemological disagreement: you trust institutional expertise, and I trust lived experience.",
+        "why": "Shows how epistemological differences underlie surface-level disagreements about facts."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "His epistemology of French cuisine was impressive.",
+        "problem": "Epistemology is about the nature of knowledge itself, not expertise in a subject. Confuses it with knowledge or mastery.",
+        "use_instead": "knowledge or expertise"
+      },
+      {
+        "wrong": "The epistemology of the experiment was sound.",
+        "problem": "Experiments have methodology, not epistemology. Epistemology is the philosophical study behind the method.",
+        "use_instead": "methodology or design"
+      }
+    ],
+    "related": [
+      {
+        "word": "ontology",
+        "distinction": "Ontology studies what exists; epistemology studies how we know what exists."
+      },
+      {
+        "word": "empiricism",
+        "distinction": "Empiricism is a specific epistemological position (knowledge from experience); epistemology is the broader field that contains it."
+      },
+      {
+        "word": "hermeneutic",
+        "distinction": "Hermeneutics is the theory of interpretation; epistemology is the broader study of knowledge and justification."
+      }
+    ],
+    "triggers": [
+      "When a disagreement is really about what counts as evidence or knowledge, not about specific facts",
+      "When analyzing the philosophical foundations beneath a claim about truth or certainty",
+      "When you need to name the deeper framework that determines how knowledge is produced and validated"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Dialectic",
+    "pos": [
+      "noun",
+      "adjective"
+    ],
+    "pronunciation": "dy-uh-LEK-tik",
+    "definition": "a method of reasoning or argumentation that proceeds through the tension and resolution of opposing ideas (thesis and antithesis) to arrive at a higher synthesis; also, the dynamic interplay between contradictory forces",
+    "register": [
+      "academic",
+      "formal"
+    ],
+    "tags": [
+      "philosophy",
+      "reasoning",
+      "opposition"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "academic",
+        "sentence": "Hegel's dialectic proposes that history advances through contradictions â€” each synthesis becoming the thesis for the next stage of development.",
+        "why": "Accurately summarizes the Hegelian dialectic and its mechanism of historical progression through opposition."
+      },
+      {
+        "context": "essay",
+        "sentence": "The dialectic between freedom and security defines every serious political conversation, and neither side can be resolved without the other.",
+        "why": "Uses dialectic to describe a productive tension between opposing values, not merely a debate."
+      },
+      {
+        "context": "argument",
+        "sentence": "Rather than choosing sides, she engaged the dialectic â€” holding both positions in tension until a synthesis emerged that neither side had anticipated.",
+        "why": "Shows dialectic as a method of thinking, not just a description of conflict, emphasizing the productive outcome."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "The dialectic between the two speakers was friendly and agreeable.",
+        "problem": "Dialectic requires genuine opposition and tension. Agreement without contradiction is not dialectical.",
+        "use_instead": "dialogue or exchange"
+      },
+      {
+        "wrong": "He spoke in a strange dialectic that nobody could understand.",
+        "problem": "Confuses dialectic (a reasoning method) with dialect (a regional variety of language).",
+        "use_instead": "dialect"
+      }
+    ],
+    "related": [
+      {
+        "word": "Socratic method",
+        "distinction": "The Socratic method uses questions to expose contradictions; dialectic is the broader principle of reasoning through opposition toward synthesis."
+      },
+      {
+        "word": "antithesis",
+        "distinction": "Antithesis is the opposing element in a dialectic; dialectic is the entire process of thesis, antithesis, and synthesis."
+      },
+      {
+        "word": "discourse",
+        "distinction": "Discourse is the broad field of communication and reasoning; dialectic is a specific method within it that proceeds through contradiction."
+      }
+    ],
+    "triggers": [
+      "When two opposing ideas or forces produce something new through their tension â€” not compromise but synthesis",
+      "When analyzing how contradictions in a system drive change or development",
+      "When you need a term for the productive interplay between opposed positions, not just disagreement"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Phenomenology",
+    "pos": [
+      "noun"
+    ],
+    "pronunciation": "fuh-NAH-muh-NAH-luh-jee",
+    "definition": "the philosophical study of the structures of experience and consciousness as they present themselves, focusing on how things appear to the subject rather than on objective external reality",
+    "register": [
+      "academic",
+      "formal"
+    ],
+    "tags": [
+      "philosophy",
+      "experience",
+      "consciousness"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "academic",
+        "sentence": "Husserl's phenomenology brackets the question of whether the external world exists in order to study how it appears to consciousness.",
+        "why": "Accurately describes the phenomenological reduction â€” suspending ontological claims to study experience directly."
+      },
+      {
+        "context": "essay",
+        "sentence": "A phenomenology of grief would not ask what grief is biologically but what it feels like from the inside â€” the heaviness, the distortion of time, the way a room changes.",
+        "why": "Applies the term correctly to a lived experience, emphasizing first-person structure over scientific explanation."
+      },
+      {
+        "context": "argument",
+        "sentence": "The gap between the phenomenology of pain and its neuroscience is precisely the gap that the mind-body problem occupies.",
+        "why": "Uses phenomenology to mark the first-person experiential dimension as distinct from third-person scientific description."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "The phenomenology of the earthquake was a 7.2 magnitude.",
+        "problem": "Phenomenology is a philosophical study of experience, not a measurement or description of a physical event.",
+        "use_instead": "magnitude or measurement"
+      },
+      {
+        "wrong": "She studied the phenomenology of market trends.",
+        "problem": "Market trends are analyzed empirically, not phenomenologically. Phenomenology concerns first-person experience.",
+        "use_instead": "analysis or dynamics"
+      }
+    ],
+    "related": [
+      {
+        "word": "hermeneutic",
+        "distinction": "Hermeneutics interprets meaning in texts and culture; phenomenology describes structures of lived experience."
+      },
+      {
+        "word": "epistemology",
+        "distinction": "Epistemology asks how we know; phenomenology asks how things appear to us before we theorize about them."
+      },
+      {
+        "word": "ontology",
+        "distinction": "Ontology asks what exists; phenomenology asks how what exists is experienced by a conscious subject."
+      }
+    ],
+    "triggers": [
+      "When discussing the first-person, experiential dimension of something as opposed to its objective description",
+      "When the question is 'what is it like to experience X' rather than 'what causes X'",
+      "When you need to name the philosophical study of how things appear to consciousness"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Teleological",
+    "pos": [
+      "adjective"
+    ],
+    "pronunciation": "TEL-ee-uh-LAH-jih-kul",
+    "definition": "relating to or involving the explanation of phenomena by reference to their purpose, end goal, or final cause rather than their prior causes",
+    "register": [
+      "academic",
+      "formal"
+    ],
+    "tags": [
+      "philosophy",
+      "purpose",
+      "causation"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "academic",
+        "sentence": "Aristotle's teleological account of nature holds that an acorn exists for the sake of becoming an oak â€” that natural things have inherent purposes.",
+        "why": "Accurately describes Aristotelian teleology as purpose-driven explanation of natural phenomena."
+      },
+      {
+        "context": "essay",
+        "sentence": "The danger of teleological thinking in history is that it makes the present seem inevitable, as if all prior events were leading to this moment.",
+        "why": "Correctly identifies the intellectual trap of reading purpose backward into events that had none."
+      },
+      {
+        "context": "argument",
+        "sentence": "Evolution is explicitly non-teleological: natural selection has no goal, no direction, no intended outcome.",
+        "why": "Uses the term precisely to mark the absence of purpose in a process often mistakenly described as purposeful."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "The teleological survey gathered data from participants across the country.",
+        "problem": "Confuses teleological (purpose-related) with a vaguely scientific-sounding term. Surveys are methodological, not teleological.",
+        "use_instead": "longitudinal or comprehensive"
+      },
+      {
+        "wrong": "Her teleological approach meant she studied things from far away.",
+        "problem": "Confuses teleological with telescopic. Teleological relates to purpose, not distance.",
+        "use_instead": "remote or telescopic"
+      }
+    ],
+    "related": [
+      {
+        "word": "eschatological",
+        "distinction": "Eschatological concerns ultimate endings (especially religious); teleological concerns purpose and goal-directedness in any domain."
+      },
+      {
+        "word": "deterministic",
+        "distinction": "Deterministic means events are caused by prior states; teleological means events are explained by their intended outcomes."
+      },
+      {
+        "word": "functional",
+        "distinction": "Functional describes what something does; teleological asks why it exists â€” what purpose it serves."
+      }
+    ],
+    "triggers": [
+      "When an explanation appeals to purpose, design, or end goals rather than prior causes",
+      "When critiquing the assumption that a process was heading toward its current outcome all along",
+      "When discussing whether something in nature, history, or society has inherent purpose or only apparent purpose"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Chiaroscuro",
+    "pos": [
+      "noun"
+    ],
+    "pronunciation": "kee-AHR-uh-SKYOOR-oh",
+    "definition": "the use of strong contrasts between light and dark, especially in visual art; by extension, any striking juxtaposition of opposites that creates dramatic depth or moral complexity",
+    "register": [
+      "formal",
+      "literary"
+    ],
+    "tags": [
+      "aesthetics",
+      "contrast",
+      "visual art"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "essay",
+        "sentence": "Caravaggio's chiaroscuro does not merely illuminate his subjects â€” it divides the canvas into zones of revelation and concealment.",
+        "why": "Uses the term in its primary art-historical sense while interpreting its thematic significance."
+      },
+      {
+        "context": "creative writing",
+        "sentence": "The novel operates in chiaroscuro: every act of tenderness is shadowed by violence, every truth bracketed by deception.",
+        "why": "Extends the term metaphorically to narrative structure, applying the visual concept of light-dark contrast to moral and thematic duality."
+      },
+      {
+        "context": "journalism",
+        "sentence": "The profile painted him in chiaroscuro â€” the philanthropist who funded schools by day and crushed unions by night.",
+        "why": "Uses the term figuratively to describe the dramatic contrast in a person's public and private actions."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "The chiaroscuro of the brightly lit room made everyone feel cheerful.",
+        "problem": "Chiaroscuro requires contrast between light and dark. A uniformly bright room has no chiaroscuro.",
+        "use_instead": "brightness or luminosity"
+      },
+      {
+        "wrong": "She used chiaroscuro to blend the colors together smoothly.",
+        "problem": "Chiaroscuro is about stark contrast, not smooth blending.",
+        "use_instead": "sfumato or gradation"
+      }
+    ],
+    "related": [
+      {
+        "word": "sfumato",
+        "distinction": "Sfumato softens and blurs transitions between light and dark; chiaroscuro sharpens them into dramatic contrast."
+      },
+      {
+        "word": "juxtaposition",
+        "distinction": "Juxtaposition places any two things side by side; chiaroscuro specifically involves the interplay of light and shadow, literal or figurative."
+      },
+      {
+        "word": "tenebrism",
+        "distinction": "Tenebrism is an extreme form of chiaroscuro where most of the canvas is dark; chiaroscuro is the broader technique of light-dark contrast."
+      }
+    ],
+    "triggers": [
+      "When describing art, film, or photography that uses dramatic light-dark contrast",
+      "When a narrative or character portrait involves stark juxtaposition of virtue and vice, clarity and obscurity",
+      "When you want an evocative, precise term for the interplay of opposites that creates depth"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Palimpsest",
+    "pos": [
+      "noun"
+    ],
+    "pronunciation": "PAL-imp-sest",
+    "definition": "a manuscript or surface on which the original writing has been erased and overwritten, but traces of the original remain visible; by extension, anything that bears visible traces of its earlier forms beneath its current state",
+    "register": [
+      "formal",
+      "literary",
+      "academic"
+    ],
+    "tags": [
+      "layers",
+      "history",
+      "erasure"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "essay",
+        "sentence": "Every city is a palimpsest â€” beneath the glass towers, you can still read the outlines of the neighborhoods they replaced.",
+        "why": "Extends the term metaphorically to urban space, capturing how layers of history coexist beneath the visible surface."
+      },
+      {
+        "context": "academic",
+        "sentence": "Genette uses the figure of the palimpsest to describe how every text is written over previous texts, bearing traces of its literary antecedents.",
+        "why": "References GÃ©rard Genette's literary theory accurately, showing how the term functions in intertextual analysis."
+      },
+      {
+        "context": "creative writing",
+        "sentence": "Her face was a palimpsest of the women she had been â€” each decade's expression still faintly legible beneath the current one.",
+        "why": "Applies the metaphor to a person, capturing the layered quality of aging and identity with precision."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "The palimpsest of new ideas made the presentation fresh and innovative.",
+        "problem": "Palimpsest emphasizes the persistence of what came before, not novelty or freshness.",
+        "use_instead": "array or wealth"
+      },
+      {
+        "wrong": "He created a palimpsest by writing his essay from scratch on a blank page.",
+        "problem": "A palimpsest requires overwriting previous content, not writing on a clean surface.",
+        "use_instead": "draft or manuscript"
+      }
+    ],
+    "related": [
+      {
+        "word": "stratification",
+        "distinction": "Stratification describes layers in general; palimpsest specifically implies that earlier layers are partially visible through later ones."
+      },
+      {
+        "word": "residue",
+        "distinction": "Residue is what remains after something is removed; palimpsest is the entire layered surface where old and new coexist."
+      },
+      {
+        "word": "pentimento",
+        "distinction": "Pentimento is an earlier painting visible beneath a later one; palimpsest originally refers to overwritten text but both describe layered surfaces."
+      }
+    ],
+    "triggers": [
+      "When something bears visible traces of what it used to be beneath what it currently is",
+      "When analyzing how texts, places, or identities are layered with earlier versions of themselves",
+      "When you need a single word for the coexistence of past and present in the same surface or structure"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Liminal",
+    "pos": [
+      "adjective"
+    ],
+    "pronunciation": "LIM-ih-nul",
+    "definition": "occupying a position at, or on both sides of, a boundary or threshold; relating to a transitional or intermediate state between two conditions, stages, or identities",
+    "register": [
+      "formal",
+      "academic",
+      "literary"
+    ],
+    "tags": [
+      "threshold",
+      "transition",
+      "identity"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "essay",
+        "sentence": "Adolescence is the liminal phase par excellence â€” no longer child, not yet adult, suspended in the threshold between two identities.",
+        "why": "Applies liminal to its most intuitive context (transition between life stages) while emphasizing the in-between quality that defines the term."
+      },
+      {
+        "context": "academic",
+        "sentence": "Turner's concept of liminality describes the middle phase of a ritual, where participants have left their old status but have not yet assumed the new one.",
+        "why": "References Victor Turner's anthropological framework accurately, grounding the term in its theoretical origin."
+      },
+      {
+        "context": "creative writing",
+        "sentence": "The story takes place entirely in liminal spaces â€” airports, hospital waiting rooms, the hour before dawn â€” where nothing has been decided yet.",
+        "why": "Translates the abstract concept into concrete spatial and temporal settings, showing how liminal applies to narrative setting."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "The liminal evidence proved the defendant's guilt beyond doubt.",
+        "problem": "Confuses liminal (threshold, transitional) with something like definitive or clinical. Liminal implies ambiguity, not certainty.",
+        "use_instead": "definitive or conclusive"
+      },
+      {
+        "wrong": "Her liminal knowledge of chemistry was impressive.",
+        "problem": "Liminal describes a threshold state, not the extent of someone's knowledge.",
+        "use_instead": "extensive or deep"
+      }
+    ],
+    "related": [
+      {
+        "word": "transitional",
+        "distinction": "Transitional simply means 'in between'; liminal carries the additional connotation of being on a threshold, often with psychological or ritual significance."
+      },
+      {
+        "word": "marginal",
+        "distinction": "Marginal means on the edge of a system; liminal means between two states, occupying the threshold itself."
+      },
+      {
+        "word": "interstitial",
+        "distinction": "Interstitial refers to gaps within a structure; liminal refers to the threshold between two distinct states or conditions."
+      }
+    ],
+    "triggers": [
+      "When describing something caught between two states â€” neither fully one thing nor the other",
+      "When discussing transitional spaces, times, or identities that resist classification",
+      "When you need a word that captures the quality of threshold experience, not just change"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Ineffable",
+    "pos": [
+      "adjective"
+    ],
+    "pronunciation": "in-EF-uh-bul",
+    "definition": "too great, intense, or extraordinary to be expressed or described in words; beyond the reach of language",
+    "register": [
+      "formal",
+      "literary"
+    ],
+    "tags": [
+      "language",
+      "transcendence",
+      "experience"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "essay",
+        "sentence": "Mystics across traditions describe an ineffable experience at the core of their practice â€” not secret, but structurally beyond what language can capture.",
+        "why": "Uses ineffable precisely to describe the linguistic limitation, not mere reluctance to speak."
+      },
+      {
+        "context": "creative writing",
+        "sentence": "She searched for the word that would pin down what she felt standing at the edge of the canyon, and found only the ineffable staring back.",
+        "why": "Dramatizes the very condition the word describes â€” the failure of language before overwhelming experience."
+      },
+      {
+        "context": "academic",
+        "sentence": "Wittgenstein's proposition that 'whereof one cannot speak, thereof one must be silent' gestures at the ineffable as a genuine category of experience, not merely a gap in vocabulary.",
+        "why": "Positions the term within philosophy of language, distinguishing structural inexpressibility from mere inarticulation."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "The ineffable instructions confused every new employee.",
+        "problem": "Ineffable means beyond expression, not unclear or confusing. Confusing instructions are expressible but poorly written.",
+        "use_instead": "incomprehensible or convoluted"
+      },
+      {
+        "wrong": "His ineffable rudeness shocked the entire room.",
+        "problem": "Rudeness is easily described. Ineffable is not an intensifier meaning 'extreme'; it means 'beyond words.'",
+        "use_instead": "unconscionable or egregious"
+      }
+    ],
+    "related": [
+      {
+        "word": "numinous",
+        "distinction": "Numinous describes the awe-inspiring quality of the divine or sacred; ineffable describes anything beyond language, sacred or not."
+      },
+      {
+        "word": "inexpressible",
+        "distinction": "Inexpressible is the plain synonym; ineffable carries literary and philosophical weight, suggesting something fundamentally beyond language, not just difficult to articulate."
+      },
+      {
+        "word": "sublime",
+        "distinction": "Sublime describes an experience of overwhelming greatness; ineffable describes the inability to put any experience into words."
+      }
+    ],
+    "triggers": [
+      "When an experience, quality, or phenomenon genuinely exceeds what language can capture",
+      "When discussing the limits of expression in art, philosophy, or spiritual experience",
+      "When you need a word that points to the boundary where language fails â€” not vagueness, but structural inexpressibility"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Numinous",
+    "pos": [
+      "adjective"
+    ],
+    "pronunciation": "NOO-mih-nus",
+    "definition": "having a strong religious or spiritual quality; evoking a sense of the divine, the sacred, or the mysteriously awe-inspiring that transcends ordinary experience",
+    "register": [
+      "formal",
+      "literary",
+      "academic"
+    ],
+    "tags": [
+      "sacred",
+      "awe",
+      "transcendence"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "essay",
+        "sentence": "Standing in the empty cathedral, she felt something numinous â€” not faith exactly, but the unmistakable presence of a space shaped by centuries of belief.",
+        "why": "Captures the experiential quality of the numinous without requiring religious commitment, applying it to the feeling evoked by a sacred space."
+      },
+      {
+        "context": "academic",
+        "sentence": "Rudolf Otto coined the term 'numinous' to describe the non-rational core of religious experience: a feeling of awe, mystery, and overwhelming otherness he called the mysterium tremendum.",
+        "why": "Accurately traces the term to its origin in Otto's The Idea of the Holy and explains its technical meaning."
+      },
+      {
+        "context": "creative writing",
+        "sentence": "The forest at dusk had a numinous quality â€” not beautiful, not frightening, but charged with something older than either.",
+        "why": "Applies the term to a natural setting, capturing the sense of sacred otherness without naming a specific religion or deity."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "The numinous spreadsheet impressed the finance team.",
+        "problem": "Numinous describes sacred or transcendent awe, not professional impressiveness.",
+        "use_instead": "impressive or exemplary"
+      },
+      {
+        "wrong": "The numinous glow of the neon sign lit up the street.",
+        "problem": "Numinous is not a synonym for luminous. It describes a spiritual quality, not physical light.",
+        "use_instead": "luminous or radiant"
+      }
+    ],
+    "related": [
+      {
+        "word": "ineffable",
+        "distinction": "Ineffable means beyond language; numinous describes a specific quality â€” the sacred or divinely awesome â€” that may itself be ineffable."
+      },
+      {
+        "word": "transcendent",
+        "distinction": "Transcendent means beyond ordinary limits; numinous specifically evokes the sacred or mysteriously divine."
+      },
+      {
+        "word": "sublime",
+        "distinction": "Sublime describes overwhelming grandeur that can be secular; numinous carries specifically religious or spiritual connotations."
+      }
+    ],
+    "triggers": [
+      "When an experience evokes a sense of the sacred, divine, or mysteriously awesome",
+      "When describing the quality of certain places, moments, or works of art that feel charged with spiritual presence",
+      "When you need a word that captures holy awe without committing to a specific theological claim"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Ekphrasis",
+    "pos": [
+      "noun"
+    ],
+    "pronunciation": "EK-fruh-sis",
+    "definition": "the vivid literary description of a work of visual art, sculpture, or other visual artifact, often as a device for exploring the relationship between image and language",
+    "register": [
+      "academic",
+      "literary"
+    ],
+    "tags": [
+      "art",
+      "description",
+      "intermediality"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "academic",
+        "sentence": "Keats's 'Ode on a Grecian Urn' is the canonical example of ekphrasis in English poetry â€” a poem that meditates on a visual object to explore the limits of both art forms.",
+        "why": "Correctly identifies the most famous English ekphrastic poem and explains the dual-medium tension the device creates."
+      },
+      {
+        "context": "essay",
+        "sentence": "The museum catalog's ekphrasis of the painting was so precise that readers who had never seen the canvas felt they understood it better than those who had.",
+        "why": "Uses ekphrasis in a practical context (art writing) while highlighting the paradox of verbal description exceeding visual experience."
+      },
+      {
+        "context": "creative writing",
+        "sentence": "She embedded an ekphrasis of Vermeer's Girl with a Pearl Earring at the center of the novel, letting the painting become a mirror for the protagonist's unspoken longing.",
+        "why": "Shows ekphrasis functioning as narrative device â€” the described artwork reflecting character psychology."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "His ekphrasis of the sunset was breathtaking.",
+        "problem": "Ekphrasis describes a work of art, not a natural scene. Describing a sunset is landscape writing, not ekphrasis.",
+        "use_instead": "description or depiction"
+      },
+      {
+        "wrong": "The ekphrasis in the gallery featured works by three emerging artists.",
+        "problem": "Ekphrasis is a literary description of art, not an art exhibition.",
+        "use_instead": "exhibition or display"
+      }
+    ],
+    "related": [
+      {
+        "word": "description",
+        "distinction": "Description is the general act of depicting anything in words; ekphrasis specifically describes visual artwork in a literary context."
+      },
+      {
+        "word": "intermediality",
+        "distinction": "Intermediality is the broad study of relationships between media; ekphrasis is a specific instance of verbal art engaging visual art."
+      },
+      {
+        "word": "ut pictura poesis",
+        "distinction": "Ut pictura poesis ('as a painting, so a poem') is the classical doctrine that poetry and painting are analogous; ekphrasis is the practice of writing about visual art."
+      }
+    ],
+    "triggers": [
+      "When a poem, essay, or novel describes a painting, sculpture, or other visual artwork in detail",
+      "When analyzing the relationship between verbal and visual art forms",
+      "When you need a term for the literary tradition of writing about works of visual art"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Defamiliarization",
+    "pos": [
+      "noun"
+    ],
+    "pronunciation": "dee-fuh-MIL-yuh-rih-ZAY-shun",
+    "definition": "a literary and artistic technique of presenting common things in unfamiliar ways to enhance perception and break through the automatism of habitual seeing; coined by Viktor Shklovsky as ostranenie",
+    "register": [
+      "academic",
+      "literary"
+    ],
+    "tags": [
+      "perception",
+      "technique",
+      "formalism"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "academic",
+        "sentence": "Shklovsky argued that the purpose of art is defamiliarization â€” making the stone stony again by forcing us to see it as if for the first time.",
+        "why": "Accurately paraphrases Shklovsky's foundational essay 'Art as Device' and captures the term's theoretical purpose."
+      },
+      {
+        "context": "essay",
+        "sentence": "Kafka's defamiliarization of bureaucracy â€” rendering it as a literal labyrinth with no exit â€” reveals the absurdity that daily experience conceals.",
+        "why": "Applies the concept to a major literary example, showing how defamiliarization exposes hidden truths about familiar systems."
+      },
+      {
+        "context": "creative writing",
+        "sentence": "She described a handshake from the perspective of someone who had never seen one â€” two strangers gripping each other's flesh and pumping it vertically â€” achieving defamiliarization through alien narration.",
+        "why": "Demonstrates the technique in practice: making a familiar gesture strange through shifted perspective."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "The defamiliarization of the new employee took several weeks.",
+        "problem": "Confuses defamiliarization (an artistic technique) with unfamiliarity or disorientation in a workplace.",
+        "use_instead": "adjustment period or acclimation"
+      },
+      {
+        "wrong": "His defamiliarization with the subject matter was obvious.",
+        "problem": "Defamiliarization is an intentional artistic strategy, not a lack of familiarity.",
+        "use_instead": "unfamiliarity or inexperience"
+      }
+    ],
+    "related": [
+      {
+        "word": "estrangement",
+        "distinction": "Estrangement is Brecht's theatrical version (Verfremdung) aimed at critical distance; Shklovsky's defamiliarization aims at renewed perception."
+      },
+      {
+        "word": "alienation",
+        "distinction": "Alienation describes disconnection or isolation; defamiliarization is a deliberate artistic technique meant to refresh perception, not cause distress."
+      },
+      {
+        "word": "novelty",
+        "distinction": "Novelty presents something genuinely new; defamiliarization makes the already-known appear new through artistic technique."
+      }
+    ],
+    "triggers": [
+      "When art or writing makes something familiar appear strange in order to force the reader to truly see it",
+      "When analyzing literary technique that disrupts habitual perception â€” unusual perspectives, strange descriptions of ordinary things",
+      "When you need the formalist term for art's core function of renewing perception"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Synecdoche",
+    "pos": [
+      "noun"
+    ],
+    "pronunciation": "sih-NEK-duh-kee",
+    "definition": "a figure of speech in which a part is used to represent the whole, or the whole is used to represent a part (e.g., 'all hands on deck' where hands stands for sailors)",
+    "register": [
+      "formal",
+      "academic"
+    ],
+    "tags": [
+      "rhetoric",
+      "figurative language",
+      "representation"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "essay",
+        "sentence": "When we say 'Washington' to mean the U.S. government, we employ synecdoche â€” a single city standing in for an entire political apparatus.",
+        "why": "Clear, accessible example that shows synecdoche in everyday usage, demonstrating how the figure operates invisibly in political discourse."
+      },
+      {
+        "context": "academic",
+        "sentence": "Burke argued that synecdoche is not merely a figure of speech but a master trope â€” one of the four fundamental ways humans represent reality.",
+        "why": "References Kenneth Burke's rhetorical theory accurately, elevating synecdoche from decoration to cognitive structure."
+      },
+      {
+        "context": "creative writing",
+        "sentence": "The novel uses the house as a synecdoche for the family itself â€” when the house decays, so does the bloodline.",
+        "why": "Shows how synecdoche functions structurally in narrative, where a physical object carries the weight of a larger abstraction."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "The synecdoche between love and war made the metaphor powerful.",
+        "problem": "Synecdoche is a part-whole relationship, not a comparison between two unrelated things. That would be metaphor.",
+        "use_instead": "metaphor or analogy"
+      },
+      {
+        "wrong": "He used synecdoche to exaggerate the size of the crowd.",
+        "problem": "Synecdoche substitutes part for whole or vice versa; it does not exaggerate. Exaggeration is hyperbole.",
+        "use_instead": "hyperbole"
+      }
+    ],
+    "related": [
+      {
+        "word": "metonymy",
+        "distinction": "Metonymy substitutes based on association or contiguity (the crown for monarchy); synecdoche substitutes part for whole or whole for part."
+      },
+      {
+        "word": "metaphor",
+        "distinction": "Metaphor compares two unlike things; synecdoche uses a part of the thing itself to represent the whole."
+      },
+      {
+        "word": "pars pro toto",
+        "distinction": "Pars pro toto (part for whole) is the Latin term for the most common type of synecdoche; synecdoche also includes whole for part."
+      }
+    ],
+    "triggers": [
+      "When a part is used to represent the whole or vice versa â€” 'boots on the ground' for soldiers, 'the law' for police",
+      "When analyzing how language compresses complex wholes into representative parts",
+      "When you need to distinguish part-whole substitution from other figurative language"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Metonymy",
+    "pos": [
+      "noun"
+    ],
+    "pronunciation": "meh-TAH-nuh-mee",
+    "definition": "a figure of speech in which something is referred to by the name of something closely associated with it, rather than by its own name (e.g., 'the crown' for the monarchy, 'the pen' for writing)",
+    "register": [
+      "formal",
+      "academic"
+    ],
+    "tags": [
+      "rhetoric",
+      "figurative language",
+      "association"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "essay",
+        "sentence": "Referring to corporate power as 'Wall Street' is a metonymy that collapses an entire financial system into a single geographic location.",
+        "why": "Shows how metonymy works through spatial association and how it simplifies complex systems into graspable names."
+      },
+      {
+        "context": "academic",
+        "sentence": "Jakobson proposed that metonymy and metaphor are the two fundamental axes of language â€” metonymy operating through contiguity, metaphor through similarity.",
+        "why": "References Roman Jakobson's foundational linguistic theory, positioning metonymy as a structural principle of language itself."
+      },
+      {
+        "context": "journalism",
+        "sentence": "When reporters write 'the White House announced,' they use metonymy â€” the building stands in for the administration, just as 'Downing Street' stands in for the British government.",
+        "why": "Provides parallel examples across political contexts, showing how metonymy is embedded in standard journalistic language."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "Her metonymy for the dessert was so vivid I could taste it.",
+        "problem": "Confuses metonymy with description or metaphor. A vivid description of food is not metonymy.",
+        "use_instead": "description or metaphor"
+      },
+      {
+        "wrong": "The metonymy between the two theories revealed their differences.",
+        "problem": "Metonymy is a figure of substitution, not comparison. Comparing two theories is analysis, not metonymy.",
+        "use_instead": "comparison or contrast"
+      }
+    ],
+    "related": [
+      {
+        "word": "synecdoche",
+        "distinction": "Synecdoche uses a part for the whole; metonymy uses something associated with the referent but not part of it."
+      },
+      {
+        "word": "metaphor",
+        "distinction": "Metaphor links by similarity between unlike things; metonymy links by real-world association or contiguity."
+      },
+      {
+        "word": "periphrasis",
+        "distinction": "Periphrasis uses a roundabout description; metonymy substitutes a single associated name."
+      }
+    ],
+    "triggers": [
+      "When something is called by the name of something associated with it â€” a place for an institution, a tool for an activity",
+      "When analyzing how everyday language substitutes one thing for another based on proximity or association",
+      "When you need to distinguish association-based substitution from part-whole substitution (synecdoche)"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Chiaroscuro",
+    "pos": [
+      "noun"
+    ],
+    "pronunciation": "kee-AHR-uh-SKYOOR-oh",
+    "definition": "the use of strong contrasts between light and dark, especially in visual art; by extension, any striking juxtaposition of opposites that creates dramatic depth or moral complexity",
+    "register": [
+      "formal",
+      "literary"
+    ],
+    "tags": [
+      "aesthetics",
+      "contrast",
+      "visual art"
+    ],
+    "enriched": true,
+    "examples": [
+      {
+        "context": "essay",
+        "sentence": "Caravaggio's chiaroscuro does not merely illuminate his subjects â€” it divides the canvas into zones of revelation and concealment.",
+        "why": "Uses the term in its primary art-historical sense while interpreting its thematic significance."
+      },
+      {
+        "context": "creative writing",
+        "sentence": "The novel operates in chiaroscuro: every act of tenderness is shadowed by violence, every truth bracketed by deception.",
+        "why": "Extends the term metaphorically to narrative structure, applying the visual concept of light-dark contrast to moral and thematic duality."
+      },
+      {
+        "context": "journalism",
+        "sentence": "The profile painted him in chiaroscuro â€” the philanthropist who funded schools by day and crushed unions by night.",
+        "why": "Uses the term figuratively to describe the dramatic contrast in a person's public and private actions."
+      }
+    ],
+    "misuses": [
+      {
+        "wrong": "The chiaroscuro of the brightly lit room made everyone feel cheerful.",
+        "problem": "Chiaroscuro requires contrast between light and dark. A uniformly bright room has no chiaroscuro.",
+        "use_instead": "brightness or luminosity"
+      },
+      {
+        "wrong": "She used chiaroscuro to blend the colors together smoothly.",
+        "problem": "Chiaroscuro is about stark contrast, not smooth blending.",
+        "use_instead": "sfumato or gradation"
+      }
+    ],
+    "related": [
+      {
+        "word": "sfumato",
+        "distinction": "Sfumato softens and blurs transitions between light and dark; chiaroscuro sharpens them into dramatic contrast."
+      },
+      {
+        "word": "juxtaposition",
+        "distinction": "Juxtaposition places any two things side by side; chiaroscuro specifically involves the interplay of light and shadow, literal or figurative."
+      },
+      {
+        "word": "tenebrism",
+        "distinction": "Tenebrism is an extreme form of chiaroscuro where most of the canvas is dark; chiaroscuro is the broader technique of light-dark contrast."
+      }
+    ],
+    "triggers": [
+      "When describing art, film, or photography that uses dramatic light-dark contrast",
+      "When a narrative or character portrait involves stark juxtaposition of virtue and vice, clarity and obscurity",
+      "When you want an evocative, precise term for the interplay of opposites that creates depth"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  }
+]

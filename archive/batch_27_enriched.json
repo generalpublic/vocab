@@ -1,0 +1,812 @@
+[
+  {
+    "word": "Vitiate",
+    "pos": ["verb"],
+    "pronunciation": "VISH-ee-ayt",
+    "definition": "to impair the quality, value, or legal validity of something; to corrupt or make defective",
+    "register": ["formal", "legal", "academic"],
+    "tags": ["precision-verb", "corruption", "invalidation"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "The researcher's failure to disclose funding sources vitiated the credibility of the entire study.", "why": "Correctly conveys that the omission fundamentally corrupted the study's trustworthiness, not merely weakened it."},
+      {"context": "professional", "sentence": "Any undisclosed conflict of interest could vitiate the contract and expose both parties to litigation.", "why": "Uses the legal sense of vitiate — rendering a contract defective or void — appropriate in business contexts."},
+      {"context": "creative writing", "sentence": "Years of silence had vitiated whatever tenderness once existed between them, leaving only the residue of obligation.", "why": "Extends the word metaphorically to describe emotional corruption over time, fitting literary register."}
+    ],
+    "misuses": [
+      {"wrong": "The rain vitiated our picnic plans.", "problem": "Vitiate implies deep corruption or invalidation, not mere disruption. Rain cancels plans; it doesn't corrupt them.", "use_instead": "Ruined, spoiled, or thwarted."},
+      {"wrong": "She vitiated the recipe by adding more salt.", "problem": "Vitiate suggests fundamental impairment of integrity, not a minor alteration. Adding salt is a modification, not a corruption.", "use_instead": "Altered, adjusted, or if negative, spoiled."}
+    ],
+    "related": [
+      {"word": "invalidate", "distinction": "Invalidate focuses on rendering something legally or logically null; vitiate implies a deeper corruption of quality or essence."},
+      {"word": "undermine", "distinction": "Undermine suggests gradual weakening from beneath; vitiate implies a more thorough impairment or tainting."},
+      {"word": "corrupt", "distinction": "Corrupt is broader and more common; vitiate is more precise and formal, often implying systemic degradation."}
+    ],
+    "triggers": [
+      "When something is rendered fundamentally defective or invalid by an internal flaw",
+      "When a corrupting influence taints the integrity of a process, argument, or institution",
+      "When legal validity is compromised by procedural error or bad faith"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Militate",
+    "pos": ["verb"],
+    "pronunciation": "MIL-ih-tayt",
+    "definition": "to serve as a strong factor against (or, less commonly, for) something; to have significant weight or effect",
+    "register": ["formal", "academic"],
+    "tags": ["precision-verb", "argumentation", "influence"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Several structural factors militate against the success of democratic reforms in post-colonial states.", "why": "Correctly uses 'militate against' to describe systemic forces that work powerfully to prevent an outcome."},
+      {"context": "professional", "sentence": "The current regulatory environment militates against rapid expansion into European markets.", "why": "Appropriate business usage describing external conditions that serve as strong impediments."},
+      {"context": "creative writing", "sentence": "Everything in his upbringing militated against vulnerability — the stoicism of his father, the silence of his mother, the mockery of his brothers.", "why": "Lists specific forces that collectively worked against a quality, using the word's sense of cumulative pressure."}
+    ],
+    "misuses": [
+      {"wrong": "The protesters militated outside the courthouse.", "problem": "Confuses militate (to serve as a factor against) with militarize or demonstrate. Militate is not a physical action.", "use_instead": "Demonstrated, protested, or rallied."},
+      {"wrong": "She militated the proposal during the meeting.", "problem": "Militate is intransitive — it cannot take a direct object. You militate against something, not militate something.", "use_instead": "Opposed, challenged, or argued against."}
+    ],
+    "related": [
+      {"word": "mitigate", "distinction": "Often confused. Mitigate means to lessen severity; militate means to serve as a factor against. They are near-opposites in function."},
+      {"word": "preclude", "distinction": "Preclude means to make impossible; militate means to make unlikely or difficult without guaranteeing prevention."},
+      {"word": "countervail", "distinction": "Countervail implies counterbalancing an opposing force; militate implies exerting force in one direction."}
+    ],
+    "triggers": [
+      "When multiple structural or systemic factors work against an outcome",
+      "When you need a more precise alternative to 'work against' or 'argue against'",
+      "When describing impersonal forces that create strong resistance to change"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Circumscribe",
+    "pos": ["verb"],
+    "pronunciation": "SUR-kum-skryb",
+    "definition": "to restrict or confine within limits; to draw a boundary around something, literally or figuratively",
+    "register": ["formal", "academic"],
+    "tags": ["precision-verb", "limitation", "boundaries"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Colonial powers circumscribed indigenous governance to administrative functions, stripping communities of judicial and legislative authority.", "why": "Correctly conveys deliberate restriction of scope, implying power imposed boundaries on autonomy."},
+      {"context": "professional", "sentence": "The new compliance framework circumscribes the discretion managers have in approving expenditures above $10,000.", "why": "Uses circumscribe to describe formal institutional limits placed on decision-making authority."},
+      {"context": "creative writing", "sentence": "Her world had been circumscribed by the valley's ridgelines for so long that the ocean, when she finally saw it, seemed like a hallucination.", "why": "Uses both the literal (geographic boundary) and figurative (experiential limitation) senses simultaneously."}
+    ],
+    "misuses": [
+      {"wrong": "He circumscribed the city looking for parking.", "problem": "Confuses circumscribe (to restrict) with circumnavigate (to travel around). Circumscribe is about imposing limits, not physical movement.", "use_instead": "Circled, drove around, or circumnavigated."},
+      {"wrong": "The law circumscribes criminal behavior.", "problem": "Circumscribe means to limit or restrict, not to prohibit or punish. Laws prohibit crimes; they circumscribe freedoms.", "use_instead": "Prohibits, criminalizes, or proscribes."}
+    ],
+    "related": [
+      {"word": "constrain", "distinction": "Constrain implies pressure or compulsion; circumscribe implies drawing a boundary that defines what is permissible."},
+      {"word": "delimit", "distinction": "Delimit is more neutral — simply marking boundaries; circumscribe carries connotations of restriction and confinement."},
+      {"word": "curtail", "distinction": "Curtail means to reduce or cut short; circumscribe means to confine within existing limits rather than shrink."}
+    ],
+    "triggers": [
+      "When authority, freedom, or scope is formally restricted within defined boundaries",
+      "When external forces impose limits that confine action or possibility",
+      "When describing how social, legal, or institutional structures define the boundaries of permissible behavior"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Instantiate",
+    "pos": ["verb"],
+    "pronunciation": "in-STAN-shee-ayt",
+    "definition": "to represent or provide a concrete example of an abstract concept; to make real or actual",
+    "register": ["academic", "technical"],
+    "tags": ["precision-verb", "abstraction", "realization"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "The Bauhaus movement sought to instantiate its democratic ideals in the very materials and methods of design.", "why": "Correctly describes making abstract ideals concrete through tangible practice — the core meaning of instantiate."},
+      {"context": "professional", "sentence": "Before we can instantiate this framework across departments, we need to pilot it in a controlled environment.", "why": "Uses instantiate in its operational sense — turning an abstract plan into a functioning reality."},
+      {"context": "creative writing", "sentence": "He was the kind of man who instantiated his grief in architecture, building rooms no one would ever enter.", "why": "Applies the word metaphorically to describe translating emotion into physical form, with literary effect."}
+    ],
+    "misuses": [
+      {"wrong": "She instantiated that the report was due Friday.", "problem": "Confuses instantiate with state or insist. Instantiate means to make concrete, not to declare.", "use_instead": "Stated, insisted, or stipulated."},
+      {"wrong": "The teacher instantiated the lesson three times.", "problem": "Confuses instantiate with repeat or reiterate. Instantiate means to embody or realize, not to do again.", "use_instead": "Repeated, reiterated, or reinforced."}
+    ],
+    "related": [
+      {"word": "embody", "distinction": "Embody is broader and more common; instantiate is more precise, emphasizing the relationship between abstract type and concrete instance."},
+      {"word": "reify", "distinction": "Reify means to treat an abstraction as if it were concrete (often critically); instantiate means to genuinely make it concrete."},
+      {"word": "exemplify", "distinction": "Exemplify means to serve as a typical example; instantiate means to create a concrete realization of something abstract."}
+    ],
+    "triggers": [
+      "When an abstract principle, theory, or framework is made concrete through a specific instance",
+      "When describing how ideas become real through implementation or practice",
+      "When a particular case serves as the concrete realization of a general concept"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Reify",
+    "pos": ["verb"],
+    "pronunciation": "REE-ih-fy",
+    "definition": "to treat an abstraction, concept, or process as if it were a concrete, tangible thing; to make something abstract appear real",
+    "register": ["academic", "philosophical"],
+    "tags": ["precision-verb", "abstraction", "critical-theory"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "To speak of 'the market' as though it has desires and intentions is to reify a set of human transactions into an autonomous agent.", "why": "Correctly identifies the process of treating a distributed human phenomenon as a concrete entity with agency."},
+      {"context": "professional", "sentence": "We risk reifying organizational culture into a fixed trait rather than recognizing it as an evolving set of practices.", "why": "Warns against treating a dynamic process as a static thing, appropriate in management discourse."},
+      {"context": "creative writing", "sentence": "She had reified her loneliness into a companion — something with weight, temperature, a side of the bed.", "why": "Uses reification as a literary device, giving physical properties to an emotional state."}
+    ],
+    "misuses": [
+      {"wrong": "The sculptor reified the statue from a block of marble.", "problem": "Reify is about treating abstractions as concrete things, not about physically creating objects. The sculptor created or carved the statue.", "use_instead": "Carved, sculpted, or fashioned."},
+      {"wrong": "The data reifies our hypothesis.", "problem": "Reify does not mean to confirm or support. Data supports a hypothesis; reifying would mean treating the hypothesis as a concrete object.", "use_instead": "Supports, confirms, or corroborates."}
+    ],
+    "related": [
+      {"word": "hypostatize", "distinction": "Hypostatize is a near-synonym but more technical and philosophical; reify is more widely used in social sciences and cultural criticism."},
+      {"word": "objectify", "distinction": "Objectify means to treat a person as an object; reify means to treat an abstraction as a concrete thing. Different targets."},
+      {"word": "instantiate", "distinction": "Instantiate means to genuinely make abstract things concrete; reify means to falsely or uncritically treat them as concrete."}
+    ],
+    "triggers": [
+      "When critiquing the tendency to treat abstractions (race, the economy, culture) as fixed, concrete entities",
+      "When analyzing how language or ideology converts processes into things",
+      "When warning against treating dynamic or constructed phenomena as natural, static objects"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Interpolate",
+    "pos": ["verb"],
+    "pronunciation": "in-TUR-puh-layt",
+    "definition": "to insert something (words, data, or material) into a text, dataset, or conversation, sometimes misleadingly; in mathematics, to estimate values between known data points",
+    "register": ["formal", "academic", "technical"],
+    "tags": ["precision-verb", "insertion", "estimation"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Medieval scribes frequently interpolated their own commentary into the manuscripts they copied, blurring the line between original text and editorial addition.", "why": "Uses the textual-criticism sense of interpolate — inserting material into an existing text — with appropriate historical context."},
+      {"context": "professional", "sentence": "Where direct measurements were unavailable, the team interpolated values from adjacent data points to complete the environmental model.", "why": "Uses the technical/mathematical sense of estimating unknown values from known ones."},
+      {"context": "creative writing", "sentence": "He interpolated himself into her story so gradually that she could no longer remember which memories were hers alone.", "why": "Extends the insertion metaphor to describe a person inserting himself into another's narrative, with literary nuance."}
+    ],
+    "misuses": [
+      {"wrong": "The detective interpolated the suspect for hours.", "problem": "Confuses interpolate (to insert) with interrogate (to question). These are different words with different roots.", "use_instead": "Interrogated or questioned."},
+      {"wrong": "She interpolated the data as evidence of fraud.", "problem": "Confuses interpolate (to insert or estimate between points) with interpret (to explain the meaning of). Different actions entirely.", "use_instead": "Interpreted or construed."}
+    ],
+    "related": [
+      {"word": "extrapolate", "distinction": "Extrapolate extends beyond known data; interpolate estimates between known data points. One goes outward, the other fills inward."},
+      {"word": "interject", "distinction": "Interject means to insert a remark into conversation; interpolate implies insertion into a text or dataset, often with more deliberation."},
+      {"word": "emend", "distinction": "Emend means to correct a text; interpolate means to add to a text, which may or may not be a correction."}
+    ],
+    "triggers": [
+      "When material has been inserted into a text, altering its original form",
+      "When estimating unknown values from surrounding known data points",
+      "When describing the subtle insertion of foreign elements into an existing structure"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Arrogate",
+    "pos": ["verb"],
+    "pronunciation": "AIR-uh-gayt",
+    "definition": "to claim or seize something (especially power, authority, or rights) without justification; to take presumptuously",
+    "register": ["formal", "legal", "academic"],
+    "tags": ["precision-verb", "power", "usurpation"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "By issuing executive orders that bypassed legislative review, the president arrogated powers that the constitution had reserved for Congress.", "why": "Correctly describes the unauthorized seizure of authority from its rightful holder, in a political context."},
+      {"context": "professional", "sentence": "The regional director arrogated decision-making authority that had been explicitly delegated to the local teams.", "why": "Uses arrogate to describe overreach within an organizational hierarchy — claiming authority beyond one's role."},
+      {"context": "creative writing", "sentence": "Grief arrogated every room in the house, claiming spaces that had once belonged to laughter, to music, to the ordinary noise of living.", "why": "Personifies grief as a usurper, applying arrogate metaphorically to emotional displacement."}
+    ],
+    "misuses": [
+      {"wrong": "The company arrogated a new policy on remote work.", "problem": "Arrogate means to seize without right, not to establish or announce. A company creating its own policy is within its authority.", "use_instead": "Implemented, announced, or introduced."},
+      {"wrong": "He arrogated his success to hard work.", "problem": "Confuses arrogate (to seize presumptuously) with attribute (to credit to a cause). Completely different meanings.", "use_instead": "Attributed or ascribed."}
+    ],
+    "related": [
+      {"word": "usurp", "distinction": "Usurp specifically implies taking someone else's position or throne; arrogate is broader — any unauthorized claiming of rights or authority."},
+      {"word": "appropriate", "distinction": "Appropriate (verb) means to take for one's own use; arrogate adds the dimension of presumptuousness and lack of justification."},
+      {"word": "commandeer", "distinction": "Commandeer implies seizing physical resources, often with authority; arrogate implies claiming abstract rights or powers without authority."}
+    ],
+    "triggers": [
+      "When someone claims authority, rights, or privileges they are not entitled to",
+      "When power is seized without legal or moral justification",
+      "When describing institutional overreach or the unauthorized expansion of one's role"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Gainsay",
+    "pos": ["verb"],
+    "pronunciation": "gayn-SAY",
+    "definition": "to deny, contradict, or speak against; to declare untrue or dispute",
+    "register": ["formal", "literary"],
+    "tags": ["precision-verb", "contradiction", "rhetoric"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "The archaeological evidence is so extensive that no serious scholar would gainsay the existence of widespread trade networks in Bronze Age Anatolia.", "why": "Uses gainsay to mean 'deny' in the face of overwhelming evidence, conveying that contradiction would be untenable."},
+      {"context": "professional", "sentence": "While the quarterly results are strong, I would not gainsay the risks our competitors pose in the Asian market.", "why": "Uses gainsay as a formal way of saying 'deny' or 'dismiss,' appropriate in high-level business communication."},
+      {"context": "creative writing", "sentence": "She had learned early that to gainsay her father was to invite a silence more punishing than any rebuke.", "why": "Uses gainsay in its interpersonal sense — to speak against or contradict — with emotional stakes."}
+    ],
+    "misuses": [
+      {"wrong": "He gainsayed his way through the interview.", "problem": "Gainsay means to contradict or deny, not to talk one's way through something. It requires a specific claim being denied.", "use_instead": "Talked, bluffed, or charmed."},
+      {"wrong": "The new evidence gainsays the previous theory.", "problem": "While close, gainsay is typically used of people contradicting claims, not of evidence disproving theories. Evidence refutes or undermines.", "use_instead": "Refutes, undermines, or contradicts."}
+    ],
+    "related": [
+      {"word": "contradict", "distinction": "Contradict is the common equivalent; gainsay adds formality and a sense of bold or direct denial."},
+      {"word": "rebut", "distinction": "Rebut implies presenting counter-evidence; gainsay implies simply denying or speaking against, without necessarily providing proof."},
+      {"word": "impugn", "distinction": "Impugn means to attack the truth or integrity of something; gainsay means to deny or contradict it directly."}
+    ],
+    "triggers": [
+      "When stating that something is so well-established it cannot be credibly denied",
+      "When describing the act of directly contradicting or speaking against a claim or authority",
+      "When you want a more forceful, literary alternative to 'deny' or 'dispute'"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Mordant",
+    "pos": ["adjective"],
+    "pronunciation": "MOR-dunt",
+    "definition": "sharply critical, biting, or caustic in thought, manner, or style; having a cutting quality",
+    "register": ["literary", "formal"],
+    "tags": ["tone-texture", "criticism", "wit"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Wilde's mordant wit spared no institution, least of all the aristocracy that hosted him at dinner.", "why": "Correctly describes a cutting, acidic quality of humor that is sharp enough to wound while entertaining."},
+      {"context": "professional", "sentence": "The reviewer's mordant assessment of the product launch left the marketing team scrambling to revise their messaging.", "why": "Uses mordant to describe a professional critique that was incisively harsh, not merely negative."},
+      {"context": "creative writing", "sentence": "Her compliments had a mordant edge — each one a gift box with something sharp inside.", "why": "Uses the word's etymological connection to biting (Latin mordere) to create a vivid metaphor of hidden cruelty."}
+    ],
+    "misuses": [
+      {"wrong": "The mordant weather kept everyone indoors.", "problem": "Mordant describes sharpness of intellect or expression, not weather. Weather can be harsh or bitter, not mordant.", "use_instead": "Bitter, harsh, or inclement."},
+      {"wrong": "He delivered a mordant speech praising the volunteers.", "problem": "Mordant implies cutting criticism, not sincere praise. A speech of genuine praise cannot be mordant.", "use_instead": "Heartfelt, eloquent, or stirring."}
+    ],
+    "related": [
+      {"word": "acerbic", "distinction": "Acerbic emphasizes sourness and harshness; mordant emphasizes the biting, penetrating quality — the wound it leaves."},
+      {"word": "sardonic", "distinction": "Sardonic implies mocking disdain or cynicism; mordant focuses more on incisive sharpness of expression."},
+      {"word": "trenchant", "distinction": "Trenchant means sharply perceptive and effective; mordant adds a layer of caustic hostility to that sharpness."}
+    ],
+    "triggers": [
+      "When describing humor, criticism, or commentary that is incisively harsh and biting",
+      "When wit carries an edge sharp enough to wound, not just amuse",
+      "When you need a word that conveys intellectual sharpness combined with caustic intent"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Saturnine",
+    "pos": ["adjective"],
+    "pronunciation": "SAT-ur-nyn",
+    "definition": "having a gloomy, melancholy, or sullen temperament; dark and brooding in character or appearance",
+    "register": ["literary", "formal"],
+    "tags": ["tone-texture", "temperament", "darkness"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Lincoln's saturnine demeanor, often mistaken for coldness, masked a capacity for empathy that his contemporaries only recognized in retrospect.", "why": "Correctly describes a gloomy, brooding temperament as an inherent quality rather than a passing mood."},
+      {"context": "professional", "sentence": "The CEO's saturnine disposition during board meetings often left new directors uncertain whether he was displeased or merely thinking.", "why": "Uses saturnine to describe a habitual demeanor that creates ambiguity in professional settings."},
+      {"context": "creative writing", "sentence": "He had the saturnine beauty of a figure in a Caravaggio painting — all shadow and cheekbone and unreadable eyes.", "why": "Connects the word's associations with darkness and melancholy to visual art, reinforcing its aesthetic dimension."}
+    ],
+    "misuses": [
+      {"wrong": "The saturnine party lasted well past midnight.", "problem": "Saturnine describes temperament or demeanor, not events. A party can be somber or grim, not saturnine.", "use_instead": "Somber, gloomy, or subdued."},
+      {"wrong": "She felt saturnine after receiving the bad news.", "problem": "Saturnine describes a habitual temperament, not a temporary emotional reaction. Feeling sad after bad news is not saturnine.", "use_instead": "Despondent, crestfallen, or dejected."}
+    ],
+    "related": [
+      {"word": "melancholy", "distinction": "Melancholy is broader and more emotional; saturnine specifically implies a dark, brooding temperament often visible in demeanor."},
+      {"word": "morose", "distinction": "Morose implies sulky ill-humor; saturnine is more dignified — a deep, quiet gloom rather than petulant sulking."},
+      {"word": "lugubrious", "distinction": "Lugubrious implies exaggerated or performative sadness; saturnine implies genuine, inherent darkness of temperament."}
+    ],
+    "triggers": [
+      "When describing a person whose habitual temperament is dark, brooding, and melancholic",
+      "When a character's gloom is dignified or compelling rather than pitiable",
+      "When connecting inner darkness to outward appearance or demeanor"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Pellucid",
+    "pos": ["adjective"],
+    "pronunciation": "peh-LOO-sid",
+    "definition": "transparently clear in style, meaning, or appearance; easily understood; allowing light to pass through",
+    "register": ["literary", "formal"],
+    "tags": ["tone-texture", "clarity", "transparency"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Orwell's pellucid prose style remains the gold standard for political writing — every sentence serves a single, unmistakable purpose.", "why": "Correctly applies pellucid to writing that is exceptionally clear and transparent in meaning."},
+      {"context": "professional", "sentence": "The auditor's pellucid summary made the complex financial restructuring comprehensible to every board member.", "why": "Uses pellucid to praise communication that achieves unusual clarity on a difficult subject."},
+      {"context": "creative writing", "sentence": "The water was so pellucid that the lake seemed like an absence — a hole in the earth through which you could see the bones of the world.", "why": "Uses the literal transparency meaning to create a surreal image, exploiting the word's visual connotations."}
+    ],
+    "misuses": [
+      {"wrong": "Her pellucid argument convinced everyone she was wrong.", "problem": "Pellucid means clear and transparent. If an argument is pellucid, it would clarify the speaker's position, not demonstrate error.", "use_instead": "Transparent (in the sense of obviously flawed) or specious."},
+      {"wrong": "The pellucid noise from the construction site was unbearable.", "problem": "Pellucid relates to visual clarity or intellectual transparency, not sound. Noise cannot be pellucid.", "use_instead": "Incessant, deafening, or piercing."}
+    ],
+    "related": [
+      {"word": "lucid", "distinction": "Lucid means clear and rational; pellucid intensifies this — suggesting crystalline, almost luminous clarity."},
+      {"word": "limpid", "distinction": "Limpid emphasizes calm, serene clarity (often of water or eyes); pellucid emphasizes transparency and ease of understanding."},
+      {"word": "transparent", "distinction": "Transparent is the everyday equivalent; pellucid adds aesthetic appreciation — clarity that is beautiful, not merely functional."}
+    ],
+    "triggers": [
+      "When prose, argument, or explanation achieves exceptional clarity and transparency",
+      "When water, light, or atmosphere is so clear it seems almost not to exist",
+      "When you want to praise clarity as an aesthetic achievement, not just a functional one"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Diaphanous",
+    "pos": ["adjective"],
+    "pronunciation": "dy-AF-uh-nus",
+    "definition": "light, delicate, and translucent; so fine in texture as to be nearly transparent",
+    "register": ["literary", "formal"],
+    "tags": ["tone-texture", "delicacy", "transparency"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "The diaphanous boundary between memoir and fiction in Didion's work forces readers to question the reliability of memory itself.", "why": "Extends diaphanous metaphorically to describe a boundary so thin it barely exists, fitting academic analysis."},
+      {"context": "professional", "sentence": "The architect specified diaphanous curtain walls for the atrium, allowing natural light to permeate the entire ground floor.", "why": "Uses diaphanous in its literal sense to describe translucent architectural materials."},
+      {"context": "creative writing", "sentence": "She wore a diaphanous gown that moved like smoke around her, less a garment than a rumor of one.", "why": "Exploits the word's sensory qualities — lightness, translucence, and delicacy — for vivid physical description."}
+    ],
+    "misuses": [
+      {"wrong": "His diaphanous voice filled the concert hall.", "problem": "Diaphanous describes visual translucence and physical delicacy, not sound. A voice can be ethereal or gossamer-light, but not literally diaphanous.", "use_instead": "Ethereal, delicate, or gossamer."},
+      {"wrong": "The diaphanous steak was overcooked.", "problem": "Diaphanous implies delicate translucence. Food, especially steak, cannot be diaphanous — the word is aesthetically mismatched.", "use_instead": "Thin, overcooked, or dried-out."}
+    ],
+    "related": [
+      {"word": "gossamer", "distinction": "Gossamer emphasizes extreme fineness and fragility; diaphanous emphasizes translucence and light-permeability."},
+      {"word": "sheer", "distinction": "Sheer is the everyday equivalent for thin, see-through fabric; diaphanous adds literary beauty and connotations of delicacy."},
+      {"word": "ethereal", "distinction": "Ethereal suggests otherworldly lightness; diaphanous is more physically specific — describing something you can nearly see through."}
+    ],
+    "triggers": [
+      "When describing fabric, mist, or material so fine it is nearly transparent",
+      "When a boundary, distinction, or barrier is so thin it barely separates what it divides",
+      "When you want to evoke delicacy, lightness, and translucence simultaneously"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Gossamer",
+    "pos": ["adjective", "noun"],
+    "pronunciation": "GOSS-uh-mur",
+    "definition": "extremely fine, delicate, and light, like cobweb filaments; as a noun, a fine filmy substance or cobweb seen on grass in calm weather",
+    "register": ["literary", "poetic"],
+    "tags": ["tone-texture", "delicacy", "fragility"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "The gossamer distinction between satire and cruelty is one that Swift navigated with more precision than most of his imitators.", "why": "Uses gossamer figuratively to describe a distinction so fine it is nearly invisible, requiring exceptional skill to maintain."},
+      {"context": "professional", "sentence": "The gossamer margins in this product line mean that even minor cost increases could push us into unprofitability.", "why": "Applies gossamer to financial margins to emphasize their extreme thinness and fragility."},
+      {"context": "creative writing", "sentence": "Morning had laid gossamer across the field — threads of light and dew that would vanish the moment the sun committed to the day.", "why": "Uses the noun form in its original sense (cobweb filaments in morning dew) with poetic extension."}
+    ],
+    "misuses": [
+      {"wrong": "The gossamer concrete foundation supported the skyscraper.", "problem": "Gossamer means extremely fine and delicate. Concrete foundations are the opposite of gossamer — the word creates an absurd contradiction.", "use_instead": "Massive, reinforced, or solid."},
+      {"wrong": "She made a gossamer effort to finish the project.", "problem": "Gossamer describes physical delicacy and fineness, not minimal effort. This confuses 'thin' with 'insufficient.'", "use_instead": "Halfhearted, token, or perfunctory."}
+    ],
+    "related": [
+      {"word": "diaphanous", "distinction": "Diaphanous emphasizes translucence; gossamer emphasizes extreme fineness and fragility, like spider silk."},
+      {"word": "filmy", "distinction": "Filmy is a simpler, less poetic word for thin and translucent; gossamer carries stronger connotations of natural beauty and impermanence."},
+      {"word": "tenuous", "distinction": "Tenuous emphasizes weakness and insubstantiality; gossamer emphasizes delicate beauty in that thinness."}
+    ],
+    "triggers": [
+      "When describing something so fine and delicate it seems barely material",
+      "When a distinction, connection, or margin is extremely thin but still meaningful",
+      "When you want to evoke the fragile beauty of something almost too delicate to exist"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Tenebrous",
+    "pos": ["adjective"],
+    "pronunciation": "TEN-uh-brus",
+    "definition": "dark, shadowy, and obscure; shrouded in or suggestive of darkness, both literal and figurative",
+    "register": ["literary", "formal"],
+    "tags": ["tone-texture", "darkness", "obscurity"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "The tenebrous legal reasoning behind the ruling left constitutional scholars struggling to identify its doctrinal basis.", "why": "Uses tenebrous figuratively to describe reasoning that is obscure and impenetrable, shrouded in intellectual darkness."},
+      {"context": "professional", "sentence": "The tenebrous origins of the fund's capital made compliance officers reluctant to approve the transaction.", "why": "Applies tenebrous to financial opacity — money whose source is dark and difficult to trace."},
+      {"context": "creative writing", "sentence": "The forest became tenebrous after the canopy closed, the kind of darkness that felt like a substance pressing against the skin.", "why": "Uses tenebrous in its literal sense to describe darkness so thick it becomes almost physical."}
+    ],
+    "misuses": [
+      {"wrong": "The tenebrous sunrise painted the sky in brilliant colors.", "problem": "Tenebrous means dark and shadowy. A sunrise with brilliant colors is the opposite of tenebrous.", "use_instead": "Resplendent, radiant, or luminous."},
+      {"wrong": "She gave a tenebrous laugh at the comedian's joke.", "problem": "Tenebrous describes darkness and obscurity, not the quality of laughter. A laugh can be dark or mirthless, but tenebrous implies shadowy obscurity.", "use_instead": "Mirthless, hollow, or sardonic."}
+    ],
+    "related": [
+      {"word": "crepuscular", "distinction": "Crepuscular specifically describes twilight — the transition between light and dark; tenebrous describes full, settled darkness."},
+      {"word": "murky", "distinction": "Murky implies unclear, muddy darkness; tenebrous implies deeper, more literary or atmospheric darkness."},
+      {"word": "stygian", "distinction": "Stygian (from the River Styx) implies absolute, hellish darkness; tenebrous is less extreme — shadowy and obscure rather than total."}
+    ],
+    "triggers": [
+      "When describing deep shadow, darkness, or obscurity with literary weight",
+      "When reasoning, motives, or origins are impenetrably dark or hidden",
+      "When you want darkness to feel atmospheric and almost tangible"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Lambent",
+    "pos": ["adjective"],
+    "pronunciation": "LAM-bunt",
+    "definition": "softly bright or radiant; glowing gently without harshness; of wit or expression, brilliantly light and effortless",
+    "register": ["literary", "formal"],
+    "tags": ["tone-texture", "light", "gentleness"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Chekhov's lambent irony illuminates his characters' self-deceptions without ever scorching them.", "why": "Uses lambent figuratively to describe irony that is gently brilliant — it casts light without burning."},
+      {"context": "professional", "sentence": "The lambent glow of the interface design creates a welcoming user experience without the visual fatigue of harsher lighting schemes.", "why": "Applies lambent to describe soft, non-harsh luminosity in a design context."},
+      {"context": "creative writing", "sentence": "Candlelight made her face lambent, softening the years until she looked like someone he remembered from a long time ago.", "why": "Uses lambent in its most natural habitat — describing soft, warm light on a human face."}
+    ],
+    "misuses": [
+      {"wrong": "The lambent explosion lit up the night sky.", "problem": "Lambent means softly glowing. Explosions are violent and harsh — the opposite of lambent luminosity.", "use_instead": "Blinding, brilliant, or incandescent."},
+      {"wrong": "His lambent criticism devastated the panel.", "problem": "Lambent implies gentle, effortless brilliance. Devastating criticism is harsh, not lambent.", "use_instead": "Mordant, withering, or scathing."}
+    ],
+    "related": [
+      {"word": "luminous", "distinction": "Luminous means emitting or reflecting light broadly; lambent specifically means softly flickering or gently playing over a surface."},
+      {"word": "incandescent", "distinction": "Incandescent implies intense, white-hot brightness; lambent implies soft, warm, gentle radiance."},
+      {"word": "effulgent", "distinction": "Effulgent means radiantly shining outward; lambent means glowing softly and gently — a whisper of light, not a shout."}
+    ],
+    "triggers": [
+      "When describing soft, gentle light that plays over surfaces without harshness",
+      "When wit, humor, or intelligence is brilliantly light rather than cutting",
+      "When you want to evoke warmth and gentleness in luminosity"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Crepuscular",
+    "pos": ["adjective"],
+    "pronunciation": "kreh-PUS-kyoo-lur",
+    "definition": "of, relating to, or resembling twilight; dim, shadowy; active during twilight hours",
+    "register": ["literary", "scientific"],
+    "tags": ["tone-texture", "twilight", "liminality"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "The crepuscular quality of late-empire Rome — neither fully alive nor yet dead — finds its modern parallel in institutions that persist long after their purpose has expired.", "why": "Uses crepuscular metaphorically to describe a twilight state between vitality and extinction, applied to historical analysis."},
+      {"context": "professional", "sentence": "Crepuscular species such as deer and rabbits pose the greatest collision risk during dawn and dusk commuting hours.", "why": "Uses the zoological sense — animals active at twilight — in a practical risk-assessment context."},
+      {"context": "creative writing", "sentence": "The city entered its crepuscular hour, when the buildings lost their edges and every alley became a question.", "why": "Exploits the word's atmospheric associations to create a mood of ambiguity and transition."}
+    ],
+    "misuses": [
+      {"wrong": "The crepuscular afternoon sun beat down mercilessly.", "problem": "Crepuscular means twilight-like and dim. Merciless midday sun is the opposite of crepuscular conditions.", "use_instead": "Blazing, relentless, or scorching."},
+      {"wrong": "She had a crepuscular personality — always cheerful and bright.", "problem": "Crepuscular implies dimness, shadow, and twilight. Cheerfulness and brightness contradict the word entirely.", "use_instead": "Sunny, effervescent, or radiant."}
+    ],
+    "related": [
+      {"word": "tenebrous", "distinction": "Tenebrous describes settled, deep darkness; crepuscular describes the transitional dimness between day and night."},
+      {"word": "liminal", "distinction": "Liminal is broader — any threshold or in-between state; crepuscular specifically evokes twilight's visual and atmospheric qualities."},
+      {"word": "vespertine", "distinction": "Vespertine means specifically of the evening; crepuscular covers both dawn and dusk twilight."}
+    ],
+    "triggers": [
+      "When describing the specific quality of twilight light — dim, transitional, ambiguous",
+      "When using twilight as a metaphor for decline, transition, or liminality",
+      "When describing animals or activities that occur at dawn or dusk"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Susurrus",
+    "pos": ["noun"],
+    "pronunciation": "soo-SUR-us",
+    "definition": "a whispering or rustling sound; a murmur or soft, continuous sound",
+    "register": ["literary", "poetic"],
+    "tags": ["tone-texture", "sound", "atmosphere"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Beneath the official discourse of colonial governance, there was always a susurrus of resistance — quiet, persistent, and ultimately irrepressible.", "why": "Uses susurrus metaphorically to describe an undercurrent of dissent that is quiet but ever-present."},
+      {"context": "professional", "sentence": "The susurrus of conversation in the open-plan office made deep concentration nearly impossible without noise-canceling headphones.", "why": "Applies the word to ambient sound in a workplace context — the continuous low murmur of many voices."},
+      {"context": "creative writing", "sentence": "The susurrus of the aspen leaves was the only sound, as if the trees were exchanging secrets the wind could not quite deliver.", "why": "Uses the word in its most natural setting — rustling leaves — and personifies the sound for literary effect."}
+    ],
+    "misuses": [
+      {"wrong": "The susurrus of the jackhammer woke the neighborhood.", "problem": "Susurrus means a soft whispering or rustling. A jackhammer is loud and violent — the opposite of susurrus.", "use_instead": "Din, clamor, or racket."},
+      {"wrong": "She spoke in a susurrus that could be heard across the auditorium.", "problem": "A susurrus is inherently quiet and close. If it can be heard across a large space, it is no longer a susurrus.", "use_instead": "Voice, projection, or resonance."}
+    ],
+    "related": [
+      {"word": "murmur", "distinction": "Murmur is the common equivalent; susurrus is more literary and specifically evokes rustling or whispering rather than low speech."},
+      {"word": "sibilance", "distinction": "Sibilance refers to hissing sounds (especially 's' sounds); susurrus refers to softer rustling or whispering sounds."},
+      {"word": "undertone", "distinction": "Undertone implies something beneath the surface; susurrus describes the quality of the sound itself — soft, continuous, and rustling."}
+    ],
+    "triggers": [
+      "When describing the soft, continuous sound of wind, leaves, water, or whispered conversation",
+      "When using quiet sound as a metaphor for undercurrents of dissent, rumor, or unspoken feeling",
+      "When you want the word itself to evoke the sound it describes (onomatopoeia)"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Moribund",
+    "pos": ["adjective"],
+    "pronunciation": "MOR-ih-bund",
+    "definition": "at the point of death; in terminal decline; having lost all vitality, force, or effectiveness",
+    "register": ["formal", "academic"],
+    "tags": ["temporal-change", "decline", "death"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "By the 1970s, the Bretton Woods system was moribund, sustained only by institutional inertia and the absence of a viable replacement.", "why": "Correctly describes a system that had lost all vitality and was functionally dead, even if not formally abolished."},
+      {"context": "professional", "sentence": "The moribund product line has been consuming R&D resources without generating meaningful revenue for three consecutive quarters.", "why": "Uses moribund to describe a business unit in terminal decline, justifying resource reallocation."},
+      {"context": "creative writing", "sentence": "The town was moribund — not dead, not yet, but breathing the shallow breaths of something that had forgotten why it should continue.", "why": "Personifies the town's decline, using moribund's precise meaning: dying but not yet dead."}
+    ],
+    "misuses": [
+      {"wrong": "The moribund toddler ran happily through the park.", "problem": "Moribund means dying or in terminal decline. It cannot describe a healthy, active child.", "use_instead": "Energetic, lively, or exuberant."},
+      {"wrong": "After the setback, the project became moribund for a week before resuming.", "problem": "Moribund implies terminal, irreversible decline — not a temporary pause. A project that resumes was stalled, not moribund.", "use_instead": "Stalled, dormant, or suspended."}
+    ],
+    "related": [
+      {"word": "defunct", "distinction": "Defunct means already dead or no longer existing; moribund means in the process of dying but not yet dead."},
+      {"word": "senescent", "distinction": "Senescent describes the natural aging process; moribund describes the final stage — actively dying."},
+      {"word": "vestigial", "distinction": "Vestigial describes remnants of something that was once functional; moribund describes something still present but dying."}
+    ],
+    "triggers": [
+      "When an institution, practice, or system is in irreversible decline but not yet formally dead",
+      "When something persists only through inertia, having lost all vitality",
+      "When describing the terminal phase of decline, beyond mere stagnation"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Vestigial",
+    "pos": ["adjective"],
+    "pronunciation": "veh-STIJ-ee-ul",
+    "definition": "remaining as a trace or remnant of something that once existed in a fuller or more functional form; reduced to a nonfunctional or minimal state",
+    "register": ["academic", "scientific"],
+    "tags": ["temporal-change", "remnant", "evolution"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "The monarchy in many European nations has become vestigial — a ceremonial remnant of an institution that once held absolute power.", "why": "Correctly uses vestigial to describe something that persists in reduced form, retaining symbolic but not functional significance."},
+      {"context": "professional", "sentence": "Several vestigial approval workflows remain embedded in our system, adding processing time without serving any current compliance requirement.", "why": "Applies vestigial to organizational processes — procedures that once had purpose but no longer serve a function."},
+      {"context": "creative writing", "sentence": "His conscience was vestigial by then — present in the anatomy of his decisions but incapable of altering their outcome.", "why": "Uses the biological metaphor precisely: a structure that exists but has lost its original function."}
+    ],
+    "misuses": [
+      {"wrong": "The vestigial new building dominated the skyline.", "problem": "Vestigial means a diminished remnant. A dominant new building is the opposite — it is current and prominent.", "use_instead": "Towering, imposing, or monumental."},
+      {"wrong": "She felt a vestigial excitement about the upcoming vacation.", "problem": "Vestigial implies a nonfunctional trace of something past. Genuine excitement about a future event is not vestigial.", "use_instead": "Faint, lingering, or residual."}
+    ],
+    "related": [
+      {"word": "residual", "distinction": "Residual means remaining after the main part is gone; vestigial adds the implication that the remnant has lost its original function."},
+      {"word": "atavistic", "distinction": "Atavistic describes the reappearance of ancestral traits; vestigial describes the fading persistence of traits that no longer serve a purpose."},
+      {"word": "rudimentary", "distinction": "Rudimentary means basic or undeveloped; vestigial means reduced from a previously developed state — devolution, not underdevelopment."}
+    ],
+    "triggers": [
+      "When something persists as a nonfunctional trace of its former self",
+      "When institutions, habits, or structures remain but have lost their original purpose",
+      "When drawing a parallel to biological vestigiality — organs or structures that evolution has rendered functionless"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Atavistic",
+    "pos": ["adjective"],
+    "pronunciation": "at-uh-VIS-tik",
+    "definition": "relating to or characterized by the reversion to something ancient, ancestral, or primitive; resembling a remote ancestor rather than recent predecessors",
+    "register": ["academic", "literary"],
+    "tags": ["temporal-change", "reversion", "primitivism"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "The resurgence of ethno-nationalism in the 21st century reflects an atavistic impulse — a reversion to tribal identity in an era of globalization.", "why": "Correctly uses atavistic to describe the return of a primitive or ancestral pattern that was thought to have been superseded."},
+      {"context": "professional", "sentence": "The company's atavistic management structure — with its rigid hierarchy and top-down communication — undermines the agile methodology we are trying to implement.", "why": "Applies atavistic to describe organizational practices that revert to an outdated model."},
+      {"context": "creative writing", "sentence": "Something atavistic stirred in him at the sound of the drums — an inheritance from ancestors who had danced to the same rhythm a thousand years before.", "why": "Uses atavistic to evoke deep ancestral memory activated by sensory experience, with appropriate primal overtones."}
+    ],
+    "misuses": [
+      {"wrong": "Her atavistic approach to cooking used the latest molecular gastronomy techniques.", "problem": "Atavistic means reverting to the ancestral or primitive. Cutting-edge techniques are the opposite of atavistic.", "use_instead": "Innovative, avant-garde, or experimental."},
+      {"wrong": "The atavistic new smartphone featured groundbreaking technology.", "problem": "Atavistic implies reversion to an earlier form. New technology with new features is not atavistic.", "use_instead": "Revolutionary, pioneering, or state-of-the-art."}
+    ],
+    "related": [
+      {"word": "vestigial", "distinction": "Vestigial describes remnants that persist but no longer function; atavistic describes traits that reappear after being absent."},
+      {"word": "primordial", "distinction": "Primordial means existing from the very beginning; atavistic means reverting to the beginning after a period of development."},
+      {"word": "regressive", "distinction": "Regressive means moving backward generally; atavistic specifically implies reversion to ancestral or primitive forms."}
+    ],
+    "triggers": [
+      "When a primitive, ancestral, or tribal impulse resurfaces in a modern context",
+      "When behavior or structures revert to an earlier evolutionary or developmental stage",
+      "When describing the uncanny return of something thought to have been outgrown or superseded"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Proleptic",
+    "pos": ["adjective"],
+    "pronunciation": "pro-LEP-tik",
+    "definition": "relating to prolepsis — the representation or assumption of a future act or development as if it already exists or has occurred; anticipatory",
+    "register": ["academic", "literary"],
+    "tags": ["temporal-change", "anticipation", "rhetoric"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "The Declaration of Independence is a proleptic document — it asserts the existence of a nation that had not yet been formed.", "why": "Correctly identifies how the text treats a future reality as already accomplished, which is the essence of prolepsis."},
+      {"context": "professional", "sentence": "The proleptic branding strategy positioned the startup as an industry leader before it had secured a single major client.", "why": "Uses proleptic to describe the deliberate rhetorical strategy of presenting a future state as already real."},
+      {"context": "creative writing", "sentence": "She wore black to the diagnosis appointment — a proleptic mourning for the life she was certain she was about to lose.", "why": "Uses proleptic to describe anticipatory grief, treating a feared future event as already having occurred."}
+    ],
+    "misuses": [
+      {"wrong": "The proleptic history book covered events from ancient Rome.", "problem": "Proleptic means anticipating the future, not reviewing the past. A history book about Rome is retrospective, not proleptic.", "use_instead": "Comprehensive, historical, or retrospective."},
+      {"wrong": "She made a proleptic decision based on last year's data.", "problem": "A decision based on past data is empirical or retrospective, not proleptic. Proleptic implies acting as if a future state already exists.", "use_instead": "Data-driven, informed, or evidence-based."}
+    ],
+    "related": [
+      {"word": "anticipatory", "distinction": "Anticipatory simply means expecting something future; proleptic specifically means treating the future as if it has already happened."},
+      {"word": "prescient", "distinction": "Prescient means having foresight about what will happen; proleptic means representing the future as already present."},
+      {"word": "anachronistic", "distinction": "Anachronistic places something in the wrong time period; proleptic specifically displaces a future event into the present."}
+    ],
+    "triggers": [
+      "When a text, act, or statement treats a future condition as already existing",
+      "When analyzing rhetoric that assumes an outcome before it has been achieved",
+      "When describing anticipatory representation — mourning before death, celebrating before victory"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Anachronistic",
+    "pos": ["adjective"],
+    "pronunciation": "uh-NAK-ruh-NIS-tik",
+    "definition": "belonging to a period other than the one in which it exists; chronologically out of place",
+    "register": ["formal", "academic"],
+    "tags": ["temporal-change", "time", "displacement"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Applying modern conceptions of individual rights to medieval political philosophy is anachronistic — it imposes a framework that did not exist in that era.", "why": "Correctly identifies the scholarly error of displacing a concept from its proper time period into an earlier one."},
+      {"context": "professional", "sentence": "Our anachronistic approval process, designed for paper-based workflows, adds two weeks to every digital transaction.", "why": "Uses anachronistic to describe a system that belongs to an earlier technological era and is out of place in the current one."},
+      {"context": "creative writing", "sentence": "He was an anachronistic figure — a man who carried a pocket watch in an age of smartphones and still believed a handshake was binding.", "why": "Applies anachronistic to a character who embodies values and habits from a different era."}
+    ],
+    "misuses": [
+      {"wrong": "The anachronistic new policy reflected the latest industry trends.", "problem": "Anachronistic means out of its proper time. A policy reflecting current trends is timely, not anachronistic.", "use_instead": "Contemporary, current, or cutting-edge."},
+      {"wrong": "Her anachronistic memory recalled every detail perfectly.", "problem": "Anachronistic refers to temporal displacement, not memory quality. A perfect memory is eidetic, not anachronistic.", "use_instead": "Eidetic, photographic, or precise."}
+    ],
+    "related": [
+      {"word": "archaic", "distinction": "Archaic means very old or antiquated; anachronistic specifically means displaced from its proper time period."},
+      {"word": "obsolete", "distinction": "Obsolete means no longer in use or useful; anachronistic means existing in the wrong time, which can be charming or problematic."},
+      {"word": "proleptic", "distinction": "Proleptic displaces the future into the present; anachronistic is broader — any temporal displacement in any direction."}
+    ],
+    "triggers": [
+      "When something belongs to a different historical period than the one it appears in",
+      "When criticizing the application of modern concepts to historical contexts (or vice versa)",
+      "When describing systems, people, or practices that are conspicuously out of their proper era"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Palliative",
+    "pos": ["adjective", "noun"],
+    "pronunciation": "PAL-ee-uh-tiv",
+    "definition": "relieving symptoms or suffering without addressing the underlying cause; as a noun, a measure that alleviates but does not cure",
+    "register": ["formal", "medical", "academic"],
+    "tags": ["temporal-change", "relief", "inadequacy"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Foreign aid, when divorced from structural reform, functions as a palliative — alleviating immediate suffering while leaving the systems that produce it intact.", "why": "Correctly uses palliative to describe a measure that treats symptoms without addressing root causes, with critical implication."},
+      {"context": "professional", "sentence": "The temporary staffing increase is a palliative measure; without process redesign, the workload crisis will recur next quarter.", "why": "Uses palliative in a business context to distinguish symptom relief from systemic solutions."},
+      {"context": "creative writing", "sentence": "Routine was her palliative — not a cure for grief, but something that held the hours together while the wound did its own slow work.", "why": "Uses the noun form to describe a coping mechanism that manages pain without resolving its source."}
+    ],
+    "misuses": [
+      {"wrong": "The palliative surgery completely cured her condition.", "problem": "Palliative specifically means not curative. If something completely cures, it is not palliative by definition.", "use_instead": "Curative, corrective, or definitive."},
+      {"wrong": "The company's palliative new product line revolutionized the industry.", "problem": "Palliative implies temporary, symptom-focused relief. A revolutionary product is transformative, not palliative.", "use_instead": "Groundbreaking, transformative, or disruptive."}
+    ],
+    "related": [
+      {"word": "ameliorative", "distinction": "Ameliorative means making something better; palliative specifically means relieving symptoms without curing — a narrower, more clinical term."},
+      {"word": "stopgap", "distinction": "Stopgap implies a temporary fix until a real solution arrives; palliative may be the permanent approach when no cure exists."},
+      {"word": "curative", "distinction": "Curative addresses and eliminates the root cause; palliative manages symptoms and suffering without eliminating the cause."}
+    ],
+    "triggers": [
+      "When a measure relieves suffering or symptoms without addressing the underlying cause",
+      "When critiquing solutions that treat effects rather than causes",
+      "When describing care, policy, or action that manages rather than resolves a problem"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Senescent",
+    "pos": ["adjective"],
+    "pronunciation": "seh-NESS-unt",
+    "definition": "growing old; aging; exhibiting the deterioration associated with biological or institutional aging",
+    "register": ["academic", "scientific"],
+    "tags": ["temporal-change", "aging", "decline"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "The senescent Ottoman Empire of the 19th century was often called 'the sick man of Europe' — a polity whose institutions had aged beyond their capacity to adapt.", "why": "Uses senescent precisely to describe an aging empire exhibiting institutional deterioration, distinct from merely old."},
+      {"context": "professional", "sentence": "Our senescent IT infrastructure cannot support the data throughput required by modern analytics platforms.", "why": "Applies senescent to technology that is not just old but actively deteriorating in capability relative to current demands."},
+      {"context": "creative writing", "sentence": "The garden had grown senescent in her absence — the roses woody and flowerless, the hedges losing their shape to entropy.", "why": "Applies biological aging language to a garden, creating a parallel between neglect and the natural process of senescence."}
+    ],
+    "misuses": [
+      {"wrong": "The senescent puppy chased its tail around the yard.", "problem": "Senescent means aging or deteriorating with age. A puppy is in the earliest stage of life, the opposite of senescent.", "use_instead": "Playful, energetic, or youthful."},
+      {"wrong": "The senescent startup attracted massive venture capital funding.", "problem": "Startups are by definition new. A senescent entity is aging and declining — the two concepts contradict.", "use_instead": "Promising, nascent, or burgeoning."}
+    ],
+    "related": [
+      {"word": "moribund", "distinction": "Moribund means at the point of death; senescent means in the process of aging — an earlier stage of decline."},
+      {"word": "decrepit", "distinction": "Decrepit implies visible, advanced deterioration; senescent is more clinical and neutral — describing the aging process itself."},
+      {"word": "geriatric", "distinction": "Geriatric pertains to old age in medical contexts; senescent describes the process of becoming old, not the state of being old."}
+    ],
+    "triggers": [
+      "When describing the biological or institutional process of aging and deterioration",
+      "When an entity is declining due to age rather than external attack or sudden failure",
+      "When you need a clinical, non-pejorative term for the process of growing old"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Inchoate",
+    "pos": ["adjective"],
+    "pronunciation": "in-KOH-it",
+    "definition": "just beginning to form; not yet fully developed or organized; rudimentary and formless",
+    "register": ["formal", "academic", "legal"],
+    "tags": ["temporal-change", "beginnings", "formlessness"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "The inchoate democratic movements of the Arab Spring lacked the institutional scaffolding necessary to translate popular energy into durable governance.", "why": "Correctly describes movements that were real but not yet fully formed, lacking the structure to sustain themselves."},
+      {"context": "professional", "sentence": "The strategy remains inchoate — we have a vision and some preliminary research, but no actionable framework.", "why": "Uses inchoate to describe a plan that exists in embryonic form without being organized into something executable."},
+      {"context": "creative writing", "sentence": "There was an inchoate dread in her chest, shapeless and sourceless, like weather forming over open water.", "why": "Applies inchoate to an emotion that is real but unformed — felt but not yet identifiable."}
+    ],
+    "misuses": [
+      {"wrong": "The inchoate masterpiece won the Pulitzer Prize.", "problem": "Inchoate means not yet fully formed. A finished masterpiece that wins a prize is complete, not inchoate.", "use_instead": "Accomplished, polished, or definitive."},
+      {"wrong": "She presented an inchoate and detailed analysis of the data.", "problem": "Inchoate and detailed are contradictory. If something is detailed, it has been developed beyond the inchoate stage.", "use_instead": "Comprehensive, thorough, or meticulous."}
+    ],
+    "related": [
+      {"word": "nascent", "distinction": "Nascent means just being born or beginning; inchoate emphasizes the lack of form or organization in that early stage."},
+      {"word": "embryonic", "distinction": "Embryonic implies a developmental trajectory — something that will grow; inchoate emphasizes current formlessness without guaranteeing development."},
+      {"word": "amorphous", "distinction": "Amorphous means lacking form at any stage; inchoate specifically means lacking form because it is in an early stage of development."}
+    ],
+    "triggers": [
+      "When something is real but not yet organized, structured, or fully formed",
+      "When ideas, movements, or emotions exist in embryonic, formless states",
+      "When distinguishing between what has begun and what has been developed into something coherent"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Adumbrate",
+    "pos": ["verb"],
+    "pronunciation": "AD-um-brayt",
+    "definition": "to foreshadow or give a faint indication of something to come; to outline or sketch in a general way; to overshadow",
+    "register": ["formal", "academic", "literary"],
+    "tags": ["precision-verb", "foreshadowing", "indication"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Tocqueville's writings adumbrate the tensions between equality and liberty that would define American political discourse for the next two centuries.", "why": "Correctly uses adumbrate to mean 'foreshadow in outline' — Tocqueville sketched the shape of future conflicts without detailing them."},
+      {"context": "professional", "sentence": "The CEO's keynote adumbrated a shift toward subscription-based revenue, though specifics were deferred to the quarterly earnings call.", "why": "Uses adumbrate to describe giving a preliminary outline without full detail — a sketch of future direction."},
+      {"context": "creative writing", "sentence": "The first frost adumbrated the winter that would follow — not a warning, exactly, but a draft of what the cold intended.", "why": "Uses adumbrate's foreshadowing sense with literary personification, treating the frost as a preliminary sketch by winter."}
+    ],
+    "misuses": [
+      {"wrong": "She adumbrated the report with extensive footnotes and appendices.", "problem": "Adumbrate means to sketch faintly or foreshadow, not to elaborate with extensive detail. Detailed elaboration is the opposite of adumbration.", "use_instead": "Supplemented, elaborated, or annotated."},
+      {"wrong": "The bright spotlight adumbrated the stage.", "problem": "While adumbrate can mean 'to overshadow,' a spotlight illuminates rather than shadows. The word requires darkness or obscurity.", "use_instead": "Illuminated, lit, or highlighted."}
+    ],
+    "related": [
+      {"word": "foreshadow", "distinction": "Foreshadow is the common equivalent; adumbrate adds connotations of sketching in outline — a fainter, more preliminary indication."},
+      {"word": "presage", "distinction": "Presage implies a portent or omen of something specific; adumbrate implies a vaguer, more shadowy outline of what is to come."},
+      {"word": "prefigure", "distinction": "Prefigure means to serve as an early model of; adumbrate means to give only a faint, shadowy indication."}
+    ],
+    "triggers": [
+      "When something gives a faint, preliminary indication of what is to come",
+      "When sketching the outline of a plan, idea, or future development without filling in details",
+      "When early signs cast the shadow of a future event without fully revealing it"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  },
+  {
+    "word": "Attenuate",
+    "pos": ["verb"],
+    "pronunciation": "uh-TEN-yoo-ayt",
+    "definition": "to reduce in force, effect, value, or thickness; to make thin, weak, or diluted",
+    "register": ["formal", "academic", "scientific"],
+    "tags": ["precision-verb", "reduction", "weakening"],
+    "enriched": true,
+    "examples": [
+      {"context": "essay", "sentence": "Distance and time attenuate the emotional force of historical atrocities, which is precisely why memorialization must resist the impulse to soften.", "why": "Correctly uses attenuate to describe the gradual weakening of emotional impact, with a critical argument about why this matters."},
+      {"context": "professional", "sentence": "The signal attenuates significantly over distances greater than 50 meters, requiring repeaters at regular intervals.", "why": "Uses the technical sense of attenuation — the reduction of signal strength over distance."},
+      {"context": "creative writing", "sentence": "Her anger, once a blade, had been attenuated by years into something thin and translucent — still present but no longer capable of cutting.", "why": "Uses attenuate's dual meaning — making weaker and making thinner — to create a sustained metaphor."}
+    ],
+    "misuses": [
+      {"wrong": "The manager attenuated the team's efforts by providing additional resources.", "problem": "Attenuate means to weaken or reduce. Providing additional resources strengthens efforts, the opposite of attenuation.", "use_instead": "Bolstered, augmented, or reinforced."},
+      {"wrong": "The attenuated explosion destroyed the entire building.", "problem": "If an explosion destroys an entire building, it was not attenuated. Attenuation implies reduction in force.", "use_instead": "Massive, devastating, or powerful."}
+    ],
+    "related": [
+      {"word": "diminish", "distinction": "Diminish is broader — any reduction in size or importance; attenuate specifically implies thinning, weakening, or diluting."},
+      {"word": "mitigate", "distinction": "Mitigate means to make less severe, often through deliberate action; attenuate means to weaken or thin, often through natural processes."},
+      {"word": "dilute", "distinction": "Dilute specifically means to make weaker by adding something; attenuate means to weaken by thinning or stretching, without addition."}
+    ],
+    "triggers": [
+      "When force, intensity, or effect is gradually reduced or weakened",
+      "When something is made thinner, weaker, or more diluted over time or distance",
+      "When describing the natural weakening of signals, emotions, or connections across space or time"
+    ],
+    "date_added": "2026-03-30",
+    "version": 2
+  }
+]

@@ -1,8 +1,41 @@
-# Ignore everything except the dashboard
+# Ignore everything, then allowlist what matters
 *
+
+# === Core project files ===
 !.gitignore
 !index.html
 !vocab.py
+!vocab_db.json
+!vocab_server.py
+
+# === Dashboard ===
 !dashboard/
 !dashboard/vocab_dashboard.html
 !dashboard/generate_dashboard_OLD_DO_NOT_USE.py
+
+# === Writing voice system ===
+!voice_profile.md
+!analysis_log.md
+!usage_log.json
+!prompts_log.json
+!Writing Profile Analysis/
+!Writing Profile Analysis/**
+!Reference files/
+!Reference files/**
+
+# === Skills ===
+!.claude/
+!.claude/skills/
+!.claude/skills/**
+
+# === Archive (build scripts, enrichment) ===
+!archive/
+!archive/**
+
+# === Always ignore ===
+.env*
+.playwright-mcp/
+__pycache__/
+*.pyc
+*.wav
+anti ai/
