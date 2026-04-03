@@ -1,4 +1,21 @@
 """
+DO NOT RUN THIS FILE.
+
+This generates the OLD sidebar-layout dashboard and WILL DESTROY the
+premium top-bar dashboard (vocab_dashboard.html). This has caused
+production bugs multiple times.
+
+To update words in the dashboard, inject them into the const WORDS
+array in vocab_dashboard.html directly. See the memory file
+feedback_vocab_sync.md for the correct approach.
+"""
+import sys
+print("\n  ERROR: This script is deprecated and will destroy the premium dashboard.")
+print("  Do NOT run it. See feedback_vocab_sync.md for how to update words.\n")
+sys.exit(1)
+
+# --- ORIGINAL CODE BELOW (disabled) ---
+"""
 Generate a self-contained HTML vocabulary dashboard from vocab_db.json.
 Outputs vocab_dashboard.html — open in any browser, no server needed.
 """
