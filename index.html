@@ -499,6 +499,7 @@ function setSortMode(mode) {
     document.getElementById('sort-alpha').classList.toggle('active', mode === 'alpha');
     expandedCard = null;
     renderCards();
+    buildTriggerIndex();
 }
 
 const REG_COLORS = { formal:'#3a5bc7', literary:'#7c3aed', academic:'#0d9488', general:'#6b7280', technical:'#c2410c', informal:'#059669', archaic:'#991b1b', poetic:'#7c3aed', legal:'#991b1b', philosophical:'#0d9488', scientific:'#c2410c', medical:'#c2410c' };
@@ -987,8 +988,13 @@ function renderTriggers() {
     });
     if (otherItems.length) cats['other'] = (cats['other'] || []).concat(otherItems);
 
+    if (sortMode === 'shuffle') {
+        Object.keys(cats).forEach(cat => { cats[cat] = shuffle(cats[cat]); });
+    } else if (sortMode === 'alpha') {
+        Object.keys(cats).forEach(cat => { cats[cat].sort((a, b) => a.word.localeCompare(b.word)); });
+    }
     const sortedCats = Object.entries(cats)
-        .sort((a, b) => { if (a[0] === 'other') return 1; if (b[0] === 'other') return -1; return b[1].length - a[1].length; });
+        .sort((a, b) => { if (a[0] === 'other') return 1; if (b[0] === 'other') return -1; return sortMode === 'alpha' ? a[0].localeCompare(b[0]) : b[1].length - a[1].length; });
 
     if (!sortedCats.length) {
         document.getElementById('triggers-index').innerHTML = '<div class="triggers-empty">No matching scenarios found.</div>';
