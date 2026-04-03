@@ -581,12 +581,16 @@ function matchesSearch(w) {
         return entry.word.startsWith(q) || entry.text.includes(q);
     }
 
+    // If exact word match exists in database, skip fuzzy for other words
+    var exactExists = searchIndex.some(function(e) { return e.word === q; });
+    if (entry.word === q) return true;
+    if (exactExists) return entry.text.includes(q);
+
     // Medium queries: try includes first (fast), then fuzzy on word name only
     if (entry.text.includes(q)) return true;
 
-    // Fuzzy match on the word name only (not full text -- too expensive)
-    const threshold = q.length <= 4 ? 1 : q.length <= 7 ? 2 : 3;
-    return fuzzyDistance(entry.word, q) <= threshold;
+    // Fuzzy match: tight threshold (1 typo max)
+    return fuzzyDistance(entry.word, q) <= 1;
 }
 
 function matchesFilters(w) {
