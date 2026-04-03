@@ -3,245 +3,340 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vocab Dashboard — 583 Words</title>
+<title>vocab</title>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;500;600&display=swap');
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; color: #1a1a2e; line-height: 1.6; }
+body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #e8e5e0; color: #2c2c2c; line-height: 1.6; }
 
 /* Layout */
 .app { display: flex; min-height: 100vh; }
-.sidebar { width: 260px; background: #fff; border-right: 1px solid #e0e0e0; padding: 20px; position: fixed; top: 0; left: 0; bottom: 0; overflow-y: auto; z-index: 10; }
-.main { margin-left: 260px; flex: 1; padding: 24px; }
+.top-bar { position: fixed; top: 0; left: 0; right: 0; z-index: 15; background: #faf9f7; padding: 12px 28px 14px; display: flex; flex-wrap: wrap; align-items: center; box-shadow: 0 1px 8px rgba(0,0,0,0.04); }
+.top-bar .top-row { display: flex; align-items: center; gap: 16px; width: 100%; }
+.top-bar .logo { font-family: 'Instrument Serif', Georgia, serif; font-size: 88px; font-weight: 400; color: #2c2c2c; flex-shrink: 0; letter-spacing: -2px; line-height: 1; text-decoration: none; cursor: pointer; transition: opacity 0.2s ease; }
+.top-bar .logo:hover { opacity: 0.7; }
+.top-bar .subtitle { font-size: 12px; color: #7a7168; flex-shrink: 0; font-weight: 500; letter-spacing: 0.3px; }
+.top-bar .add-word-btn { width: auto; padding: 10px 22px; margin: 0; flex-shrink: 0; margin-left: auto; font-size: 16px; }
+.top-bar .search-row { width: 100%; display: flex; justify-content: center; margin-top: 8px; }
+.top-bar .search-box { width: 100%; max-width: 540px; }
+/* Sidebar - slides in on hover */
+.sidebar-wrap { position: fixed; top: 200px; left: 0; bottom: 0; width: 40px; z-index: 12; }
+.sidebar-wrap::before { content: ''; position: absolute; top: 0; left: 0; width: 3px; height: 100%; background: linear-gradient(to bottom, #d4cfc8 0%, transparent 70%); opacity: 0.4; transition: opacity 0.3s ease; pointer-events: none; }
+.sidebar-wrap::after { content: '\2039'; position: absolute; top: 24px; left: 10px; font-size: 20px; color: #b8a99a; opacity: 0.6; transition: opacity 0.3s ease, transform 0.3s ease; pointer-events: none; }
+.sidebar-wrap:hover::before { opacity: 0; }
+.sidebar-wrap:hover::after { opacity: 0; transform: translateX(-8px); }
+.sidebar { width: 260px; height: 100%; background: #faf9f7; padding: 20px; overflow-y: auto; box-shadow: 4px 0 24px rgba(0,0,0,0.06); transform: translateX(-260px); opacity: 0; transition: transform 0.3s ease, opacity 0.25s ease; pointer-events: none; }
+.sidebar-wrap:hover .sidebar { transform: translateX(0); opacity: 1; pointer-events: auto; }
+.sidebar-wrap:hover { width: 260px; }
 
 /* Sidebar */
-.logo { font-size: 22px; font-weight: 700; margin-bottom: 4px; color: #1a1a2e; }
-.subtitle { font-size: 13px; color: #888; margin-bottom: 20px; }
-.search-box { width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; margin-bottom: 16px; outline: none; transition: border-color 0.2s; }
-.search-box:focus { border-color: #4a6cf7; }
+.subtitle { font-size: 12px; color: #a0978e; }
+.search-box { width: 100%; padding: 10px 14px; border: 1px solid #e2ddd6; border-radius: 10px; font-size: 14px; outline: none; background: #fff; transition: border-color 0.25s ease, box-shadow 0.25s ease; font-family: 'Inter', sans-serif; }
+.search-box:focus { border-color: #b8a99a; box-shadow: 0 0 0 3px rgba(184, 169, 154, 0.12); }
 .filter-section { margin-bottom: 16px; }
-.filter-title { font-size: 12px; font-weight: 600; text-transform: uppercase; color: #888; margin-bottom: 8px; letter-spacing: 0.5px; }
+.filter-title { font-size: 11px; font-weight: 600; text-transform: uppercase; color: #6b6560; margin-bottom: 8px; letter-spacing: 0.8px; }
 .filter-chips { display: flex; flex-wrap: wrap; gap: 4px; }
-.chip { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 12px; cursor: pointer; border: 1px solid #ddd; background: #fff; color: #555; transition: all 0.15s; }
-.chip:hover { border-color: #4a6cf7; color: #4a6cf7; }
-.chip.active { background: #4a6cf7; color: #fff; border-color: #4a6cf7; }
-.filter-clear { font-size: 12px; color: #4a6cf7; cursor: pointer; margin-top: 8px; display: none; }
-.filter-clear.visible { display: block; }
-.sort-toggle { display: flex; align-items: center; gap: 8px; margin-left: auto; }
-.sort-btn { padding: 5px 12px; border-radius: 6px; font-size: 12px; cursor: pointer; border: 1px solid #ddd; background: #fff; color: #555; transition: all 0.15s; }
-.sort-btn:hover { border-color: #4a6cf7; color: #4a6cf7; }
-.sort-btn.active { background: #4a6cf7; color: #fff; border-color: #4a6cf7; }
+.chip { display: inline-block; padding: 4px 11px; border-radius: 14px; font-size: 11px; cursor: pointer; border: 1px solid #e2ddd6; background: #fff; color: #6b6560; transition: all 0.2s ease; }
+.chip:hover { border-color: #b8a99a; color: #4a4440; background: #f0ece6; }
+.chip.active { background: #2c2c2c; color: #faf9f7; border-color: #2c2c2c; }
+.chip:active { transform: scale(0.95); }
+.filter-clear { font-size: 11px; color: #b8a99a; cursor: pointer; display: none; font-weight: 500; transition: color 0.2s ease; }
+.filter-clear:hover { color: #6b6560; }
+.filter-clear.visible { display: inline; }
+.sort-btn { padding: 4px 11px; border-radius: 6px; font-size: 12px; cursor: pointer; border: 1px solid #d8d4ce; background: #fff; color: #7a7168; transition: all 0.08s ease; font-weight: 500; }
+.sort-btn:hover { background: #f0ece6; color: #4a4440; }
+.sort-btn.active { background: #2c2c2c; color: #faf9f7; border-color: #2c2c2c; }
 .synonym-section { margin-bottom: 16px; }
 .synonym-group { margin-bottom: 8px; }
-.synonym-group-label { font-size: 12px; font-weight: 600; color: #444; cursor: pointer; padding: 4px 0; }
-.synonym-group-label:hover { color: #4a6cf7; }
+.synonym-group-label { font-size: 12px; font-weight: 600; color: #6b6560; cursor: pointer; padding: 4px 0; transition: color 0.2s ease; }
+.synonym-group-label:hover { color: #2c2c2c; }
 .synonym-group-words { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 3px; }
-.synonym-word { font-size: 11px; padding: 2px 8px; border-radius: 10px; background: #f0f7ff; color: #4a6cf7; cursor: pointer; border: 1px solid #d0e0f7; transition: all 0.15s; }
-.synonym-word:hover { background: #4a6cf7; color: #fff; }
-.synonym-filter-active { background: #4a6cf7; color: #fff; border-color: #4a6cf7; }
+.synonym-word { font-size: 11px; padding: 2px 8px; border-radius: 10px; background: #f0ece6; color: #6b6560; cursor: pointer; border: 1px solid #e2ddd6; transition: all 0.2s ease; }
+.synonym-word:hover { background: #2c2c2c; color: #faf9f7; border-color: #2c2c2c; }
+.synonym-filter-active { background: #2c2c2c; color: #faf9f7; border-color: #2c2c2c; }
 .synonym-list { max-height: 300px; overflow-y: auto; }
-.stats-bar { font-size: 12px; color: #888; padding: 12px 0; border-top: 1px solid #eee; margin-top: 12px; }
+.sidebar-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.sidebar-title { font-size: 13px; font-weight: 600; color: #2c2c2c; letter-spacing: 0.3px; }
+.stats-bar { font-size: 11px; color: #a0978e; padding: 12px 0; border-top: 1px solid #e8e4de; margin-top: 12px; }
 .color-legend { margin-bottom: 16px; }
 .legend-items { display: flex; flex-wrap: wrap; gap: 6px 12px; }
-.legend-item { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; color: #555; }
+.legend-item { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; color: #6b6560; }
 .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
 
 /* Tabs */
-.tabs { display: flex; gap: 0; margin-bottom: 24px; border-bottom: 2px solid #e0e0e0; }
-.tab { padding: 10px 24px; cursor: pointer; font-size: 14px; font-weight: 500; color: #888; border-bottom: 2px solid transparent; margin-bottom: -2px; transition: all 0.15s; }
-.tab:hover { color: #4a6cf7; }
-.tab.active { color: #4a6cf7; border-bottom-color: #4a6cf7; }
+.tabs { display: flex; align-items: flex-end; gap: 0; position: fixed; top: 155px; left: 0; right: 0; background: #dbd8d3; z-index: 8; padding: 8px 28px 0; height: 54px; }
+.tabs::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 1px; background: #d0ccc6; z-index: 0; }
+.main { flex: 1; padding: 28px; padding-top: 220px; }
+.tab { padding: 0 24px; cursor: pointer; font-size: 14px; font-weight: 500; color: #7a7168; height: 36px; display: flex; align-items: center; transition: all 0.2s ease; letter-spacing: 0.2px; border-radius: 8px 8px 0 0; position: relative; z-index: 1; margin-bottom: -1px; background: #c8c4be; }
+.tab:hover { color: #4a4440; background: #d8d4ce; }
+.tab.active { color: #2c2c2c; background: #e8e5e0; font-weight: 600; }
 .tab-content { display: none; }
 .tab-content.active { display: block; }
+.tabs-left { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; }
+.tabs-right { display: flex; align-items: flex-end; gap: 2px; margin-left: auto; }
 
 /* Cards grid */
-.card-count { font-size: 14px; color: #888; margin-bottom: 16px; }
-.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
-.card { background: #fff; border: 1px solid #e8e8e8; border-radius: 10px; padding: 18px; cursor: pointer; transition: box-shadow 0.15s, border-color 0.15s; }
-.card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.06); border-color: #d0d0d0; }
-.card.expanded { grid-column: 1 / -1; cursor: default; }
-.card-header { display: flex; justify-content: space-between; align-items: flex-start; }
-.word-title { font-size: 20px; font-weight: 700; color: #1a1a2e; }
-.pronunciation { font-size: 13px; color: #888; font-style: italic; margin-left: 8px; }
-.pos-badges { display: flex; gap: 4px; margin-top: 2px; }
+.card-count { font-size: 13px; color: #6b6560; margin-bottom: 16px; font-weight: 500; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+.card { background: #fff; border: 1px solid #e8e4de; border-radius: 2px; padding: 18px 20px; transition: box-shadow 0.3s cubic-bezier(0.33,1,0.68,1); transform-style: preserve-3d; will-change: transform; }
+.cards.initial-load .card { animation: fadeUp 0.3s ease both; }
+.card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.07); }
+.card.expanded { grid-column: span 2; }
+.card-header { display: flex; justify-content: space-between; align-items: center; }
+.card-toggle { display: flex; align-items: center; gap: 0; cursor: pointer; user-select: none; }
+.toggle-arrow { font-size: 9px; color: #b8a99a; margin-right: 8px; transition: transform 0.25s ease, color 0.2s ease; display: inline-block; flex-shrink: 0; }
+.toggle-arrow.open { transform: rotate(90deg); }
+.card-toggle:hover .toggle-arrow { color: #6b6560; }
+.word-title { font-size: 20px; font-weight: 600; color: #1a1a1a; display: inline-block; }
+.pos-abbr { font-size: 12px; color: #6b6560; margin-left: 12px; }
+.pronunciation { font-size: 12px; color: #7a7168; font-style: italic; margin-left: 8px; }
+.pos-badges { display: flex; gap: 4px; align-items: center; }
 .pos-badge { font-size: 11px; padding: 2px 8px; border-radius: 4px; background: #f0f0f0; color: #666; }
-.definition { font-size: 14px; color: #444; margin-top: 8px; }
-.register-tags { display: flex; gap: 4px; margin-top: 8px; flex-wrap: wrap; }
-.register-tag { font-size: 11px; padding: 2px 8px; border-radius: 10px; background: #e8f0fe; color: #4a6cf7; }
-.tag-pill { font-size: 11px; padding: 2px 8px; border-radius: 10px; background: #f3f0ff; color: #7c5cbf; }
-.synonym-row { display: flex; align-items: center; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
-.synonym-label { font-size: 11px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.3px; }
-.synonym-pill { font-size: 11px; padding: 2px 8px; border-radius: 10px; background: #e8f5e9; color: #2e7d32; border: 1px solid #c8e6c9; }
-.version-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-left: 8px; flex-shrink: 0; }
-.version-dot.v1 { background: #4a6cf7; }
-.version-dot.v2 { background: #9b59b6; }
-.version-dot.v3 { background: #e67e22; }
+.definition { font-size: 14px; color: #3a3835; margin-top: 10px; margin-bottom: 4px; line-height: 1.55; }
+.register-tags { display: flex; gap: 5px; margin-top: 14px; flex-wrap: wrap; }
+.register-tag { font-size: 11px; padding: 3px 10px; border-radius: 14px; background: #f0ece6; color: #5a5248; border: 1px solid #e2ddd6; }
+.tag-pill { font-size: 11px; padding: 3px 10px; border-radius: 14px; background: #eee8f5; color: #5a4d6a; border: 1px solid #e0d8ea; }
+.synonym-row { display: flex; align-items: center; gap: 6px; margin-top: 12px; flex-wrap: wrap; }
+.synonym-label { font-size: 10px; font-weight: 600; color: #7a7168; text-transform: uppercase; letter-spacing: 0.5px; }
+.synonym-pill { font-size: 11px; padding: 3px 10px; border-radius: 14px; background: #eae8e4; color: #2c2c2c; border: 1px solid #d8d4ce; }
+.synonym-text { font-size: 13px; color: #4a4440; }
+.version-dot { width: 7px; height: 7px; border-radius: 50%; display: inline-block; margin-left: 8px; flex-shrink: 0; }
+.version-dot.v1 { background: #b8a99a; }
+.version-dot.v2 { background: #a08bb8; }
+.version-dot.v3 { background: #c4a06a; }
 .version-chip { position: relative; }
 .version-chip .chip-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 4px; vertical-align: middle; }
-.version-chip .chip-dot.v1 { background: #4a6cf7; }
-.version-chip .chip-dot.v2 { background: #9b59b6; }
-.version-chip .chip-dot.v3 { background: #e67e22; }
-.reg-formal { background: #eef1ff !important; color: #3a5bc7 !important; border-color: #c8d0f7 !important; }
-.reg-formal:hover { background: #3a5bc7 !important; color: #fff !important; }
-.reg-literary { background: #f5eeff !important; color: #7c3aed !important; border-color: #ddc8f7 !important; }
-.reg-literary:hover { background: #7c3aed !important; color: #fff !important; }
-.reg-academic { background: #e8faf5 !important; color: #0d9488 !important; border-color: #b2f0e4 !important; }
-.reg-academic:hover { background: #0d9488 !important; color: #fff !important; }
-.reg-general { background: #f3f4f6 !important; color: #6b7280 !important; border-color: #d1d5db !important; }
-.reg-general:hover { background: #6b7280 !important; color: #fff !important; }
-.reg-technical { background: #fff7ed !important; color: #c2410c !important; border-color: #fed7aa !important; }
-.reg-technical:hover { background: #c2410c !important; color: #fff !important; }
-.reg-informal { background: #ecfdf5 !important; color: #059669 !important; border-color: #a7f3d0 !important; }
-.reg-informal:hover { background: #059669 !important; color: #fff !important; }
-.reg-archaic { background: #fef2f2 !important; color: #991b1b !important; border-color: #fecaca !important; }
-.reg-archaic:hover { background: #991b1b !important; color: #fff !important; }
+.version-chip .chip-dot.v1 { background: #b8a99a; }
+.version-chip .chip-dot.v2 { background: #a08bb8; }
+.version-chip .chip-dot.v3 { background: #c4a06a; }
+.reg-formal { background: #eeedf5 !important; color: #5a5580 !important; border-color: #dddaf0 !important; }
+.reg-formal:hover { background: #5a5580 !important; color: #fff !important; }
+.reg-literary { background: #f2edf7 !important; color: #6b5a80 !important; border-color: #e4daf0 !important; }
+.reg-literary:hover { background: #6b5a80 !important; color: #fff !important; }
+.reg-academic { background: #edf2ee !important; color: #4a6050 !important; border-color: #d8e4da !important; }
+.reg-academic:hover { background: #4a6050 !important; color: #fff !important; }
+.reg-general { background: #f0ece6 !important; color: #6b6560 !important; border-color: #e2ddd6 !important; }
+.reg-general:hover { background: #6b6560 !important; color: #fff !important; }
+.reg-technical { background: #f5efe6 !important; color: #7a6540 !important; border-color: #eae0d0 !important; }
+.reg-technical:hover { background: #7a6540 !important; color: #fff !important; }
+.reg-informal { background: #ecf0e8 !important; color: #5a6b4f !important; border-color: #dde4d6 !important; }
+.reg-informal:hover { background: #5a6b4f !important; color: #fff !important; }
+.reg-archaic { background: #f5ebe8 !important; color: #7a504a !important; border-color: #eadad5 !important; }
+.reg-archaic:hover { background: #7a504a !important; color: #fff !important; }
 
 /* Expanded card sections */
-.card-detail { margin-top: 16px; display: none; }
-.card.expanded .card-detail { display: block; }
-.detail-section { margin-top: 14px; }
-.detail-title { font-size: 12px; font-weight: 600; text-transform: uppercase; color: #888; letter-spacing: 0.5px; margin-bottom: 6px; }
-.example-item { background: #fafafa; border-left: 3px solid #4a6cf7; padding: 10px 14px; margin-bottom: 8px; border-radius: 0 6px 6px 0; }
-.example-context { font-size: 11px; font-weight: 600; text-transform: uppercase; color: #4a6cf7; margin-bottom: 2px; }
-.example-sentence { font-size: 14px; color: #333; font-style: italic; }
-.example-why { font-size: 12px; color: #888; margin-top: 4px; }
-.misuse-item { background: #fff5f5; border-left: 3px solid #e74c3c; padding: 10px 14px; margin-bottom: 8px; border-radius: 0 6px 6px 0; }
-.misuse-wrong { font-size: 14px; color: #c0392b; font-style: italic; text-decoration: line-through; }
-.misuse-problem { font-size: 12px; color: #666; margin-top: 4px; }
-.misuse-instead { font-size: 12px; color: #27ae60; margin-top: 2px; }
+.card-detail { margin-top: 10px; padding-top: 10px; border-top: 1px solid #e8e4de; display: none; opacity: 0; transition: opacity 0.25s ease; }
+.card.expanded .card-detail { display: block; opacity: 1; }
+.detail-section { margin-top: 10px; }
+.detail-title { font-size: 10px; font-weight: 600; text-transform: uppercase; color: #6b6560; letter-spacing: 0.8px; margin-bottom: 4px; }
+.trigger-list { font-size: 13px; color: #3a3835; line-height: 1.5; }
+.example-item { background: #faf9f7; border-left: 2px solid #b8a99a; padding: 6px 12px; margin-bottom: 4px; border-radius: 0 2px 2px 0; }
+.example-context { font-size: 10px; font-weight: 600; text-transform: uppercase; color: #b8a99a; letter-spacing: 0.3px; display: inline; margin-right: 6px; }
+.example-sentence { font-size: 13px; color: #3a3835; font-style: italic; line-height: 1.5; display: inline; }
+.misuse-item { background: #f8f0ee; border-left: 2px solid #c4887a; padding: 6px 12px; margin-bottom: 4px; border-radius: 0 2px 2px 0; }
+.misuse-wrong { font-size: 13px; color: #9a5a50; font-style: italic; text-decoration: line-through; }
+.misuse-fix { font-size: 12px; color: #6b6560; margin-top: 2px; }
+.misuse-fix .use-instead { color: #5a7a50; }
 .related-item { display: inline-block; margin-right: 6px; margin-bottom: 6px; }
-.related-link { padding: 4px 12px; border-radius: 16px; background: #f0f7ff; color: #4a6cf7; font-size: 13px; cursor: pointer; text-decoration: none; border: 1px solid #d0e0f7; transition: all 0.15s; }
-.related-link:hover { background: #4a6cf7; color: #fff; }
-.related-distinction { font-size: 12px; color: #888; display: none; margin-top: 2px; }
+.related-link { padding: 4px 12px; border-radius: 14px; background: #f0ece6; color: #6b6560; font-size: 13px; cursor: pointer; text-decoration: none; border: 1px solid #e2ddd6; transition: all 0.2s ease; }
+.related-link:hover { background: #2c2c2c; color: #faf9f7; border-color: #2c2c2c; }
+.related-distinction { font-size: 12px; color: #a0978e; display: none; margin-top: 2px; }
 .related-item:hover .related-distinction { display: block; }
-.trigger-item { font-size: 13px; color: #555; padding: 4px 0; }
-.trigger-item::before { content: "→ "; color: #4a6cf7; font-weight: 600; }
-.usage-badge { font-size: 11px; padding: 2px 8px; border-radius: 10px; background: #e8f5e9; color: #2e7d32; margin-left: 8px; }
+.usage-badge { font-size: 11px; padding: 2px 8px; border-radius: 10px; background: #ecf0e8; color: #5a6b4f; margin-left: 8px; }
 .version-badge { font-size: 10px; padding: 2px 7px; border-radius: 10px; margin-left: 6px; font-weight: 600; }
-.version-badge.v1 { background: #f3f4f6; color: #6b7280; }
-.version-badge.v2 { background: #eff6ff; color: #4a6cf7; }
-.version-badge.v3 { background: #ecfdf5; color: #10b981; }
+.version-badge.v1 { background: #f0ece6; color: #8a8078; }
+.version-badge.v2 { background: #eee8f5; color: #7a6b8a; }
+.version-badge.v3 { background: #f2ede4; color: #8a7a5a; }
 .version-chip { font-weight: 500; }
 
 /* Add Word button + modal */
-.add-word-btn { width: 100%; padding: 10px; margin-bottom: 12px; border: 2px dashed #4a6cf7; border-radius: 8px; background: #f8faff; color: #4a6cf7; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.15s; }
-.add-word-btn:hover { background: #4a6cf7; color: #fff; }
-.modal-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); z-index: 100; align-items: center; justify-content: center; }
+.add-word-btn { padding: 9px 18px; border: 1px solid #e2ddd6; border-radius: 10px; background: #fff; color: #6b6560; font-size: 13px; font-weight: 500; cursor: pointer; transition: all 0.25s ease; }
+.add-word-btn:hover { background: #2c2c2c; color: #faf9f7; border-color: #2c2c2c; }
+.modal-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(44,44,44,0.3); backdrop-filter: blur(4px); z-index: 100; align-items: center; justify-content: center; transition: opacity 0.25s ease; }
 .modal-overlay.visible { display: flex; }
-.modal { background: #fff; border-radius: 12px; padding: 28px; width: 480px; max-width: 90vw; box-shadow: 0 8px 32px rgba(0,0,0,0.2); }
-.modal h2 { font-size: 20px; margin-bottom: 16px; color: #1a1a2e; }
-.modal-input { width: 100%; padding: 12px 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 16px; outline: none; margin-bottom: 16px; }
-.modal-input:focus { border-color: #4a6cf7; }
+.modal { background: #faf9f7; border-radius: 14px; padding: 28px; width: 480px; max-width: 90vw; box-shadow: 0 8px 40px rgba(0,0,0,0.12); animation: modalPop 0.25s ease both; }
+.modal h2 { font-size: 20px; margin-bottom: 16px; color: #2c2c2c; font-weight: 600; }
+.modal-input { width: 100%; padding: 12px 14px; border: 1px solid #e2ddd6; border-radius: 10px; font-size: 15px; outline: none; margin-bottom: 16px; background: #fff; font-family: 'Inter', sans-serif; transition: border-color 0.25s ease; }
+.modal-input:focus { border-color: #b8a99a; }
 .modal-actions { display: flex; gap: 8px; justify-content: flex-end; }
-.modal-btn { padding: 10px 20px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; border: none; transition: all 0.15s; }
-.modal-btn.primary { background: #4a6cf7; color: #fff; }
-.modal-btn.primary:hover { background: #3b5ce4; }
-.modal-btn.primary:disabled { background: #a0b4f7; cursor: wait; }
-.modal-btn.secondary { background: #f0f0f0; color: #555; }
-.modal-btn.secondary:hover { background: #e0e0e0; }
-.modal-status { font-size: 13px; margin-top: 12px; padding: 10px; border-radius: 6px; display: none; }
-.modal-status.loading { display: block; background: #f0f7ff; color: #4a6cf7; }
-.modal-status.success { display: block; background: #e8f5e9; color: #2e7d32; }
-.modal-status.error { display: block; background: #fff5f5; color: #c0392b; }
+.modal-btn { padding: 10px 20px; border-radius: 10px; font-size: 13px; font-weight: 600; cursor: pointer; border: none; transition: all 0.2s ease; font-family: 'Inter', sans-serif; }
+.modal-btn.primary { background: #2c2c2c; color: #faf9f7; }
+.modal-btn.primary:hover { background: #1a1a1a; }
+.modal-btn.primary:disabled { background: #b8b0a8; cursor: wait; }
+.modal-btn.secondary { background: #f0ece6; color: #6b6560; }
+.modal-btn.secondary:hover { background: #e2ddd6; }
+.modal-status { font-size: 13px; margin-top: 12px; padding: 10px; border-radius: 8px; display: none; }
+.modal-status.loading { display: block; background: #f0ece6; color: #6b6560; }
+.modal-status.success { display: block; background: #ecf0e8; color: #5a6b4f; }
+.modal-status.error { display: block; background: #f5ebe8; color: #7a504a; }
 
 /* Graph */
-#graph-container { width: 100%; height: calc(100vh - 140px); position: relative; background: #fff; border-radius: 10px; border: 1px solid #e8e8e8; overflow: auto; }
-#graph-canvas { display: block; }
-#graph-tooltip { position: fixed; display: none; background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 12px 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); font-size: 13px; max-width: 300px; pointer-events: none; z-index: 20; }
 
 /* Triggers tab */
-.triggers-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: 20px; padding: 16px; background: #fff; border-radius: 10px; border: 1px solid #e8e8e8; }
-.trigger-search { flex: 1; min-width: 200px; padding: 10px 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; outline: none; transition: border-color 0.2s; }
-.trigger-search:focus { border-color: #4a6cf7; }
+.triggers-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: 20px; padding: 16px; background: #faf9f7; border-radius: 12px; border: 1px solid #e8e4de; }
+.trigger-search { flex: 1; min-width: 200px; padding: 10px 14px; border: 1px solid #e2ddd6; border-radius: 10px; font-size: 14px; outline: none; background: #fff; transition: border-color 0.25s ease; font-family: 'Inter', sans-serif; }
+.trigger-search:focus { border-color: #b8a99a; }
 .context-filters { display: flex; gap: 6px; flex-wrap: wrap; }
-.ctx-btn { padding: 6px 14px; border-radius: 16px; font-size: 12px; cursor: pointer; border: 1px solid #ddd; background: #fff; color: #555; transition: all 0.15s; }
-.ctx-btn:hover { border-color: #4a6cf7; color: #4a6cf7; }
-.ctx-btn.active { background: #4a6cf7; color: #fff; border-color: #4a6cf7; }
-.quiz-btn { padding: 6px 16px; border-radius: 16px; font-size: 12px; font-weight: 600; cursor: pointer; border: 2px solid #e8e8e8; background: #fff; color: #555; transition: all 0.15s; }
-.quiz-btn.active { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
+.ctx-btn { padding: 6px 14px; border-radius: 14px; font-size: 12px; cursor: pointer; border: 1px solid #e2ddd6; background: #fff; color: #6b6560; transition: all 0.2s ease; }
+.ctx-btn:hover { border-color: #b8a99a; color: #4a4440; }
+.ctx-btn.active { background: #2c2c2c; color: #faf9f7; border-color: #2c2c2c; }
+.quiz-btn { padding: 6px 16px; border-radius: 14px; font-size: 12px; font-weight: 600; cursor: pointer; border: 1px solid #e2ddd6; background: #fff; color: #6b6560; transition: all 0.2s ease; }
+.quiz-btn.active { background: #2c2c2c; color: #faf9f7; border-color: #2c2c2c; }
 .scenario-category { margin-bottom: 8px; }
-.scenario-category summary { font-size: 16px; font-weight: 600; color: #1a1a2e; cursor: pointer; padding: 10px 0; list-style: none; display: flex; align-items: center; gap: 8px; }
+.scenario-category summary { font-size: 16px; font-weight: 600; color: #2c2c2c; cursor: pointer; padding: 10px 0; list-style: none; display: flex; align-items: center; gap: 8px; }
 .scenario-category summary::-webkit-details-marker { display: none; }
-.scenario-category summary::before { content: "\25B6"; font-size: 10px; color: #888; transition: transform 0.2s; }
+.scenario-category summary::before { content: "\25B6"; font-size: 10px; color: #b8a99a; transition: transform 0.2s ease; }
 .scenario-category[open] summary::before { transform: rotate(90deg); }
-.scenario-category .cat-count { font-size: 13px; color: #888; font-weight: 400; }
+.scenario-category .cat-count { font-family: 'Inter', sans-serif; font-size: 12px; color: #a0978e; font-weight: 400; }
 .scenario-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 12px; padding: 8px 0 16px; }
-.scenario-card { background: #fff; border: 1px solid #e8e8e8; border-radius: 10px; padding: 16px; transition: box-shadow 0.15s, border-color 0.15s; }
-.scenario-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.06); border-color: #d0d0d0; }
-.scenario-trigger { font-size: 15px; font-weight: 500; color: #1a1a2e; line-height: 1.5; margin-bottom: 10px; }
-.scenario-trigger::before { content: "When "; font-weight: 400; color: #888; font-size: 13px; text-transform: uppercase; letter-spacing: 0.3px; }
-.scenario-example { font-size: 13px; color: #666; font-style: italic; line-height: 1.5; margin-bottom: 12px; padding: 8px 12px; background: #f8f9fa; border-radius: 6px; border-left: 3px solid #4a6cf7; }
-.scenario-def { font-size: 12px; color: #888; margin-bottom: 10px; }
+.scenario-card { background: #fff; border: 1px solid #e8e4de; border-radius: 2px; padding: 16px; transition: all 0.25s ease; }
+.scenario-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.05); border-color: #d4cfc8; transform: translateY(-2px); }
+.scenario-trigger { font-size: 15px; font-weight: 500; color: #2c2c2c; line-height: 1.5; margin-bottom: 10px; }
+.scenario-trigger::before { content: "When "; font-weight: 400; color: #a0978e; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+.scenario-example { font-size: 13px; color: #6b6560; font-style: italic; line-height: 1.5; margin-bottom: 12px; padding: 8px 12px; background: #faf9f7; border-radius: 8px; border-left: 3px solid #b8a99a; }
+.scenario-def { font-size: 12px; color: #a0978e; margin-bottom: 10px; }
 .scenario-footer { display: flex; align-items: center; gap: 8px; }
-.scenario-word { display: inline-block; padding: 5px 14px; border-radius: 16px; background: #f0f7ff; color: #4a6cf7; font-size: 14px; font-weight: 600; cursor: pointer; border: 1px solid #d0e0f7; text-decoration: none; transition: all 0.15s; }
-.scenario-word:hover { background: #4a6cf7; color: #fff; }
-.scenario-reveal-btn { display: none; padding: 5px 14px; border-radius: 16px; font-size: 13px; cursor: pointer; border: 1px solid #ddd; background: #fff; color: #555; transition: all 0.15s; }
-.scenario-reveal-btn:hover { border-color: #4a6cf7; color: #4a6cf7; }
+.scenario-word { display: inline-block; padding: 5px 14px; border-radius: 14px; background: #f0ece6; color: #6b6560; font-size: 14px; font-weight: 600; cursor: pointer; border: 1px solid #e2ddd6; text-decoration: none; transition: all 0.2s ease; }
+.scenario-word:hover { background: #2c2c2c; color: #faf9f7; border-color: #2c2c2c; }
+.scenario-reveal-btn { display: none; padding: 5px 14px; border-radius: 14px; font-size: 13px; cursor: pointer; border: 1px solid #e2ddd6; background: #fff; color: #6b6560; transition: all 0.2s ease; }
+.scenario-reveal-btn:hover { border-color: #b8a99a; color: #4a4440; }
 .quiz-active .scenario-example, .quiz-active .scenario-word, .quiz-active .scenario-def { display: none; }
 .quiz-active .scenario-reveal-btn { display: inline-block; }
 .quiz-active .scenario-card.revealed .scenario-example, .quiz-active .scenario-card.revealed .scenario-word, .quiz-active .scenario-card.revealed .scenario-def { display: block; }
 .quiz-active .scenario-card.revealed .scenario-word { display: inline-block; }
 .quiz-active .scenario-card.revealed .scenario-reveal-btn { display: none; }
-.triggers-empty { text-align: center; padding: 40px; color: #888; font-size: 15px; }
+.triggers-empty { text-align: center; padding: 40px; color: #a0978e; font-size: 15px; }
 
 /* Mobile */
 @media (max-width: 768px) {
-    .sidebar { position: relative; width: 100%; border-right: none; border-bottom: 1px solid #e0e0e0; }
-    .main { margin-left: 0; }
+    .top-bar { padding: 10px 14px 12px; }
+    .top-bar .logo { font-size: 36px; }
+    .top-bar .search-box { max-width: 100%; }
+    .sidebar-wrap { display: none; }
+    .main { padding-top: 170px; }
+    .tabs { top: 100px; padding: 4px 14px 0; }
     .app { flex-direction: column; }
     .cards { grid-template-columns: 1fr; }
     .card.expanded { grid-column: 1; }
 }
 
+/* Animations */
+@keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+.card-collapsible { transition: max-height 0.35s ease, opacity 0.3s ease, margin 0.3s ease; max-height: 200px; opacity: 1; overflow: hidden; }
+@keyframes expandIn { from { opacity: 0.8; } to { opacity: 1; } }
+.card-detail { animation: detailSlide 0.3s ease both; }
+@keyframes detailSlide { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: translateY(0); } }
+.register-tag, .tag-pill, .synonym-pill { transition: all 0.2s ease; }
+@keyframes modalPop { from { opacity: 0; transform: scale(0.96); } to { opacity: 1; transform: scale(1); } }
+
+/* Flashcard mode */
+.flashcard-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: #e8e5e0; z-index: 50; display: flex; flex-direction: column; opacity: 0; pointer-events: none; transition: opacity 0.4s ease; }
+.flashcard-overlay.active { opacity: 1; pointer-events: auto; }
+.flashcard-topbar { display: flex; align-items: center; justify-content: space-between; padding: 20px 28px; }
+.flashcard-counter { font-size: 14px; color: #6b6560; font-weight: 500; }
+.flashcard-close { width: 36px; height: 36px; border-radius: 4px; border: 1px solid #d8d4ce; background: #fff; color: #6b6560; font-size: 20px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s ease; }
+.flashcard-close:hover { background: #2c2c2c; color: #fff; border-color: #2c2c2c; }
+.flashcard-stage { flex: 1; display: flex; align-items: center; justify-content: center; perspective: 1000px; padding: 0 60px; overflow: hidden; cursor: default; }
+.flashcard { width: 520px; max-width: 90vw; cursor: pointer; position: relative; transform-style: preserve-3d; transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), min-height 0.4s ease; min-height: 320px; }
+.flashcard.flipped { transform: rotateY(180deg); }
+.flashcard-face { position: absolute; top: 0; left: 0; width: 100%; min-height: 320px; backface-visibility: hidden; border-radius: 4px; background: #fff; border: 1px solid #e2ddd6; box-shadow: 0 4px 24px rgba(0,0,0,0.06); }
+.flashcard-front { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 48px 40px; }
+.flashcard-front .fc-word { font-family: 'Instrument Serif', Georgia, serif; font-size: 48px; color: #1a1a1a; text-align: center; line-height: 1.2; }
+.flashcard-front .fc-pos { font-size: 16px; color: #6b6560; margin-top: 20px; }
+.flashcard-front .fc-pronunciation { font-size: 15px; color: #7a7168; font-style: italic; margin-top: 6px; }
+.flashcard-front .fc-hint { font-size: 12px; color: #b8a99a; margin-top: 24px; }
+.flashcard-back { transform: rotateY(180deg); padding: 28px 32px; overflow-y: auto; max-height: 70vh; }
+.flashcard-back .fc-word-sm { font-size: 22px; font-weight: 600; color: #1a1a1a; margin-bottom: 4px; }
+.flashcard-back .fc-def { font-size: 15px; color: #3a3835; line-height: 1.55; margin-bottom: 12px; }
+.flashcard-back .fc-section { margin-bottom: 10px; }
+.flashcard-back .fc-section-title { font-size: 10px; font-weight: 600; text-transform: uppercase; color: #6b6560; letter-spacing: 0.8px; margin-bottom: 4px; }
+.flashcard-back .fc-example { background: #faf9f7; border-left: 2px solid #b8a99a; padding: 6px 12px; margin-bottom: 4px; font-size: 13px; color: #3a3835; font-style: italic; }
+.flashcard-back .fc-misuse { background: #f8f0ee; border-left: 2px solid #c4887a; padding: 6px 12px; margin-bottom: 4px; font-size: 13px; }
+.flashcard-back .fc-misuse-wrong { color: #9a5a50; text-decoration: line-through; }
+.flashcard-back .fc-synonyms { font-size: 13px; color: #4a4440; }
+.flashcard-back .fc-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+.flashcard-back .fc-tag { font-size: 11px; padding: 2px 8px; border-radius: 14px; background: #f0ece6; color: #5a5248; border: 1px solid #e2ddd6; }
+.flashcard-nav { display: flex; align-items: center; justify-content: center; gap: 24px; padding: 24px 28px; }
+.flashcard-nav-btn { display: none; }
+.flashcard-shuffle-btn { padding: 12px 28px; border-radius: 33px; border: 1px solid #d8d4ce; background: #fff; color: #6b6560; font-size: 16px; font-weight: 500; cursor: pointer; transition: all 0.2s ease; }
+.flashcard-shuffle-btn:hover { background: #2c2c2c; color: #fff; border-color: #2c2c2c; }
+
+/* Page transition */
+.page-transition { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: #e8e5e0; z-index: 9999; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; }
+.page-transition.active { opacity: 1; pointer-events: auto; }
+
 /* Print */
 @media print {
-    .sidebar { display: none; }
-    .main { margin-left: 0; }
+    .sidebar-wrap { display: none; }
     .card { break-inside: avoid; border: 1px solid #ccc; }
     .tabs { display: none; }
 }
 </style>
 </head>
 <body>
-<div class="app">
-    <aside class="sidebar">
-        <div class="logo">Vocab</div>
-        <div class="subtitle">583 words</div>
+<div class="page-transition" id="page-transition"></div>
+<div class="flashcard-overlay" id="flashcard-overlay">
+    <div class="flashcard-topbar">
+        <div class="flashcard-counter" id="fc-counter"></div>
+        <button class="flashcard-close" onclick="closeFlashcards()">&times;</button>
+    </div>
+    <div class="flashcard-stage" onclick="fcStageClick(event)">
+        <div class="flashcard" id="fc-card">
+            <div class="flashcard-face flashcard-front" id="fc-front"></div>
+            <div class="flashcard-face flashcard-back" id="fc-back"></div>
+        </div>
+    </div>
+    <div class="flashcard-nav">
+        <button class="flashcard-shuffle-btn" onclick="fcShuffle()">Shuffle</button>
+    </div>
+</div>
+<div class="top-bar">
+    <div class="top-row">
+        <a class="logo" href="#" onclick="resetHome(event)">vocab</a>
         <button class="add-word-btn" onclick="openAddModal()">+ Add Word</button>
-        <input type="text" class="search-box" id="search" placeholder="Search words, definitions, tags..." autofocus>
-
+    </div>
+    <div class="search-row">
+        <input type="text" class="search-box" id="search" placeholder="Search..." autofocus>
+    </div>
+</div>
+<div class="sidebar-wrap">
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <span class="sidebar-title">Filters</span>
+            <span class="filter-clear" id="clear-filters" onclick="clearFilters()">Clear</span>
+        </div>
         <div class="filter-section">
             <div class="filter-title">Version</div>
             <div class="filter-chips" id="version-filters"></div>
+        </div>
+        <div class="filter-section">
+            <div class="filter-title">Type</div>
+            <div class="filter-chips" id="pos-filters"></div>
         </div>
         <div class="filter-section">
             <div class="filter-title">Register</div>
             <div class="filter-chips" id="register-filters"></div>
         </div>
         <div class="filter-section">
-            <div class="filter-title">Part of Speech</div>
-            <div class="filter-chips" id="pos-filters"></div>
-        </div>
-        <div class="filter-section">
             <div class="filter-title">Tags</div>
-            <div class="filter-chips" id="tag-filters" style="max-height: 200px; overflow-y: auto;"></div>
+            <div class="filter-chips" id="tag-filters" style="max-height: 180px; overflow-y: auto;"></div>
         </div>
-
-        <div class="filter-section synonym-section">
-            <div class="filter-title">Synonym Groups</div>
-            <div class="synonym-list" id="synonym-groups"></div>
-        </div>
-        <div class="filter-clear" id="clear-filters" onclick="clearFilters()">Clear all filters</div>
         <div class="stats-bar" id="stats-bar"></div>
     </aside>
+</div>
+<div class="app">
     <main class="main">
         <div class="tabs">
-            <div class="tab active" data-tab="cards" onclick="switchTab('cards')">Cards</div>
-            <div class="tab" data-tab="triggers" onclick="switchTab('triggers')">Triggers</div>
-            <div class="tab" data-tab="graph" onclick="switchTab('graph')">Graph</div>
-            <div class="sort-toggle">
-                <span style="font-size:12px;color:#888;">Sort:</span>
+            <div class="tabs-left">
+                <span class="sort-btn" id="compact-toggle" onclick="toggleCompactMode()">Compact</span>
+                <span style="font-size:13px;color:#7a7168;margin-left:4px;">Sort:</span>
                 <span class="sort-btn active" id="sort-shuffle" onclick="setSortMode('shuffle')">Shuffle</span>
                 <span class="sort-btn" id="sort-alpha" onclick="setSortMode('alpha')">A-Z</span>
+            </div>
+            <div class="tabs-right">
+                <div class="tab active" data-tab="cards" onclick="switchTab('cards')">Cards</div>
+                <div class="tab" data-tab="triggers" onclick="switchTab('triggers')">Triggers</div>
+                <div class="tab" data-tab="flashcards" onclick="openFlashcards()">Flashcards</div>
             </div>
         </div>
         <div class="tab-content active" id="tab-cards">
@@ -250,7 +345,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
         </div>
         <div class="tab-content" id="tab-triggers">
             <div class="triggers-toolbar">
-                <input class="trigger-search" id="trigger-search" placeholder="Search scenarios, words, examples..." />
                 <div class="context-filters">
                     <button class="ctx-btn" data-ctx="essay">Essay</button>
                     <button class="ctx-btn" data-ctx="professional">Professional</button>
@@ -259,12 +353,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
                 <button class="quiz-btn" id="quiz-toggle" onclick="toggleQuizMode()">Quiz Mode</button>
             </div>
             <div id="triggers-index"></div>
-        </div>
-        <div class="tab-content" id="tab-graph">
-            <div id="graph-container">
-                <canvas id="graph-canvas"></canvas>
-                <div id="graph-tooltip"></div>
-            </div>
         </div>
     </main>
 </div>
@@ -299,6 +387,7 @@ let activeFilters = { tags: new Set(), registers: new Set(), pos: new Set(), ver
 let searchQuery = '';
 let expandedCard = null;
 let sortMode = 'shuffle';
+let compactMode = false;
 let shuffledOrder = shuffle(WORDS);
 let synonymGroupFilter = null;  // set of word names, or null
 
@@ -335,7 +424,6 @@ function init() {
     buildFilterChips('register-filters', ALL_REGISTERS, 'registers');
     buildFilterChips('pos-filters', ALL_POS, 'pos');
     buildFilterChips('tag-filters', ALL_TAGS, 'tags');
-    buildSynonymGroupsUI();
     renderCards();
     updateStats();
     buildTriggerIndex();
@@ -454,17 +542,51 @@ function clearFilters() {
     buildTriggerIndex();
 }
 
+function fuzzyDistance(a, b) {
+    const la = a.length, lb = b.length;
+    if (la === 0) return lb;
+    if (lb === 0) return la;
+    let prev = new Uint8Array(la + 1);
+    let curr = new Uint8Array(la + 1);
+    for (let j = 0; j <= la; j++) prev[j] = j;
+    for (let i = 1; i <= lb; i++) {
+        curr[0] = i;
+        for (let j = 1; j <= la; j++) {
+            curr[j] = Math.min(prev[j] + 1, curr[j - 1] + 1, prev[j - 1] + (a[j - 1] === b[i - 1] ? 0 : 1));
+        }
+        [prev, curr] = [curr, prev];
+    }
+    return prev[la];
+}
+
+// Pre-build search index once
+let searchIndex = null;
+function buildSearchIndex() {
+    searchIndex = WORDS.map(w => ({
+        word: w.word.toLowerCase(),
+        text: [w.word, w.definition || '', (w.tags || []).join(' '), (w.related || []).map(r => r.word).join(' ')].join(' ').toLowerCase(),
+        ref: w
+    }));
+}
+
 function matchesSearch(w) {
     if (!searchQuery) return true;
-    const q = searchQuery.toLowerCase();
-    const fields = [
-        w.word, w.definition || '',
-        (w.tags || []).join(' '),
-        (w.triggers || []).join(' '),
-        (w.examples || []).map(e => e.sentence).join(' '),
-        (w.related || []).map(r => r.word).join(' ')
-    ];
-    return fields.some(f => f.toLowerCase().includes(q));
+    const q = searchQuery.toLowerCase().trim();
+    if (!q) return true;
+    if (!searchIndex) buildSearchIndex();
+    const entry = searchIndex[WORDS.indexOf(w)];
+
+    // Short queries (1-2 chars): exact prefix/includes only -- fast path
+    if (q.length <= 2) {
+        return entry.word.startsWith(q) || entry.text.includes(q);
+    }
+
+    // Medium queries: try includes first (fast), then fuzzy on word name only
+    if (entry.text.includes(q)) return true;
+
+    // Fuzzy match on the word name only (not full text -- too expensive)
+    const threshold = q.length <= 4 ? 1 : q.length <= 7 ? 2 : 3;
+    return fuzzyDistance(entry.word, q) <= threshold;
 }
 
 function matchesFilters(w) {
@@ -487,61 +609,66 @@ function renderCards() {
     if (synonymGroupFilter) {
         filtered = filtered.filter(w => synonymGroupFilter.has(w.word.toLowerCase()));
     }
-    document.getElementById('card-count').textContent = `Showing ${filtered.length} of ${WORDS.length} words`;
+    document.getElementById('card-count').textContent = `${filtered.length}/${WORDS.length}`;
 
     grid.innerHTML = filtered.map((w, i) => {
         const idx = WORDS.indexOf(w);
         const usageCount = getUsageCount(w.word);
         const isExpanded = expandedCard === idx;
         return `
-        <div class="card ${isExpanded ? 'expanded' : ''}" id="card-${idx}" onclick="toggleCard(${idx})">
+        <div class="card ${isExpanded ? 'expanded' : ''}" id="card-${idx}" style="animation-delay:${Math.min(i * 0.02, 0.5)}s">
             <div class="card-header">
-                <div>
-                    <span class="word-title">${esc(w.word)}</span>
+                <div class="card-toggle" onclick="toggleCard(${idx})">
+                    <span class="toggle-arrow ${isExpanded ? 'open' : ''}">\u25B6</span>
+                    <span class="word-title">${esc(w.word.toLowerCase())}</span>
+                    <span class="pos-abbr">${(w.pos || []).map(p => posAbbr(p)).join(', ')}</span>
                     <span class="pronunciation">${esc(w.pronunciation || '')}</span>
-                    <span class="version-dot v${w.version || 1}" title="Version ${w.version || 1}"></span>
-                    <span class="version-badge v${w.version || 1}">V${w.version || 1}</span>
-                    ${usageCount > 0 ? `<span class="usage-badge">used ${usageCount}x</span>` : ''}
                 </div>
-                <div class="pos-badges">
-                    ${(w.pos || []).map(p => `<span class="pos-badge">${p}</span>`).join('')}
+                <div>
+                    <span class="version-dot v${w.version || 1}" title="Version ${w.version || 1}"></span>
+                    ${usageCount > 0 ? `<span class="usage-badge">${usageCount}x</span>` : ''}
                 </div>
             </div>
-            <div class="definition">${esc(w.definition || '')}</div>
-            <div class="register-tags">
+            <div class="definition card-collapsible" ${compactMode && !isExpanded ? 'style="max-height:0;opacity:0;margin:0;overflow:hidden;"' : ''}>${esc(w.definition || '')}</div>
+            ${(w.synonyms && w.synonyms.length) ? `<div class="synonym-row card-collapsible" ${compactMode && !isExpanded ? 'style="max-height:0;opacity:0;margin:0;overflow:hidden;"' : ''}><span class="synonym-label">Synonyms</span> <span class="synonym-text">${w.synonyms.map(s => esc(s)).join(', ')}</span></div>` : ''}
+            <div class="register-tags card-collapsible" ${compactMode && !isExpanded ? 'style="max-height:0;opacity:0;margin:0;overflow:hidden;"' : ''}>
                 ${(w.register || []).map(r => `<span class="register-tag">${r}</span>`).join('')}
                 ${(w.tags || []).map(t => `<span class="tag-pill">${t}</span>`).join('')}
             </div>
-            ${(w.synonyms && w.synonyms.length) ? `<div class="synonym-row"><span class="synonym-label">Synonyms</span> ${w.synonyms.map(s => `<span class="synonym-pill">${esc(s)}</span>`).join('')}</div>` : ''}
             <div class="card-detail">
                 ${renderDetail(w)}
             </div>
         </div>`;
     }).join('');
+
+    // Only animate on first load
+    if (!grid.dataset.loaded) {
+        grid.classList.add('initial-load');
+        grid.dataset.loaded = '1';
+        setTimeout(() => grid.classList.remove('initial-load'), 800);
+    }
 }
 
 function renderDetail(w) {
     let html = '';
     if (w.triggers && w.triggers.length) {
         html += `<div class="detail-section"><div class="detail-title">When to use</div>
-            ${w.triggers.map(t => `<div class="trigger-item">${esc(t)}</div>`).join('')}</div>`;
+            <div class="trigger-list">${w.triggers.map(t => esc(t)).join(' &middot; ')}</div></div>`;
     }
     if (w.examples && w.examples.length) {
         html += `<div class="detail-section"><div class="detail-title">Examples</div>
             ${w.examples.map(e => `
                 <div class="example-item">
-                    <div class="example-context">${esc(e.context || '')}</div>
-                    <div class="example-sentence">"${esc(e.sentence)}"</div>
-                    <div class="example-why">${esc(e.why || '')}</div>
+                    <span class="example-context">${esc(e.context || '')}</span>
+                    <span class="example-sentence">"${esc(e.sentence)}"</span>
                 </div>`).join('')}</div>`;
     }
     if (w.misuses && w.misuses.length) {
-        html += `<div class="detail-section"><div class="detail-title">Common Misuses</div>
+        html += `<div class="detail-section"><div class="detail-title">Misuses</div>
             ${w.misuses.map(m => `
                 <div class="misuse-item">
                     <div class="misuse-wrong">"${esc(m.wrong)}"</div>
-                    <div class="misuse-problem">${esc(m.problem)}</div>
-                    <div class="misuse-instead">Use instead: ${esc(m.use_instead || '')}</div>
+                    <div class="misuse-fix">${esc(m.problem)}${m.use_instead ? ` <span class="use-instead">Use: ${esc(m.use_instead)}</span>` : ''}</div>
                 </div>`).join('')}</div>`;
     }
     if (w.related && w.related.length) {
@@ -560,14 +687,190 @@ function esc(s) {
     return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
-function toggleCard(idx) {
-    expandedCard = expandedCard === idx ? null : idx;
+function posAbbr(p) {
+    const map = { 'noun': 'n.', 'verb': 'v.', 'adjective': 'adj.', 'adverb': 'adv.', 'preposition': 'prep.', 'conjunction': 'conj.', 'interjection': 'int.', 'pronoun': 'pron.' };
+    return map[p.toLowerCase()] || p;
+}
+
+function toggleCompactMode() {
+    compactMode = !compactMode;
+    document.getElementById('compact-toggle').classList.toggle('active', compactMode);
     renderCards();
-    if (expandedCard !== null) {
-        const el = document.getElementById('card-' + idx);
-        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function collapseCard(card) {
+    if (!card) return;
+    card.classList.remove('expanded');
+    const detail = card.querySelector('.card-detail');
+    if (detail) detail.style.display = 'none';
+    const arrow = card.querySelector('.toggle-arrow');
+    if (arrow) arrow.classList.remove('open');
+}
+
+function toggleCard(idx) {
+    const wasExpanded = expandedCard === idx;
+    const card = document.getElementById('card-' + idx);
+
+    if (wasExpanded) {
+        expandedCard = null;
+        collapseCard(card);
+    } else {
+        if (expandedCard !== null) collapseCard(document.getElementById('card-' + expandedCard));
+        expandedCard = idx;
+        if (card) {
+            card.classList.add('expanded');
+            const detail = card.querySelector('.card-detail');
+            if (detail) detail.style.display = 'block';
+            const arrow = card.querySelector('.toggle-arrow');
+            if (arrow) arrow.classList.add('open');
+        }
     }
 }
+
+function resetHome(e) {
+    e.preventDefault();
+    const overlay = document.getElementById('page-transition');
+    overlay.classList.add('active');
+    setTimeout(() => {
+        // Reset everything
+        searchQuery = '';
+        document.getElementById('search').value = '';
+        expandedCard = null;
+        compactMode = false;
+        document.getElementById('compact-toggle').classList.remove('active');
+        clearFilters();
+        switchTab('cards');
+        shuffledOrder = [...WORDS].sort(() => Math.random() - 0.5);
+        setSortMode('shuffle');
+        window.scrollTo({ top: 0 });
+        // Fade out overlay
+        setTimeout(() => { overlay.classList.remove('active'); }, 100);
+    }, 300);
+}
+
+// === FLASHCARDS ===
+let fcOrder = [];
+let fcIndex = 0;
+
+function openFlashcards() {
+    // Use current filtered words or all words
+    const source = sortMode === 'alpha' ? WORDS : shuffledOrder;
+    fcOrder = source.filter(w => matchesSearch(w) && matchesFilters(w));
+    if (!fcOrder.length) fcOrder = [...WORDS];
+    fcIndex = 0;
+    renderFlashcard();
+    document.getElementById('flashcard-overlay').classList.add('active');
+}
+
+function closeFlashcards() {
+    const overlay = document.getElementById('flashcard-overlay');
+    overlay.classList.remove('active');
+    // Unflip
+    document.getElementById('fc-card').classList.remove('flipped');
+}
+
+function flipFlashcard() {
+    var card = document.getElementById('fc-card');
+    var isFlipping = !card.classList.contains('flipped');
+    card.classList.toggle('flipped');
+    // Resize card to fit back content when flipped
+    if (isFlipping) {
+        setTimeout(function() {
+            var back = document.getElementById('fc-back');
+            var h = back.scrollHeight;
+            card.style.minHeight = Math.max(320, h) + 'px';
+        }, 300);
+    } else {
+        card.style.minHeight = '320px';
+    }
+}
+
+function fcStageClick(e) {
+    var card = document.getElementById('fc-card');
+    // If click is on the card itself, flip it
+    if (card.contains(e.target)) {
+        flipFlashcard();
+        return;
+    }
+    // Otherwise check left/right side of the stage
+    var stage = e.currentTarget;
+    var rect = stage.getBoundingClientRect();
+    var x = e.clientX - rect.left;
+    var mid = rect.width / 2;
+    if (x > mid) {
+        fcNext();
+    } else {
+        fcPrev();
+    }
+}
+
+function fcNext() {
+    document.getElementById('fc-card').classList.remove('flipped');
+    fcIndex = (fcIndex + 1) % fcOrder.length;
+    renderFlashcard();
+}
+
+function fcPrev() {
+    document.getElementById('fc-card').classList.remove('flipped');
+    fcIndex = (fcIndex - 1 + fcOrder.length) % fcOrder.length;
+    renderFlashcard();
+}
+
+function fcShuffle() {
+    document.getElementById('fc-card').classList.remove('flipped');
+    fcOrder = [...fcOrder].sort(() => Math.random() - 0.5);
+    fcIndex = 0;
+    renderFlashcard();
+}
+
+function renderFlashcard() {
+    const w = fcOrder[fcIndex];
+    if (!w) return;
+    document.getElementById('fc-card').style.minHeight = '320px';
+    document.getElementById('fc-counter').textContent = `${fcIndex + 1} / ${fcOrder.length}`;
+
+    // Front
+    document.getElementById('fc-front').innerHTML = `
+        <div class="fc-word">${esc(w.word.toLowerCase())}</div>
+        <div class="fc-pos">${(w.pos || []).map(p => posAbbr(p)).join(', ')}</div>
+        <div class="fc-pronunciation">${esc(w.pronunciation || '')}</div>
+    `;
+
+    // Back
+    let back = `<div class="fc-word-sm">${esc(w.word.toLowerCase())}</div>`;
+    back += `<div class="fc-def">${esc(w.definition || '')}</div>`;
+
+    if (w.synonyms && w.synonyms.length) {
+        back += `<div class="fc-section"><div class="fc-section-title">Synonyms</div><div class="fc-synonyms">${w.synonyms.map(s => esc(s)).join(', ')}</div></div>`;
+    }
+    if (w.triggers && w.triggers.length) {
+        back += `<div class="fc-section"><div class="fc-section-title">When to use</div><div style="font-size:13px;color:#3a3835;">${w.triggers.map(t => esc(t)).join(' &middot; ')}</div></div>`;
+    }
+    if (w.examples && w.examples.length) {
+        back += `<div class="fc-section"><div class="fc-section-title">Examples</div>${w.examples.map(e => `<div class="fc-example"><strong style="font-style:normal;color:#b8a99a;font-size:10px;text-transform:uppercase;">${esc(e.context || '')}</strong> "${esc(e.sentence)}"</div>`).join('')}</div>`;
+    }
+    if (w.misuses && w.misuses.length) {
+        back += `<div class="fc-section"><div class="fc-section-title">Misuses</div>${w.misuses.map(m => `<div class="fc-misuse"><span class="fc-misuse-wrong">"${esc(m.wrong)}"</span></div>`).join('')}</div>`;
+    }
+    if (w.register && w.register.length || w.tags && w.tags.length) {
+        back += `<div class="fc-section"><div class="fc-tags">${(w.register || []).map(r => `<span class="fc-tag">${r}</span>`).join('')}${(w.tags || []).map(t => `<span class="fc-tag">${t}</span>`).join('')}</div></div>`;
+    }
+
+    document.getElementById('fc-back').innerHTML = back;
+
+    // Set card height to match the taller face
+    const card = document.getElementById('fc-card');
+    card.style.minHeight = '320px';
+}
+
+// Keyboard nav for flashcards
+document.addEventListener('keydown', function(e) {
+    if (!document.getElementById('flashcard-overlay').classList.contains('active')) return;
+    if (e.key === 'ArrowRight') fcNext();
+    else if (e.key === 'ArrowLeft') fcPrev();
+    else if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flipFlashcard(); }
+    else if (e.key === 'Escape') closeFlashcards();
+});
 
 function navigateTo(word) {
     const idx = wordMap[word.toLowerCase()];
@@ -585,11 +888,13 @@ function navigateTo(word) {
     }, 50);
 }
 
-// Search
+// Search (debounced)
+let searchTimer = null;
 document.getElementById('search').addEventListener('input', function() {
     searchQuery = this.value;
     expandedCard = null;
-    renderCards();
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => renderCards(), searchQuery.length <= 2 ? 50 : 120);
 });
 
 function updateStats() {
@@ -605,10 +910,6 @@ function updateStats() {
 function switchTab(tab) {
     document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === tab));
     document.querySelectorAll('.tab-content').forEach(t => t.classList.toggle('active', t.id === 'tab-' + tab));
-    if (tab === 'graph' && !graphInitialized) {
-        // Delay so browser reflows the now-visible container before we read its size
-        requestAnimationFrame(() => requestAnimationFrame(() => initGraph()));
-    }
 }
 
 // === TRIGGER INDEX ===
@@ -709,11 +1010,6 @@ let triggerListenersInit = false;
 function initTriggerListeners() {
     if (triggerListenersInit) return;
     triggerListenersInit = true;
-    let debounce;
-    document.getElementById('trigger-search').addEventListener('input', function() {
-        clearTimeout(debounce);
-        debounce = setTimeout(() => { triggerSearchQuery = this.value; renderTriggers(); }, 200);
-    });
     document.querySelectorAll('.ctx-btn').forEach(btn => {
         btn.addEventListener('click', function() {
             const ctx = this.dataset.ctx;
@@ -727,374 +1023,6 @@ function initTriggerListeners() {
             }
             renderTriggers();
         });
-    });
-}
-
-// === GRAPH ===
-let graphInitialized = false;
-
-function initGraph() {
-    graphInitialized = true;
-    const canvas = document.getElementById('graph-canvas');
-    const container = document.getElementById('graph-container');
-    const tooltip = document.getElementById('graph-tooltip');
-    const ctx = canvas.getContext('2d');
-    let mouseX = -9999, mouseY = -9999;
-    let dragging = null;
-    let hovered = null;
-
-    const viewW = container.clientWidth || 1200;
-    const viewH = container.clientHeight || 700;
-
-    // Build nodes/edges
-    const nodeSet = new Set();
-    const edgeList = [];
-    WORDS.forEach(w => {
-        if (w.related && w.related.length) {
-            nodeSet.add(w.word);
-            w.related.forEach(r => {
-                nodeSet.add(r.word);
-                edgeList.push([w.word, r.word]);
-            });
-        }
-    });
-    const nodeArr = Array.from(nodeSet);
-    const nodeIdx = {};
-    nodeArr.forEach((n, i) => { nodeIdx[n] = i; });
-
-    // Union-find for clusters
-    const uf = {};
-    function find(x) { if (uf[x] !== x) uf[x] = find(uf[x]); return uf[x]; }
-    function union(a, b) { uf[find(a)] = find(b); }
-    nodeArr.forEach(n => { uf[n] = n; });
-    edgeList.forEach(([a, b]) => union(a, b));
-
-    const clusterMap = {};
-    nodeArr.forEach(n => {
-        const root = find(n);
-        if (!clusterMap[root]) clusterMap[root] = [];
-        clusterMap[root].push(n);
-    });
-    const clusterList = Object.values(clusterMap).sort((a, b) => b.length - a.length);
-
-    const regColors = { formal: '#4a6cf7', informal: '#e67e22', literary: '#8e44ad', technical: '#16a085', general: '#7f8c8d', academic: '#2c3e50', neutral: '#95a5a6', colloquial: '#e74c3c' };
-
-    // Bubble radius: enough for labels to be readable
-    function bubbleRadius(n) { return Math.max(35, Math.sqrt(n) * 32); }
-
-    // Pack bubbles into rows with no overlap, sizing the canvas to fit
-    const GAP = 12;
-    const bubbles = clusterList.map((cluster, ci) => ({
-        members: cluster, radius: bubbleRadius(cluster.length), color: ci % 8,
-        x: 0, y: 0, homeX: 0, homeY: 0
-    }));
-
-    // Row-pack: place bubbles left to right, wrap when row is full
-    let rowX = GAP, rowY = GAP, rowH = 0;
-    const canvasW = Math.max(viewW, 1000);
-    bubbles.forEach(b => {
-        const d = b.radius * 2;
-        if (rowX + d + GAP > canvasW && rowX > GAP) {
-            rowX = GAP;
-            rowY += rowH + GAP;
-            rowH = 0;
-        }
-        b.homeX = rowX + b.radius;
-        b.homeY = rowY + b.radius;
-        b.x = b.homeX;
-        b.y = b.homeY;
-        rowX += d + GAP;
-        rowH = Math.max(rowH, d);
-    });
-    const canvasH = Math.max(rowY + rowH + GAP, viewH);
-    canvas.width = canvasW;
-    canvas.height = canvasH;
-
-    // Build graph nodes positioned relative to their bubble
-    const graphNodes = [];
-    const graphNodeIdx = {};
-    const nodeBubble = {};
-
-    bubbles.forEach((bubble, bi) => {
-        const cluster = bubble.members;
-        const n = cluster.length;
-        cluster.forEach((name, ni) => {
-            const w = WORDS.find(x => x.word.toLowerCase() === name.toLowerCase());
-            const reg = (w && w.register && w.register[0]) || 'general';
-            let ox = 0, oy = 0;
-            if (n > 1) {
-                const angle = (ni / n) * Math.PI * 2 - Math.PI / 2;
-                const innerR = bubble.radius * 0.6;
-                ox = Math.cos(angle) * innerR;
-                oy = Math.sin(angle) * innerR;
-            }
-            const idx = graphNodes.length;
-            graphNodeIdx[name] = idx;
-            nodeBubble[idx] = bi;
-            graphNodes.push({
-                name, ox, oy, homeOx: ox, homeOy: oy,
-                color: regColors[reg] || '#7f8c8d',
-                inDb: !!w
-            });
-        });
-    });
-
-    const graphEdges = edgeList.map(([a, b]) => [graphNodeIdx[a], graphNodeIdx[b]]).filter(([a,b]) => a !== undefined && b !== undefined);
-
-    function nodePos(i) {
-        const b = bubbles[nodeBubble[i]];
-        return { x: b.x + graphNodes[i].ox, y: b.y + graphNodes[i].oy };
-    }
-
-    let hoveredBubble = -1;
-
-    function getBubbleAt(mx, my) {
-        for (let i = bubbles.length - 1; i >= 0; i--) {
-            const b = bubbles[i];
-            const dx = b.x - mx, dy = b.y - my;
-            if (dx * dx + dy * dy < b.radius * b.radius) return i;
-        }
-        return -1;
-    }
-
-    // Intro: ease from center to home
-    let introFrame = 0;
-    const INTRO_FRAMES = 90;
-    const centerX = canvasW / 2, centerY = viewH / 2;
-    bubbles.forEach(b => {
-        b.x = centerX + (Math.random() - 0.5) * 150;
-        b.y = centerY + (Math.random() - 0.5) * 150;
-    });
-
-    function draw() {
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-        // Draw bubble backgrounds
-        const bubbleColors = ['rgba(74,108,247,0.06)', 'rgba(230,126,34,0.06)', 'rgba(142,68,173,0.06)', 'rgba(22,160,133,0.06)', 'rgba(127,140,141,0.06)', 'rgba(44,62,80,0.06)', 'rgba(149,165,166,0.06)', 'rgba(231,76,60,0.06)'];
-        const borderColors = ['rgba(74,108,247,0.15)', 'rgba(230,126,34,0.15)', 'rgba(142,68,173,0.15)', 'rgba(22,160,133,0.15)', 'rgba(127,140,141,0.15)', 'rgba(44,62,80,0.15)', 'rgba(149,165,166,0.15)', 'rgba(231,76,60,0.15)'];
-        bubbles.forEach((b, bi) => {
-            ctx.beginPath();
-            ctx.arc(b.x, b.y, b.radius, 0, Math.PI * 2);
-            if (bi === hoveredBubble) {
-                ctx.fillStyle = 'rgba(255,255,255,0.95)';
-                ctx.shadowColor = 'rgba(74,108,247,0.3)';
-                ctx.shadowBlur = 20;
-            } else {
-                ctx.fillStyle = bubbleColors[b.color % 8];
-                ctx.shadowColor = 'transparent';
-                ctx.shadowBlur = 0;
-            }
-            ctx.fill();
-            ctx.shadowColor = 'transparent';
-            ctx.shadowBlur = 0;
-            ctx.strokeStyle = bi === hoveredBubble ? 'rgba(74,108,247,0.5)' : borderColors[b.color % 8];
-            ctx.lineWidth = bi === hoveredBubble ? 2 : 1;
-            ctx.stroke();
-        });
-
-        // Edges (within clusters)
-        ctx.strokeStyle = 'rgba(74, 108, 247, 0.12)';
-        ctx.lineWidth = 0.8;
-        graphEdges.forEach(([a, b]) => {
-            const pa = nodePos(a), pb = nodePos(b);
-            ctx.beginPath();
-            ctx.moveTo(pa.x, pa.y);
-            ctx.lineTo(pb.x, pb.y);
-            ctx.stroke();
-        });
-
-        // Nodes + labels
-        graphNodes.forEach((n, i) => {
-            const pos = nodePos(i);
-            const isHovered = i === hovered;
-            const r = isHovered ? 5 : (n.inDb ? 3.5 : 2.5);
-
-            ctx.beginPath();
-            ctx.arc(pos.x, pos.y, r, 0, Math.PI * 2);
-            ctx.fillStyle = isHovered ? '#ff6b6b' : n.color;
-            ctx.fill();
-
-            // Label
-            ctx.font = isHovered ? 'bold 11px -apple-system, sans-serif' : '10px -apple-system, sans-serif';
-            ctx.fillStyle = isHovered ? '#1a1a2e' : '#555';
-            ctx.textBaseline = 'middle';
-            ctx.fillText(n.name, pos.x + r + 3, pos.y);
-        });
-    }
-
-    // Intro: ease from center to home, then stop
-    let settled = false;
-    function animateIntro() {
-        if (introFrame < INTRO_FRAMES) {
-            introFrame++;
-            const t = introFrame / INTRO_FRAMES;
-            const ease = 1 - Math.pow(1 - t, 3);
-            bubbles.forEach(b => {
-                b.x = centerX + (b.homeX - centerX) * ease;
-                b.y = centerY + (b.homeY - centerY) * ease;
-            });
-            draw();
-            requestAnimationFrame(animateIntro);
-        } else {
-            // Snap to final positions, done
-            bubbles.forEach(b => { b.x = b.homeX; b.y = b.homeY; b.vx = 0; b.vy = 0; });
-            settled = true;
-            draw();
-        }
-    }
-    animateIntro();
-
-    // After settled, only redraw on mouse interaction
-    function interactionDraw() {
-        if (!settled) return;
-
-        hoveredBubble = getBubbleAt(mouseX, mouseY);
-
-        bubbles.forEach((b, i) => {
-            if (i === hoveredBubble) {
-                // Hovered bubble stays at home
-                b.x += (b.homeX - b.x) * 0.12;
-                b.y += (b.homeY - b.y) * 0.12;
-            } else if (hoveredBubble >= 0) {
-                // Push overlapping bubbles away from hovered bubble
-                const hb = bubbles[hoveredBubble];
-                const dx = b.x - hb.x;
-                const dy = b.y - hb.y;
-                const dist = Math.sqrt(dx * dx + dy * dy);
-                const clearance = hb.radius + b.radius + 15;
-                if (dist < clearance && dist > 0) {
-                    // Push outward so they clear the hovered bubble
-                    const pushX = (dx / dist) * clearance;
-                    const pushY = (dy / dist) * clearance;
-                    const targetX = hb.x + pushX;
-                    const targetY = hb.y + pushY;
-                    b.x += (targetX - b.x) * 0.1;
-                    b.y += (targetY - b.y) * 0.1;
-                } else {
-                    // Spring back to home
-                    b.x += (b.homeX - b.x) * 0.06;
-                    b.y += (b.homeY - b.y) * 0.06;
-                }
-            } else {
-                // No hover — spring back to home
-                b.x += (b.homeX - b.x) * 0.08;
-                b.y += (b.homeY - b.y) * 0.08;
-            }
-        });
-
-        // Node-level: when hovering a word, push siblings away within the same bubble
-        if (hovered !== null) {
-            const hovBi = nodeBubble[hovered];
-            const hovNode = graphNodes[hovered];
-            // Hovered node stays at home
-            hovNode.ox += (hovNode.homeOx - hovNode.ox) * 0.15;
-            hovNode.oy += (hovNode.homeOy - hovNode.oy) * 0.15;
-
-            graphNodes.forEach((n, i) => {
-                if (i === hovered || nodeBubble[i] !== hovBi) return;
-                const dx = n.ox - hovNode.ox;
-                const dy = n.oy - hovNode.oy;
-                const dist = Math.sqrt(dx * dx + dy * dy) || 1;
-                const minDist = 55; // minimum px between hovered and siblings
-                if (dist < minDist) {
-                    const pushDist = minDist;
-                    const targetOx = hovNode.ox + (dx / dist) * pushDist;
-                    const targetOy = hovNode.oy + (dy / dist) * pushDist;
-                    n.ox += (targetOx - n.ox) * 0.12;
-                    n.oy += (targetOy - n.oy) * 0.12;
-                }
-            });
-        } else {
-            // No hovered node — spring all nodes back to home offsets
-            graphNodes.forEach(n => {
-                n.ox += (n.homeOx - n.ox) * 0.1;
-                n.oy += (n.homeOy - n.oy) * 0.1;
-            });
-        }
-
-        draw();
-        requestAnimationFrame(interactionDraw);
-    }
-
-    // Interaction
-    function getNodeAt(mx, my) {
-        for (let i = graphNodes.length - 1; i >= 0; i--) {
-            const p = nodePos(i);
-            const dx = p.x - mx, dy = p.y - my;
-            if (dx * dx + dy * dy < 144) return i;
-        }
-        return null;
-    }
-
-    function getMousePos(e) {
-        const rect = canvas.getBoundingClientRect();
-        return [e.clientX - rect.left, e.clientY - rect.top];
-    }
-
-    let interacting = false;
-    canvas.addEventListener('mousemove', function(e) {
-        [mouseX, mouseY] = getMousePos(e);
-        const idx = getNodeAt(mouseX, mouseY);
-        hovered = idx;
-        canvas.style.cursor = idx !== null ? 'pointer' : 'default';
-        if (idx !== null) {
-            const n = graphNodes[idx];
-            const w = WORDS.find(x => x.word.toLowerCase() === n.name.toLowerCase());
-            tooltip.style.display = 'block';
-            tooltip.style.left = (e.clientX + 14) + 'px';
-            tooltip.style.top = (e.clientY - 10) + 'px';
-            tooltip.innerHTML = `<strong>${n.name}</strong>` + (w ? `<br><span style="color:#888">${w.definition || ''}</span>` : ' <em>(not in vocab)</em>');
-        } else {
-            tooltip.style.display = 'none';
-        }
-        if (dragging) {
-            const bi = dragging.bubbleIdx;
-            bubbles[bi].x = mouseX;
-            bubbles[bi].y = mouseY;
-            bubbles[bi].homeX = mouseX;
-            bubbles[bi].homeY = mouseY;
-        }
-        // Start interaction loop if not running
-        if (settled && !interacting) {
-            interacting = true;
-            interactionDraw();
-        }
-    });
-
-    canvas.addEventListener('mouseleave', function() {
-        mouseX = -9999; mouseY = -9999;
-        hovered = null;
-        interacting = false;
-        tooltip.style.display = 'none';
-        // Snap back to home and redraw once
-        if (settled) {
-            bubbles.forEach(b => { b.x = b.homeX; b.y = b.homeY; });
-            draw();
-        }
-    });
-
-    canvas.addEventListener('mousedown', function(e) {
-        const [mx, my] = getMousePos(e);
-        const idx = getNodeAt(mx, my);
-        if (idx !== null) {
-            dragging = { bubbleIdx: nodeBubble[idx] };
-        } else {
-            // Check if clicking on a bubble directly
-            for (let i = bubbles.length - 1; i >= 0; i--) {
-                const b = bubbles[i];
-                const dx = b.x - mx, dy = b.y - my;
-                if (dx * dx + dy * dy < b.radius * b.radius) {
-                    dragging = { bubbleIdx: i };
-                    break;
-                }
-            }
-        }
-    });
-    canvas.addEventListener('mouseup', function() { dragging = null; });
-    canvas.addEventListener('dblclick', function(e) {
-        const [mx, my] = getMousePos(e);
-        const idx = getNodeAt(mx, my);
-        if (idx !== null) navigateTo(graphNodes[idx].name);
     });
 }
 
@@ -1170,6 +1098,34 @@ document.addEventListener('keydown', function(e) {
 });
 
 init();
+
+// Magnetic tilt effect on cards (Aperture-style)
+if (!matchMedia('(hover: none)').matches) {
+    document.addEventListener('mousemove', function(e) {
+        const card = e.target.closest('.card');
+        if (!card || card.classList.contains('expanded')) return;
+        const rect = card.getBoundingClientRect();
+        const x = (e.clientX - rect.left) / rect.width - 0.5;
+        const y = (e.clientY - rect.top) / rect.height - 0.5;
+        const tiltX = -(y * 6);
+        const tiltY = x * 6;
+        card.style.transition = 'box-shadow 0.3s ease';
+        card.style.transform = 'perspective(800px) rotateX(' + tiltX + 'deg) rotateY(' + tiltY + 'deg) translateY(-3px)';
+    });
+    function resetTilt(card) {
+        if (!card) return;
+        card.style.transition = 'transform 0.4s cubic-bezier(0.33,1,0.68,1), box-shadow 0.3s ease';
+        card.style.transform = '';
+    }
+    document.addEventListener('mouseleave', function(e) {
+        resetTilt(e.target.closest && e.target.closest('.card'));
+    }, true);
+    document.addEventListener('mouseout', function(e) {
+        const card = e.target.closest && e.target.closest('.card');
+        const related = e.relatedTarget && e.relatedTarget.closest && e.relatedTarget.closest('.card');
+        if (card && card !== related) resetTilt(card);
+    });
+}
 </script>
 
 <!-- Add Word Modal -->
