@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema_version": 2,
-    "last_updated": "2026-04-02",
-    "word_count": 586,
+    "last_updated": "2026-04-03",
+    "word_count": 672,
     "active_version": 1,
     "versions": {
       "1": {
@@ -41998,6 +41998,5403 @@
       ],
       "version": 2,
       "date_added": "2026-04-02"
+    },
+    {
+      "word": "Levied",
+      "pos": [
+        "verb",
+        "adjective"
+      ],
+      "pronunciation": "LEV-eed",
+      "definition": "imposed or collected, as a tax, fee, or charge; raised or enacted by authority",
+      "register": [
+        "formal",
+        "legal"
+      ],
+      "tags": [
+        "governance",
+        "finance",
+        "authority"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The fines levied against the corporation amounted to little more than a rounding error on their quarterly earnings.",
+          "why": "Shows levied as imposed by authority, with ironic commentary on proportionality."
+        },
+        {
+          "context": "professional",
+          "sentence": "New tariffs levied on imported steel reshaped the domestic manufacturing landscape within months.",
+          "why": "Applies to policy context where charges are formally enacted."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She levied her own quiet punishment: silence, sustained and merciless.",
+          "why": "Metaphorical use extending the word beyond financial contexts while preserving the sense of deliberate imposition."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "He levied his heavy bag onto the table.",
+          "problem": "Levied means imposed (a charge or obligation), not physically lifted.",
+          "use_instead": "heaved or hoisted"
+        }
+      ],
+      "related": [
+        {
+          "word": "imposed",
+          "distinction": "Imposed is broader; levied specifically connotes taxes, fines, or formal charges."
+        },
+        {
+          "word": "enacted",
+          "distinction": "Enacted refers to passing a law; levied refers to collecting or imposing what the law requires."
+        }
+      ],
+      "triggers": [
+        "When describing taxes, fines, or penalties formally imposed",
+        "When an authority figure exacts a cost or obligation"
+      ],
+      "synonyms": [
+        "imposed",
+        "assessed",
+        "exacted",
+        "charged"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Dispel",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "dih-SPEL",
+      "definition": "to drive away or cause to vanish; to eliminate a feeling, belief, or misconception",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "clarity",
+        "persuasion",
+        "truth"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The data alone was not enough to dispel the myth; it took a generation of lived experience to shift public opinion.",
+          "why": "Shows dispel applied to persistent misconceptions."
+        },
+        {
+          "context": "professional",
+          "sentence": "Her opening remarks dispelled any doubt about the company's commitment to the restructuring.",
+          "why": "Demonstrates dispel in a corporate context."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "Morning light dispelled the fog, and with it, the last of his excuses for staying.",
+          "why": "Literal and metaphorical layers working together."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She dispelled a new theory about the origins of the virus.",
+          "problem": "Dispel means to debunk or remove, not to propose.",
+          "use_instead": "proposed or advanced"
+        }
+      ],
+      "related": [
+        {
+          "word": "debunk",
+          "distinction": "Debunk implies exposing something as false; dispel implies causing it to fade or vanish."
+        },
+        {
+          "word": "dissipate",
+          "distinction": "Dissipate suggests gradual fading; dispel implies more active removal."
+        }
+      ],
+      "triggers": [
+        "When clearing up misconceptions",
+        "When describing doubt or fear being eliminated"
+      ],
+      "synonyms": [
+        "banish",
+        "dismiss",
+        "eliminate",
+        "scatter"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Dispense",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "dih-SPENS",
+      "definition": "to distribute, provide, or administer; also, to do away with or forgo (dispense with)",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "distribution",
+        "authority",
+        "elimination"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The court dispensed justice unevenly, favoring those with the resources to endure a prolonged trial.",
+          "why": "Uses dispense in its administer sense with critical commentary."
+        },
+        {
+          "context": "professional",
+          "sentence": "Let's dispense with the formalities and get to the substance of the proposal.",
+          "why": "Common idiomatic use of dispense with."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He dispensed advice the way a bartender pours drinks: generously, and without checking whether you'd had too much.",
+          "why": "Metaphorical use that plays on the distribution sense."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The fog dispensed over the valley.",
+          "problem": "Confuses dispense (distribute) with disperse (scatter).",
+          "use_instead": "dispersed"
+        }
+      ],
+      "related": [
+        {
+          "word": "distribute",
+          "distinction": "Distribute is neutral; dispense implies authority or an official capacity."
+        },
+        {
+          "word": "administer",
+          "distinction": "Administer emphasizes management; dispense emphasizes the act of giving out."
+        }
+      ],
+      "triggers": [
+        "When describing authoritative distribution",
+        "When using dispense with to mean forgoing something"
+      ],
+      "synonyms": [
+        "distribute",
+        "administer",
+        "provide",
+        "issue"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Expressly",
+      "pos": [
+        "adverb"
+      ],
+      "pronunciation": "ik-SPRES-lee",
+      "definition": "explicitly and clearly stated; for the specific purpose of; with direct intention",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "precision",
+        "intention",
+        "clarity"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The policy was expressly designed to prevent the kind of consolidation that had destabilized the market a decade earlier.",
+          "why": "Shows expressly emphasizing deliberate, stated purpose."
+        },
+        {
+          "context": "professional",
+          "sentence": "The contract expressly prohibits sublicensing without written consent.",
+          "why": "Legal usage where explicit statement matters."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She had expressly told him not to come, which is why his presence felt less like a surprise and more like a provocation.",
+          "why": "Emphasizes a clear instruction was violated."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "He expressly enjoyed the meal.",
+          "problem": "Expressly means explicitly or deliberately, not intensely.",
+          "use_instead": "thoroughly or greatly"
+        }
+      ],
+      "related": [
+        {
+          "word": "explicitly",
+          "distinction": "Nearly synonymous; expressly carries a slightly stronger sense of deliberate purpose."
+        },
+        {
+          "word": "specifically",
+          "distinction": "Specifically narrows scope; expressly emphasizes deliberate intent."
+        }
+      ],
+      "triggers": [
+        "When emphasizing clear, deliberate intent",
+        "In legal or formal contexts where precision matters"
+      ],
+      "synonyms": [
+        "explicitly",
+        "specifically",
+        "deliberately",
+        "purposely"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Distressed",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "dih-STREST",
+      "definition": "suffering from anxiety, sorrow, or pain; in a state of hardship or difficulty",
+      "register": [
+        "general"
+      ],
+      "tags": [
+        "emotion",
+        "suffering",
+        "psychology"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The distressed communities left behind by deindustrialization became a political flashpoint decades later.",
+          "why": "Uses distressed to describe systemic hardship beyond individual emotion."
+        },
+        {
+          "context": "professional",
+          "sentence": "The fund specializes in acquiring distressed assets at below-market valuations.",
+          "why": "Financial sense: assets in financial difficulty."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She wasn't angry. She was distressed, which was worse, because anger at least has edges you can hold.",
+          "why": "Distinguishes distressed from anger."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "He was distressed to hear the good news.",
+          "problem": "Distressed implies negative emotion; good news wouldn't cause distress.",
+          "use_instead": "thrilled or relieved"
+        }
+      ],
+      "related": [
+        {
+          "word": "distraught",
+          "distinction": "Distraught is more intense, suggesting being overwhelmed; distressed is broader and milder."
+        },
+        {
+          "word": "troubled",
+          "distinction": "Troubled suggests worry; distressed suggests active suffering."
+        }
+      ],
+      "triggers": [
+        "When describing someone under significant emotional or financial strain"
+      ],
+      "synonyms": [
+        "troubled",
+        "anguished",
+        "afflicted",
+        "strained"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Distraught",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "dih-STRAWT",
+      "definition": "deeply upset and agitated; overwhelmed with distress to the point of near-incoherence",
+      "register": [
+        "general",
+        "literary"
+      ],
+      "tags": [
+        "emotion",
+        "intensity",
+        "grief"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The families were distraught, not because the verdict was unexpected, but because finality offered no comfort.",
+          "why": "Shows distraught as overwhelming grief even with a known outcome."
+        },
+        {
+          "context": "professional",
+          "sentence": "The client was distraught after learning the filing deadline had been missed.",
+          "why": "Intense emotional reaction signaling severity."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She sat distraught at the kitchen table, turning the same coffee cup in her hands for an hour.",
+          "why": "Physical stillness contrasting with internal overwhelm."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "He was mildly distraught about the schedule change.",
+          "problem": "Distraught implies intense distress; mildly contradicts its force.",
+          "use_instead": "annoyed or concerned"
+        }
+      ],
+      "related": [
+        {
+          "word": "distressed",
+          "distinction": "Distressed is broader and milder; distraught implies being so upset you can barely function."
+        },
+        {
+          "word": "inconsolable",
+          "distinction": "Inconsolable emphasizes comfort is impossible; distraught emphasizes the agitated emotional state."
+        }
+      ],
+      "triggers": [
+        "When someone is so upset they can barely function"
+      ],
+      "synonyms": [
+        "overwrought",
+        "frantic",
+        "beside oneself",
+        "devastated"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Decimated",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "DES-ih-may-ted",
+      "definition": "destroyed or killed a large proportion of; drastically reduced in number or strength",
+      "register": [
+        "general",
+        "formal"
+      ],
+      "tags": [
+        "destruction",
+        "scale",
+        "loss"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The pandemic decimated the restaurant industry, wiping out decades of accumulated goodwill and institutional knowledge.",
+          "why": "Modern accepted usage meaning severe destruction."
+        },
+        {
+          "context": "professional",
+          "sentence": "Budget cuts decimated the department, leaving three people to do the work of twelve.",
+          "why": "Professional usage showing drastic reduction."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "The frost had decimated the garden, and what remained looked less like survival than like forgetting to die.",
+          "why": "Applied to nature with a literary turn."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The team was decimated by a single injury.",
+          "problem": "Decimated implies widespread destruction; one injury doesn't reach that threshold.",
+          "use_instead": "weakened or hampered"
+        }
+      ],
+      "related": [
+        {
+          "word": "devastated",
+          "distinction": "Devastated emphasizes total ruin; decimated emphasizes severe numerical reduction."
+        },
+        {
+          "word": "annihilated",
+          "distinction": "Annihilated means complete destruction; decimated means severe but not total."
+        }
+      ],
+      "triggers": [
+        "When a population or resource has been drastically reduced"
+      ],
+      "synonyms": [
+        "devastated",
+        "ravaged",
+        "destroyed",
+        "gutted"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Subsequently",
+      "pos": [
+        "adverb"
+      ],
+      "pronunciation": "SUB-sih-kwent-lee",
+      "definition": "after a particular thing has happened; afterward; following in time or order",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "sequence",
+        "time",
+        "causation"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The regulation was introduced in 2008 and subsequently amended three times before anyone tested its enforcement.",
+          "why": "Establishes temporal sequence in a formal register."
+        },
+        {
+          "context": "professional",
+          "sentence": "The initial findings were promising; the team subsequently expanded the study.",
+          "why": "Shows logical progression."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He promised to call. He subsequently did not.",
+          "why": "Deadpan humor using formal register for ironic effect."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "Subsequently, I'd like to thank everyone for coming.",
+          "problem": "Subsequently implies temporal sequence, not a transition between speech topics.",
+          "use_instead": "Additionally or Finally"
+        }
+      ],
+      "related": [
+        {
+          "word": "consequently",
+          "distinction": "Consequently implies causation; subsequently only implies sequence in time."
+        },
+        {
+          "word": "thereafter",
+          "distinction": "Interchangeable; thereafter is slightly more formal."
+        }
+      ],
+      "triggers": [
+        "When establishing chronological sequence in formal writing"
+      ],
+      "synonyms": [
+        "afterward",
+        "later",
+        "thereafter",
+        "following"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Reductive",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "rih-DUK-tiv",
+      "definition": "tending to present something in an oversimplified way; minimizing complexity to the point of distortion",
+      "register": [
+        "formal",
+        "academic"
+      ],
+      "tags": [
+        "criticism",
+        "analysis",
+        "simplification"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Calling the conflict a 'culture war' is reductive; it flattens genuine policy disagreements into tribal allegiance.",
+          "why": "Critiques oversimplification of a complex issue."
+        },
+        {
+          "context": "academic",
+          "sentence": "The framework is reductive in its treatment of identity, collapsing distinct experiences into a single axis.",
+          "why": "Academic critique of a theoretical model."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He knew any summary of their marriage would be reductive, but 'complicated' was the only word that survived the filter.",
+          "why": "Self-aware acknowledgment that some things resist compression."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "Her reductive analysis covered every angle of the problem.",
+          "problem": "Reductive means oversimplified; thorough analysis is the opposite.",
+          "use_instead": "comprehensive or exhaustive"
+        }
+      ],
+      "related": [
+        {
+          "word": "simplistic",
+          "distinction": "Simplistic implies naivety; reductive implies structural oversimplification."
+        },
+        {
+          "word": "reductionist",
+          "distinction": "Reductionist is more technical, used in philosophy/science."
+        }
+      ],
+      "triggers": [
+        "When critiquing an argument that oversimplifies a complex issue"
+      ],
+      "synonyms": [
+        "simplistic",
+        "oversimplified",
+        "one-dimensional"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Egregious",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "ih-GREE-jus",
+      "definition": "outstandingly bad; shocking in a way that is impossible to overlook or excuse",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "judgment",
+        "severity",
+        "wrongdoing"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The most egregious failure was not the error itself, but the institutional refusal to acknowledge it.",
+          "why": "Layers the word: the coverup is worse than the original mistake."
+        },
+        {
+          "context": "professional",
+          "sentence": "The audit revealed egregious violations of data handling protocols.",
+          "why": "Formal professional use emphasizing severity."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "His table manners were egregious enough to constitute a form of protest.",
+          "why": "Comic use playing on the word's intensity."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She made an egregious contribution to the charity.",
+          "problem": "Egregious is almost always negative; it doesn't mean outstanding in a positive sense.",
+          "use_instead": "generous or exceptional"
+        }
+      ],
+      "related": [
+        {
+          "word": "flagrant",
+          "distinction": "Flagrant emphasizes brazenness; egregious emphasizes the shocking degree."
+        },
+        {
+          "word": "heinous",
+          "distinction": "Heinous applies to moral atrocities; egregious is broader."
+        }
+      ],
+      "triggers": [
+        "When something is so bad it demands attention"
+      ],
+      "synonyms": [
+        "flagrant",
+        "appalling",
+        "outrageous",
+        "glaring"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Commendable",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "kuh-MEN-duh-bul",
+      "definition": "deserving praise and approval; worthy of recognition for quality or effort",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "praise",
+        "judgment",
+        "merit"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The effort was commendable, but effort without strategy is just motion.",
+          "why": "Acknowledges merit while qualifying its sufficiency."
+        },
+        {
+          "context": "professional",
+          "sentence": "Your initiative on the migration project has been commendable.",
+          "why": "Formal praise in a professional review."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "His patience with her was commendable, though she suspected it was less virtue than exhaustion.",
+          "why": "Subverts the praise by questioning its source."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The commendable failure cost the company millions.",
+          "problem": "Commendable means praiseworthy; a costly failure is not praiseworthy.",
+          "use_instead": "catastrophic or costly"
+        }
+      ],
+      "related": [
+        {
+          "word": "admirable",
+          "distinction": "Admirable implies deeper respect; commendable is slightly more measured."
+        },
+        {
+          "word": "laudable",
+          "distinction": "Laudable is more literary; commendable is more common in professional contexts."
+        }
+      ],
+      "triggers": [
+        "When formally acknowledging praiseworthy effort"
+      ],
+      "synonyms": [
+        "praiseworthy",
+        "admirable",
+        "laudable",
+        "meritorious"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Wrought",
+      "pos": [
+        "verb",
+        "adjective"
+      ],
+      "pronunciation": "RAWT",
+      "definition": "brought about or caused (archaic past tense of work); shaped or fashioned with care",
+      "register": [
+        "formal",
+        "literary"
+      ],
+      "tags": [
+        "causation",
+        "craftsmanship",
+        "consequence"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The changes wrought by a decade of deregulation were irreversible by the time anyone thought to object.",
+          "why": "Classic use meaning brought about, emphasizing transformative consequence."
+        },
+        {
+          "context": "professional",
+          "sentence": "The damage wrought by the breach extended far beyond the compromised accounts.",
+          "why": "Formal way of describing consequences."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She had wrought something beautiful from years of boredom and spite, which is to say she had written a novel.",
+          "why": "Uses wrought in its craftsmanship sense with ironic undertone."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "He wrought the report to his manager.",
+          "problem": "Wrought means caused or fashioned, not delivered.",
+          "use_instead": "brought or submitted"
+        }
+      ],
+      "related": [
+        {
+          "word": "forged",
+          "distinction": "Forged implies intense effort; wrought is broader, covering both causation and crafting."
+        },
+        {
+          "word": "caused",
+          "distinction": "Caused is neutral; wrought implies weightier consequences."
+        }
+      ],
+      "triggers": [
+        "When describing significant consequences or transformations"
+      ],
+      "synonyms": [
+        "caused",
+        "created",
+        "fashioned",
+        "produced"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Inordinate",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "in-OR-dih-nit",
+      "definition": "unusually or disproportionately large; exceeding reasonable limits",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "excess",
+        "proportion",
+        "judgment"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "An inordinate amount of public attention was devoted to the scandal while structural reforms went undiscussed.",
+          "why": "Critiques misallocation of attention."
+        },
+        {
+          "context": "professional",
+          "sentence": "The project consumed an inordinate share of the team's bandwidth for minimal results.",
+          "why": "Professional frustration at poor ROI."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He spent an inordinate amount of time choosing a font, which told you everything about his priorities.",
+          "why": "Comic use revealing character through trivial excess."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She showed inordinate restraint during the argument.",
+          "problem": "Inordinate means excessive; restraint is the opposite of excess.",
+          "use_instead": "remarkable or extraordinary"
+        }
+      ],
+      "related": [
+        {
+          "word": "excessive",
+          "distinction": "Excessive is more common; inordinate is more formal and implies violation of proper proportion."
+        },
+        {
+          "word": "disproportionate",
+          "distinction": "Disproportionate emphasizes imbalance relative to something; inordinate emphasizes exceeding limits absolutely."
+        }
+      ],
+      "triggers": [
+        "When something exceeds reasonable limits"
+      ],
+      "synonyms": [
+        "excessive",
+        "undue",
+        "disproportionate",
+        "immoderate"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Inadequacies",
+      "pos": [
+        "noun"
+      ],
+      "pronunciation": "in-AD-ih-kwuh-seez",
+      "definition": "the qualities or conditions of being insufficient or not good enough; shortcomings",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "deficiency",
+        "criticism",
+        "self-assessment"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The inadequacies of the safety net became impossible to ignore when the economy contracted.",
+          "why": "Structural critique of systemic shortcomings revealed under stress."
+        },
+        {
+          "context": "professional",
+          "sentence": "The report highlighted several inadequacies in our testing framework.",
+          "why": "Professional assessment identifying deficiencies."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He catalogued his inadequacies the way some people collect stamps: methodically and with a strange pride.",
+          "why": "Character study using self-awareness as a personality trait."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "Her inadequacies in chess made her the best player on the team.",
+          "problem": "Inadequacies are deficiencies; being the best contradicts having shortcomings.",
+          "use_instead": "skills or strengths"
+        }
+      ],
+      "related": [
+        {
+          "word": "deficiencies",
+          "distinction": "Deficiencies is more clinical; inadequacies has a broader, sometimes more personal connotation."
+        },
+        {
+          "word": "shortcomings",
+          "distinction": "Shortcomings is less formal and feels slightly gentler."
+        }
+      ],
+      "triggers": [
+        "When identifying what falls short of what's needed"
+      ],
+      "synonyms": [
+        "deficiencies",
+        "shortcomings",
+        "failings",
+        "weaknesses"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Culmination",
+      "pos": [
+        "noun"
+      ],
+      "pronunciation": "kul-mih-NAY-shun",
+      "definition": "the highest or climactic point; the final result of a process or series of events",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "completion",
+        "climax",
+        "process"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The verdict was not a surprise but a culmination, the predictable endpoint of years of institutional neglect.",
+          "why": "Frames the outcome as inevitable rather than sudden."
+        },
+        {
+          "context": "professional",
+          "sentence": "This launch represents the culmination of eighteen months of cross-functional collaboration.",
+          "why": "Formal acknowledgment of a long effort."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "Their argument in the parking lot was the culmination of a silence that had been building for years.",
+          "why": "Paradox of a noisy climax from quiet tension."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The culmination of the project was its first brainstorming session.",
+          "problem": "Culmination is the endpoint, not the beginning.",
+          "use_instead": "inception or genesis"
+        }
+      ],
+      "related": [
+        {
+          "word": "climax",
+          "distinction": "Climax emphasizes peak intensity; culmination emphasizes arrival at a final point after a process."
+        },
+        {
+          "word": "apex",
+          "distinction": "Apex is the highest point; culmination is the concluding point of a sequence."
+        }
+      ],
+      "triggers": [
+        "When describing the final result of a long process"
+      ],
+      "synonyms": [
+        "climax",
+        "apex",
+        "conclusion",
+        "zenith"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Monumental",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "mon-yoo-MEN-tul",
+      "definition": "great in importance, extent, or size; of lasting significance",
+      "register": [
+        "general",
+        "formal"
+      ],
+      "tags": [
+        "scale",
+        "significance",
+        "emphasis"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The monumental task of rebuilding trust cannot be accomplished by a single policy announcement.",
+          "why": "Emphasizes scale and difficulty."
+        },
+        {
+          "context": "professional",
+          "sentence": "This represents a monumental shift in how we approach data governance.",
+          "why": "Signals the magnitude of a strategic change."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "His indifference was monumental, the kind that takes real effort to maintain.",
+          "why": "Ironic use: applying grand scale to something deliberately small."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She made a monumental typo in her email.",
+          "problem": "Monumental implies great significance; a typo is trivial.",
+          "use_instead": "embarrassing or unfortunate"
+        }
+      ],
+      "related": [
+        {
+          "word": "colossal",
+          "distinction": "Colossal emphasizes size; monumental emphasizes significance and lasting impact."
+        },
+        {
+          "word": "momentous",
+          "distinction": "Momentous emphasizes historical significance; monumental emphasizes scale."
+        }
+      ],
+      "triggers": [
+        "When emphasizing enormous scale or lasting importance"
+      ],
+      "synonyms": [
+        "enormous",
+        "massive",
+        "momentous",
+        "towering"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Feeble",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "FEE-bul",
+      "definition": "lacking physical strength; weak and without force or effectiveness",
+      "register": [
+        "general"
+      ],
+      "tags": [
+        "weakness",
+        "inadequacy",
+        "criticism"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The administration's feeble response to the crisis only deepened public mistrust.",
+          "why": "Criticizes inadequacy of action."
+        },
+        {
+          "context": "professional",
+          "sentence": "The competitor's feeble attempt at a rebrand failed to shift market perception.",
+          "why": "Dismissive assessment of a weak effort."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He offered a feeble smile, the kind that apologizes for itself.",
+          "why": "Physical description conveying emotional state."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She delivered a feeble and powerful argument.",
+          "problem": "Feeble and powerful are contradictory.",
+          "use_instead": "choose one"
+        }
+      ],
+      "related": [
+        {
+          "word": "frail",
+          "distinction": "Frail emphasizes delicacy; feeble emphasizes lack of effectiveness."
+        },
+        {
+          "word": "weak",
+          "distinction": "Weak is neutral; feeble carries a more dismissive tone."
+        }
+      ],
+      "triggers": [
+        "When something is notably weak or ineffective"
+      ],
+      "synonyms": [
+        "weak",
+        "frail",
+        "ineffectual",
+        "limp"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Begrudgingly",
+      "pos": [
+        "adverb"
+      ],
+      "pronunciation": "bih-GRUJ-ing-lee",
+      "definition": "in a reluctant or resentful manner; with unwillingness or envy",
+      "register": [
+        "general"
+      ],
+      "tags": [
+        "reluctance",
+        "emotion",
+        "attitude"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Even his critics begrudgingly admitted that the policy had worked, though they refused to credit him.",
+          "why": "Shows reluctant concession while preserving opposition."
+        },
+        {
+          "context": "professional",
+          "sentence": "She begrudgingly approved the budget increase after the third revision.",
+          "why": "Conveys reluctant agreement."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He begrudgingly helped her move, which is to say he carried one lamp and supervised.",
+          "why": "Comic use showing minimal, resentful effort."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She begrudgingly and enthusiastically accepted the award.",
+          "problem": "Begrudgingly implies reluctance, which contradicts enthusiasm.",
+          "use_instead": "choose one"
+        }
+      ],
+      "related": [
+        {
+          "word": "reluctantly",
+          "distinction": "Reluctantly implies simple unwillingness; begrudgingly adds resentment."
+        },
+        {
+          "word": "grudgingly",
+          "distinction": "Synonymous; begrudgingly is more common in American English."
+        }
+      ],
+      "triggers": [
+        "When someone does something with visible reluctance and resentment"
+      ],
+      "synonyms": [
+        "reluctantly",
+        "grudgingly",
+        "resentfully",
+        "unwillingly"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Disarray",
+      "pos": [
+        "noun"
+      ],
+      "pronunciation": "dis-uh-RAY",
+      "definition": "a state of disorder, confusion, or disorganization",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "chaos",
+        "disorder",
+        "state"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The party was in disarray, unable to coalesce around a single candidate or platform.",
+          "why": "Political use showing organizational dysfunction."
+        },
+        {
+          "context": "professional",
+          "sentence": "The acquisition left the team in disarray, with reporting lines unclear for weeks.",
+          "why": "Organizational chaos following a structural change."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "The kitchen was in disarray, which meant she had either been cooking or crying, and both looked the same.",
+          "why": "Physical disorder reflecting emotional state."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The team's disarray led to a perfectly organized event.",
+          "problem": "Disarray means disorder; it wouldn't produce a well-organized outcome.",
+          "use_instead": "preparation or coordination"
+        }
+      ],
+      "related": [
+        {
+          "word": "chaos",
+          "distinction": "Chaos implies total breakdown; disarray implies recoverable disorder."
+        },
+        {
+          "word": "turmoil",
+          "distinction": "Turmoil implies emotional upheaval; disarray emphasizes organizational disorder."
+        }
+      ],
+      "triggers": [
+        "When describing a group or situation in confusion and disorganization"
+      ],
+      "synonyms": [
+        "disorder",
+        "confusion",
+        "chaos",
+        "shambles"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Intriguing",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "in-TREE-ging",
+      "definition": "arousing curiosity or interest; fascinatingly unusual or mysterious",
+      "register": [
+        "general"
+      ],
+      "tags": [
+        "curiosity",
+        "interest",
+        "mystery"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The most intriguing aspect of the study was not its conclusions but the questions it failed to ask.",
+          "why": "Redirects attention to what's missing."
+        },
+        {
+          "context": "professional",
+          "sentence": "The proposal raises some intriguing possibilities for cross-team collaboration.",
+          "why": "Measured enthusiasm inviting exploration."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He found her silence more intriguing than anything she might have said.",
+          "why": "Applies curiosity to absence."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The intriguing boredom put everyone to sleep.",
+          "problem": "Intriguing implies fascination, which contradicts boredom.",
+          "use_instead": "stultifying"
+        }
+      ],
+      "related": [
+        {
+          "word": "fascinating",
+          "distinction": "Fascinating implies being captivated; intriguing implies curiosity that invites investigation."
+        },
+        {
+          "word": "compelling",
+          "distinction": "Compelling demands attention; intriguing invites it."
+        }
+      ],
+      "triggers": [
+        "When something provokes genuine curiosity"
+      ],
+      "synonyms": [
+        "fascinating",
+        "captivating",
+        "engrossing",
+        "riveting"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Palatable",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "PAL-uh-tuh-bul",
+      "definition": "acceptable or agreeable to the taste or mind; pleasant enough to be tolerated",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "acceptability",
+        "persuasion",
+        "taste"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The compromise was palatable to neither side, which may have been the surest sign it was fair.",
+          "why": "Ironic commentary on compromise."
+        },
+        {
+          "context": "professional",
+          "sentence": "We need to make this restructuring plan more palatable to the board.",
+          "why": "Common professional use meaning easier to accept."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He had learned to make the truth palatable, which is another way of saying he had learned to lie gently.",
+          "why": "Subverts the positive connotation."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The palatable stench made everyone gag.",
+          "problem": "Palatable means pleasant; a stench that makes people gag is the opposite.",
+          "use_instead": "unbearable or noxious"
+        }
+      ],
+      "related": [
+        {
+          "word": "agreeable",
+          "distinction": "Agreeable implies genuine pleasantness; palatable implies meeting a minimum threshold."
+        },
+        {
+          "word": "tolerable",
+          "distinction": "Tolerable implies bare endurance; palatable implies made acceptable through effort."
+        }
+      ],
+      "triggers": [
+        "When something has been made acceptable enough to tolerate"
+      ],
+      "synonyms": [
+        "acceptable",
+        "agreeable",
+        "digestible",
+        "tolerable"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Discourse",
+      "pos": [
+        "noun"
+      ],
+      "pronunciation": "DIS-kors",
+      "definition": "written or spoken communication or debate on a topic; the exchange of ideas through language",
+      "register": [
+        "formal",
+        "academic"
+      ],
+      "tags": [
+        "communication",
+        "debate",
+        "language"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Public discourse has become so polarized that even stating a fact can be read as taking a side.",
+          "why": "Critiques the state of collective conversation."
+        },
+        {
+          "context": "academic",
+          "sentence": "Foucault's analysis of discourse examines how language constructs power relations.",
+          "why": "Academic use referring to systems of language."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "Their discourse on the matter consisted of exactly three words: 'Fine,' 'Whatever,' and silence.",
+          "why": "Ironic use contrasting formal word with trivial content."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She held a discourse with herself while grocery shopping.",
+          "problem": "Discourse typically implies exchange between parties.",
+          "use_instead": "conversation with herself or internal monologue"
+        }
+      ],
+      "related": [
+        {
+          "word": "dialogue",
+          "distinction": "Dialogue implies two-way exchange; discourse is broader."
+        },
+        {
+          "word": "rhetoric",
+          "distinction": "Rhetoric focuses on persuasive technique; discourse is the broader field."
+        }
+      ],
+      "triggers": [
+        "When discussing public conversation or exchange of ideas"
+      ],
+      "synonyms": [
+        "discussion",
+        "dialogue",
+        "debate",
+        "communication"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Catastrophize",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "kuh-TAS-truh-fize",
+      "definition": "to imagine or treat a situation as worse than it actually is; to assume the worst possible outcome",
+      "register": [
+        "general",
+        "psychological"
+      ],
+      "tags": [
+        "psychology",
+        "anxiety",
+        "thinking"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The tendency to catastrophize every policy disagreement as existential has made governance nearly impossible.",
+          "why": "Critiques political hyperbole."
+        },
+        {
+          "context": "professional",
+          "sentence": "Let's not catastrophize; the delay is significant, but it's not project-ending.",
+          "why": "Workplace reality check."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She didn't just worry; she catastrophized with the creativity of a novelist.",
+          "why": "Character study showing catastrophizing as dark imagination."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "He catastrophized the celebration by decorating the entire office.",
+          "problem": "Catastrophize means to imagine disaster, not to go overboard positively.",
+          "use_instead": "went overboard with"
+        }
+      ],
+      "related": [
+        {
+          "word": "exaggerate",
+          "distinction": "Exaggerate means to overstate anything; catastrophize specifically means imagining worst-case scenarios."
+        },
+        {
+          "word": "panic",
+          "distinction": "Panic is emotional; catastrophize is a cognitive pattern."
+        }
+      ],
+      "triggers": [
+        "When someone is imagining the worst",
+        "When discussing cognitive distortions"
+      ],
+      "synonyms": [
+        "dramatize",
+        "exaggerate",
+        "overreact"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Withdrawn",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "with-DRAWN",
+      "definition": "not wanting to communicate with others; quiet and reserved, often due to emotional distress",
+      "register": [
+        "general"
+      ],
+      "tags": [
+        "personality",
+        "emotion",
+        "social"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "He became increasingly withdrawn after the investigation, speaking only through lawyers.",
+          "why": "Shows withdrawal as response to external pressure."
+        },
+        {
+          "context": "professional",
+          "sentence": "Team members noticed she had become withdrawn in meetings.",
+          "why": "Observable behavioral change in workplace."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He was withdrawn in the way that made people lean closer, mistaking his silence for depth.",
+          "why": "Subverts romanticization of introversion."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She was withdrawn and the life of the party.",
+          "problem": "Withdrawn implies social retreat, contradicting being the life of the party.",
+          "use_instead": "choose one"
+        }
+      ],
+      "related": [
+        {
+          "word": "reserved",
+          "distinction": "Reserved implies deliberate restraint; withdrawn implies retreat, often emotional."
+        },
+        {
+          "word": "reclusive",
+          "distinction": "Reclusive implies prolonged isolation; withdrawn can be temporary."
+        }
+      ],
+      "triggers": [
+        "When someone has retreated from social interaction"
+      ],
+      "synonyms": [
+        "reserved",
+        "reclusive",
+        "aloof",
+        "detached"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Concurrent",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "kun-KUR-unt",
+      "definition": "existing, happening, or done at the same time; simultaneous",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "time",
+        "simultaneity",
+        "process"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The concurrent rise of social media and decline of local journalism created an information vacuum.",
+          "why": "Two simultaneous trends with a specific consequence."
+        },
+        {
+          "context": "professional",
+          "sentence": "Running concurrent workstreams requires clear ownership boundaries.",
+          "why": "Project management coordination challenge."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "They lived concurrent lives in the same house: separate schedules, separate silences.",
+          "why": "Applies simultaneity to emotional estrangement."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The events were concurrent, happening weeks apart.",
+          "problem": "Concurrent means simultaneous; weeks apart is sequential.",
+          "use_instead": "consecutive or successive"
+        }
+      ],
+      "related": [
+        {
+          "word": "simultaneous",
+          "distinction": "Simultaneous emphasizes exact same moment; concurrent allows overlapping periods."
+        },
+        {
+          "word": "parallel",
+          "distinction": "Parallel emphasizes similarity; concurrent emphasizes shared timeframe."
+        }
+      ],
+      "triggers": [
+        "When multiple things happen at the same time and their simultaneity matters"
+      ],
+      "synonyms": [
+        "simultaneous",
+        "parallel",
+        "coincident",
+        "synchronous"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Indulgent",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "in-DUL-junt",
+      "definition": "having or showing a tendency to allow excessive leniency or gratification",
+      "register": [
+        "general",
+        "formal"
+      ],
+      "tags": [
+        "leniency",
+        "excess",
+        "permissiveness"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The profile was indulgent, granting its subject the benefit of every doubt.",
+          "why": "Critiques writing for being too favorable."
+        },
+        {
+          "context": "professional",
+          "sentence": "An indulgent management style breeds accountability problems over time.",
+          "why": "Professional observation about leniency downsides."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She was indulgent with her own nostalgia, returning to the same memories the way a tongue returns to a loose tooth.",
+          "why": "Self-indulgence applied to emotional habits."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "He was indulgent in his strict punishment.",
+          "problem": "Indulgent means lenient, the opposite of strict.",
+          "use_instead": "severe or harsh"
+        }
+      ],
+      "related": [
+        {
+          "word": "lenient",
+          "distinction": "Lenient emphasizes mildness of punishment; indulgent emphasizes excessive permissiveness."
+        },
+        {
+          "word": "permissive",
+          "distinction": "Permissive implies allowing; indulgent implies actively catering to desires."
+        }
+      ],
+      "triggers": [
+        "When describing excessive leniency or self-gratification"
+      ],
+      "synonyms": [
+        "lenient",
+        "permissive",
+        "doting",
+        "gratifying"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Comically",
+      "pos": [
+        "adverb"
+      ],
+      "pronunciation": "KOM-ik-lee",
+      "definition": "in a way that is amusing or laughable, often because of absurdity or incongruity",
+      "register": [
+        "general"
+      ],
+      "tags": [
+        "humor",
+        "absurdity",
+        "tone"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The gap between the company's stated values and its actual practices was comically wide.",
+          "why": "Uses humor to sharpen a critique."
+        },
+        {
+          "context": "professional",
+          "sentence": "The original timeline was comically optimistic given the scope.",
+          "why": "Informal acknowledgment of absurdly unrealistic expectations."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He was comically bad at lying, which made his honesty feel less like a virtue and more like a limitation.",
+          "why": "Reframes a trait through irony."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The tragedy was comically devastating.",
+          "problem": "Comically implies humor; devastating creates a tonal contradiction.",
+          "use_instead": "profoundly or deeply"
+        }
+      ],
+      "related": [
+        {
+          "word": "absurdly",
+          "distinction": "Absurdly emphasizes irrationality; comically emphasizes that it's also funny."
+        },
+        {
+          "word": "ridiculously",
+          "distinction": "Ridiculously can be neutral intensity; comically specifically implies humor."
+        }
+      ],
+      "triggers": [
+        "When something is so extreme it becomes funny"
+      ],
+      "synonyms": [
+        "absurdly",
+        "hilariously",
+        "laughably",
+        "farcically"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Jutting out",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "JUT-ing owt",
+      "definition": "extending sharply outward or upward; projecting beyond a surface or line",
+      "register": [
+        "general"
+      ],
+      "tags": [
+        "physical",
+        "description",
+        "landscape"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The new tower was jutting out of the skyline like a misplaced accent mark.",
+          "why": "Architectural criticism using physical projection as metaphor."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "Rocks jutting out of the hillside formed a natural staircase.",
+          "why": "Descriptive physical detail."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "His collarbones were jutting out, evidence of months he'd rather not discuss.",
+          "why": "Physical description implying backstory."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The road was jutting out smoothly into the valley.",
+          "problem": "Jutting implies sharpness; smoothly contradicts this.",
+          "use_instead": "extending or flowing"
+        }
+      ],
+      "related": [
+        {
+          "word": "protruding",
+          "distinction": "Protruding is more clinical; jutting out implies sharpness and prominence."
+        },
+        {
+          "word": "projecting",
+          "distinction": "Projecting is more technical; jutting out is more vivid."
+        }
+      ],
+      "triggers": [
+        "When describing something that extends sharply from a surface"
+      ],
+      "synonyms": [
+        "protruding",
+        "projecting",
+        "sticking out",
+        "overhanging"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Trivialize",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "TRIV-ee-uh-lize",
+      "definition": "to make something seem less important, significant, or complex than it really is",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "dismissal",
+        "minimization",
+        "criticism"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "To call it a 'disagreement' is to trivialize a conflict that displaced millions.",
+          "why": "Critiques euphemistic language that minimizes gravity."
+        },
+        {
+          "context": "professional",
+          "sentence": "I don't want to trivialize the concern, but the data doesn't support the severity.",
+          "why": "Diplomatic professional framing."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "Every time someone said 'at least,' they trivialized her grief without knowing it.",
+          "why": "Shows how well-meaning language can minimize."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She trivialized the issue by giving it her full attention.",
+          "problem": "Trivialize means to diminish importance; full attention does the opposite.",
+          "use_instead": "prioritized or elevated"
+        }
+      ],
+      "related": [
+        {
+          "word": "minimize",
+          "distinction": "Minimize is broader; trivialize specifically means making something seem unimportant."
+        },
+        {
+          "word": "dismiss",
+          "distinction": "Dismiss means to reject outright; trivialize means to acknowledge but diminish."
+        }
+      ],
+      "triggers": [
+        "When something important is being treated as unimportant"
+      ],
+      "synonyms": [
+        "minimize",
+        "belittle",
+        "diminish",
+        "downplay"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Inhibit",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "in-HIB-it",
+      "definition": "to hinder, restrain, or prevent an action or process; to make someone self-conscious",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "restraint",
+        "prevention",
+        "psychology"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Fear of public failure inhibits the kind of risk-taking that innovation requires.",
+          "why": "Shows inhibition as systemic barrier."
+        },
+        {
+          "context": "professional",
+          "sentence": "Excessive approval layers inhibit the team's ability to respond quickly.",
+          "why": "Process critique."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "Something about his presence inhibited her, as though his attention were a spotlight she hadn't auditioned for.",
+          "why": "Psychological inhibition through metaphor."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The drug inhibited rapid cell growth, causing the tumor to expand.",
+          "problem": "Inhibit means to restrain; expansion contradicts this.",
+          "use_instead": "stimulated or accelerated"
+        }
+      ],
+      "related": [
+        {
+          "word": "suppress",
+          "distinction": "Suppress implies forceful restraint; inhibit implies hindrance that may be passive."
+        },
+        {
+          "word": "hinder",
+          "distinction": "Hinder is more general; inhibit often implies a deeper mechanism."
+        }
+      ],
+      "triggers": [
+        "When something is being held back from its natural action"
+      ],
+      "synonyms": [
+        "hinder",
+        "restrain",
+        "suppress",
+        "impede"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Reciprocity",
+      "pos": [
+        "noun"
+      ],
+      "pronunciation": "res-ih-PROS-ih-tee",
+      "definition": "the practice of exchanging things with others for mutual benefit; giving and receiving in return",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "relationships",
+        "exchange",
+        "fairness"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Healthy relationships depend on reciprocity, but the ledger is never meant to be balanced perfectly.",
+          "why": "Acknowledges the principle while cautioning against rigid accounting."
+        },
+        {
+          "context": "professional",
+          "sentence": "The partnership works because there's genuine reciprocity.",
+          "why": "Business context showing mutual value exchange."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He mistook her tolerance for reciprocity, which is how most one-sided friendships survive.",
+          "why": "Distinguishes passive acceptance from mutual exchange."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She showed great reciprocity by keeping everything for herself.",
+          "problem": "Reciprocity requires mutual exchange; hoarding is the opposite.",
+          "use_instead": "selfishness"
+        }
+      ],
+      "related": [
+        {
+          "word": "mutuality",
+          "distinction": "Mutuality emphasizes shared feeling; reciprocity emphasizes the exchange mechanism."
+        },
+        {
+          "word": "quid pro quo",
+          "distinction": "Quid pro quo is transactional; reciprocity can be organic."
+        }
+      ],
+      "triggers": [
+        "When discussing mutual exchange or fairness in relationships"
+      ],
+      "synonyms": [
+        "mutuality",
+        "exchange",
+        "give-and-take"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Poignant",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "POYN-yunt",
+      "definition": "evoking a keen sense of sadness or regret; deeply moving through a sense of loss or missed possibility",
+      "register": [
+        "literary",
+        "general"
+      ],
+      "tags": [
+        "emotion",
+        "sadness",
+        "beauty"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The most poignant detail in the report was not a statistic but a photograph of an empty classroom.",
+          "why": "Emotional power in a specific, concrete image."
+        },
+        {
+          "context": "professional",
+          "sentence": "Her farewell email was poignant without being sentimental.",
+          "why": "Restraint amplifying emotional impact."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "There was something poignant about the half-finished puzzle on the table.",
+          "why": "Physical object as emotional symbol."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The action movie had a poignant car chase.",
+          "problem": "Poignant implies tender sadness; car chases are exciting.",
+          "use_instead": "thrilling or gripping"
+        }
+      ],
+      "related": [
+        {
+          "word": "touching",
+          "distinction": "Touching is warmer; poignant specifically implies sadness mixed with beauty."
+        },
+        {
+          "word": "bittersweet",
+          "distinction": "Bittersweet names the mixture; poignant names the sharp pang it produces."
+        }
+      ],
+      "triggers": [
+        "When something evokes tender sadness through beauty or loss"
+      ],
+      "synonyms": [
+        "moving",
+        "touching",
+        "affecting",
+        "heartrending"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Catalyst",
+      "pos": [
+        "noun"
+      ],
+      "pronunciation": "KAT-uh-list",
+      "definition": "a person or thing that precipitates an event or change; something that accelerates a process",
+      "register": [
+        "general",
+        "formal"
+      ],
+      "tags": [
+        "change",
+        "cause",
+        "acceleration"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The leaked memo served as a catalyst for reforms that had been stalling in committee for years.",
+          "why": "Shows a single event unlocking a stalled process."
+        },
+        {
+          "context": "professional",
+          "sentence": "The new hire has been a catalyst for the team, raising standards through example.",
+          "why": "Person as catalyst through influence."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "Grief was the catalyst, but what it produced surprised even her.",
+          "why": "Emotional experience triggering unexpected transformation."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "He was the catalyst who prevented any change from happening.",
+          "problem": "A catalyst accelerates change; preventing change is the opposite.",
+          "use_instead": "obstacle or impediment"
+        }
+      ],
+      "related": [
+        {
+          "word": "trigger",
+          "distinction": "Trigger implies causing a specific reaction; catalyst implies accelerating a broader process."
+        },
+        {
+          "word": "impetus",
+          "distinction": "Impetus is the force; catalyst is the agent that enables change."
+        }
+      ],
+      "triggers": [
+        "When identifying what caused or accelerated a significant change"
+      ],
+      "synonyms": [
+        "trigger",
+        "impetus",
+        "spark",
+        "stimulus"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Proponent",
+      "pos": [
+        "noun"
+      ],
+      "pronunciation": "pruh-POH-nunt",
+      "definition": "a person who advocates or supports a theory, proposal, or course of action",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "advocacy",
+        "support",
+        "debate"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Proponents of the policy argue that short-term costs are justified by long-term benefits.",
+          "why": "Standard argumentative framing."
+        },
+        {
+          "context": "professional",
+          "sentence": "She's been the strongest proponent of the platform migration.",
+          "why": "Identifies someone championing an initiative."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He was a proponent of silence, not because he had nothing to say, but because he had learned what saying too much costs.",
+          "why": "Extends advocacy to a personal philosophy."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She was a proponent who strongly opposed the regulation.",
+          "problem": "A proponent supports something; opposing contradicts this.",
+          "use_instead": "opponent or critic"
+        }
+      ],
+      "related": [
+        {
+          "word": "advocate",
+          "distinction": "Advocate implies active promotion; proponent can be more measured."
+        },
+        {
+          "word": "supporter",
+          "distinction": "Supporter is less formal; proponent implies principled backing."
+        }
+      ],
+      "triggers": [
+        "When identifying someone who supports an idea or approach"
+      ],
+      "synonyms": [
+        "advocate",
+        "supporter",
+        "champion",
+        "backer"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Brooding",
+      "pos": [
+        "adjective",
+        "verb"
+      ],
+      "pronunciation": "BROO-ding",
+      "definition": "deeply thoughtful in a troubled or melancholy way; dwelling on dark thoughts",
+      "register": [
+        "general",
+        "literary"
+      ],
+      "tags": [
+        "emotion",
+        "introspection",
+        "darkness"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Beneath the optimistic projections lay a brooding anxiety about what the data wasn't showing.",
+          "why": "Institutional mood as persistent unease."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He sat brooding at the window, turning the same thought over until it was smooth and useless.",
+          "why": "Physical scene showing unproductive rumination."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "The landscape had a brooding quality, as though the mountains were keeping secrets.",
+          "why": "Atmosphere through personification."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She was brooding with joy over the surprise party.",
+          "problem": "Brooding implies dark contemplation, not joy.",
+          "use_instead": "buzzing or glowing"
+        }
+      ],
+      "related": [
+        {
+          "word": "pensive",
+          "distinction": "Pensive implies quiet, wistful thought; brooding implies darker rumination."
+        },
+        {
+          "word": "sullen",
+          "distinction": "Sullen implies resentful silence; brooding implies deep, preoccupied thought."
+        }
+      ],
+      "triggers": [
+        "When describing someone dwelling on dark thoughts",
+        "When creating a moody atmosphere"
+      ],
+      "synonyms": [
+        "contemplative",
+        "pensive",
+        "moody",
+        "sullen"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Regressed",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "rih-GREST",
+      "definition": "to move backward to an earlier or less advanced state; to return to a previous condition",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "decline",
+        "reversal",
+        "development"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The country has regressed on civil liberties, reversing gains that took a generation.",
+          "why": "Political regression as loss of hard-won progress."
+        },
+        {
+          "context": "professional",
+          "sentence": "After the reorg, team velocity regressed to where it had been six months earlier.",
+          "why": "Measurable decline following structural change."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "Under stress, he regressed into the version of himself he thought he'd outgrown.",
+          "why": "Psychological regression revealing growth isn't always permanent."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The technology has regressed into a more advanced version.",
+          "problem": "Regressed means moved backward; advancing is the opposite.",
+          "use_instead": "progressed or evolved"
+        }
+      ],
+      "related": [
+        {
+          "word": "declined",
+          "distinction": "Declined implies gradual deterioration; regressed specifically implies returning to a previous state."
+        },
+        {
+          "word": "reverted",
+          "distinction": "Reverted implies returning to a default; regressed implies moving backward developmentally."
+        }
+      ],
+      "triggers": [
+        "When something returns to an earlier, less developed state"
+      ],
+      "synonyms": [
+        "reverted",
+        "deteriorated",
+        "declined",
+        "backslid"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Incapacitate",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "in-kuh-PAS-ih-tayt",
+      "definition": "to deprive of ability, strength, or qualification; to disable or render unable to function",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "disability",
+        "prevention",
+        "force"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The sanctions were designed not to punish but to incapacitate, stripping the regime of its ability to finance military operations.",
+          "why": "Distinguishes disabling from punishing."
+        },
+        {
+          "context": "professional",
+          "sentence": "A single point of failure could incapacitate the entire platform.",
+          "why": "Technical risk assessment."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "Grief didn't sadden her so much as incapacitate her, removing her ability to do the simplest things.",
+          "why": "Emotional state as functional disability."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The training incapacitated the athletes, making them stronger.",
+          "problem": "Incapacitate means to disable; becoming stronger is the opposite.",
+          "use_instead": "empowered or strengthened"
+        }
+      ],
+      "related": [
+        {
+          "word": "disable",
+          "distinction": "Disable is more neutral; incapacitate implies more complete loss of function."
+        },
+        {
+          "word": "debilitate",
+          "distinction": "Debilitate implies weakening over time; incapacitate implies sudden or complete loss."
+        }
+      ],
+      "triggers": [
+        "When someone is rendered unable to function"
+      ],
+      "synonyms": [
+        "disable",
+        "immobilize",
+        "cripple",
+        "paralyze"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Onset",
+      "pos": [
+        "noun"
+      ],
+      "pronunciation": "ON-set",
+      "definition": "the beginning or start of something, especially something unpleasant or difficult",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "beginning",
+        "emergence",
+        "medical"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The onset of symptoms coincided with the policy change, but correlation is not causation.",
+          "why": "Medical/analytical use with epistemic caveat."
+        },
+        {
+          "context": "professional",
+          "sentence": "We need contingency plans before the onset of peak season.",
+          "why": "Preparation framing."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "At the onset of winter, the town sealed itself shut.",
+          "why": "Seasonal onset as narrative trigger."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The onset of the project's completion was celebrated.",
+          "problem": "Onset means beginning; completion is the end.",
+          "use_instead": "completion or conclusion"
+        }
+      ],
+      "related": [
+        {
+          "word": "beginning",
+          "distinction": "Beginning is neutral; onset often implies something unwelcome is starting."
+        },
+        {
+          "word": "inception",
+          "distinction": "Inception implies deliberate creation; onset implies emergence."
+        }
+      ],
+      "triggers": [
+        "When marking the beginning of something significant"
+      ],
+      "synonyms": [
+        "beginning",
+        "start",
+        "commencement",
+        "emergence"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Pacify",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "PAS-ih-fy",
+      "definition": "to bring to a state of peace or calm; to quell anger, agitation, or unrest",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "peace",
+        "calming",
+        "control"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The gesture was designed to pacify critics, not address their concerns.",
+          "why": "Distinguishes genuine resolution from surface appeasement."
+        },
+        {
+          "context": "professional",
+          "sentence": "Offering a discount might pacify the client temporarily, but it doesn't solve the underlying issue.",
+          "why": "Short-term fix vs. long-term solution."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She tried to pacify him with logic, which was like trying to put out a fire with a filing cabinet.",
+          "why": "Comic mismatch between approach and need."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The speech pacified the crowd into a violent frenzy.",
+          "problem": "Pacify means to calm; violence is the opposite.",
+          "use_instead": "incited or inflamed"
+        }
+      ],
+      "related": [
+        {
+          "word": "appease",
+          "distinction": "Appease implies giving in to demands; pacify implies calming without conceding."
+        },
+        {
+          "word": "placate",
+          "distinction": "Placate implies making less angry through concession; pacify is broader."
+        }
+      ],
+      "triggers": [
+        "When describing efforts to calm unrest or criticism"
+      ],
+      "synonyms": [
+        "calm",
+        "appease",
+        "placate",
+        "soothe"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Implicitly",
+      "pos": [
+        "adverb"
+      ],
+      "pronunciation": "im-PLIS-it-lee",
+      "definition": "in a way that is suggested but not directly expressed; without question or reservation",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "implication",
+        "trust",
+        "indirectness"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The policy implicitly endorsed a two-tiered system, even as its architects insisted otherwise.",
+          "why": "Reveals an unstated consequence."
+        },
+        {
+          "context": "professional",
+          "sentence": "By not addressing the complaint, leadership implicitly signaled the behavior was acceptable.",
+          "why": "Inaction as implicit communication."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She trusted him implicitly, which he found terrifying.",
+          "why": "Implicit trust creating vulnerability."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She implicitly stated her objections in a detailed written memo.",
+          "problem": "A detailed written statement is explicit, not implicit.",
+          "use_instead": "explicitly"
+        }
+      ],
+      "related": [
+        {
+          "word": "explicitly",
+          "distinction": "Explicitly means directly stated; implicitly means suggested without being stated."
+        },
+        {
+          "word": "tacitly",
+          "distinction": "Tacitly implies silent agreement; implicitly is broader."
+        }
+      ],
+      "triggers": [
+        "When something is communicated without being stated",
+        "When describing unquestioning trust"
+      ],
+      "synonyms": [
+        "tacitly",
+        "indirectly",
+        "unspokenly"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Sensible",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "SEN-sih-bul",
+      "definition": "having or showing good sense or judgment; practical and reasonable",
+      "register": [
+        "general"
+      ],
+      "tags": [
+        "judgment",
+        "practicality",
+        "reason"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The sensible choice is rarely the inspiring one, which is why most reforms stall.",
+          "why": "Contrasts practicality with ambition."
+        },
+        {
+          "context": "professional",
+          "sentence": "The most sensible approach is to prioritize core features and defer the rest.",
+          "why": "Practical recommendation."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She had always been the sensible one, which meant she cleaned up after everyone else's adventures.",
+          "why": "Hidden cost of being practical."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "He made a sensible decision to invest his life savings in a meme coin.",
+          "problem": "Sensible implies good judgment; high-risk speculation is the opposite.",
+          "use_instead": "reckless or impulsive"
+        }
+      ],
+      "related": [
+        {
+          "word": "reasonable",
+          "distinction": "Reasonable emphasizes fairness; sensible emphasizes practical good sense."
+        },
+        {
+          "word": "prudent",
+          "distinction": "Prudent implies cautious foresight; sensible implies straightforward judgment."
+        }
+      ],
+      "triggers": [
+        "When describing a practical, well-judged decision"
+      ],
+      "synonyms": [
+        "reasonable",
+        "practical",
+        "prudent",
+        "sound"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Sterile",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "STER-ul",
+      "definition": "free from bacteria; lacking imagination, vitality, or productivity; barren",
+      "register": [
+        "general",
+        "formal"
+      ],
+      "tags": [
+        "emptiness",
+        "clinical",
+        "unproductive"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The debate had become sterile, recycling the same arguments without generating new understanding.",
+          "why": "Intellectual sterility: active discussion that produces nothing."
+        },
+        {
+          "context": "professional",
+          "sentence": "The office felt sterile, all white walls and fluorescent light.",
+          "why": "Physical environment reflecting emotional void."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "His prose was sterile, technically competent but incapable of producing anything alive.",
+          "why": "Biological metaphor for creative output."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The sterile garden was bursting with flowers.",
+          "problem": "Sterile implies barren; bursting with color contradicts this.",
+          "use_instead": "lush or vibrant"
+        }
+      ],
+      "related": [
+        {
+          "word": "barren",
+          "distinction": "Barren emphasizes emptiness; sterile can also imply clinical cleanliness."
+        },
+        {
+          "word": "clinical",
+          "distinction": "Clinical implies cold efficiency; sterile implies absence of life."
+        }
+      ],
+      "triggers": [
+        "When describing something devoid of life or productive energy"
+      ],
+      "synonyms": [
+        "barren",
+        "lifeless",
+        "unproductive",
+        "clinical"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Adequate",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "AD-ih-kwit",
+      "definition": "sufficient for a specific need or requirement; satisfactory but not exceptional",
+      "register": [
+        "general",
+        "formal"
+      ],
+      "tags": [
+        "sufficiency",
+        "judgment",
+        "baseline"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Adequate is the most damning praise a system can receive: it works, but just barely.",
+          "why": "Reframes adequacy as criticism."
+        },
+        {
+          "context": "professional",
+          "sentence": "The backup system is adequate for current volumes but won't scale.",
+          "why": "Identifies a threshold."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He was an adequate husband, which she supposed was better than some alternatives and worse than others.",
+          "why": "Faint praise revealing the gap between sufficiency and fulfillment."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "Her adequate performance earned her the top award.",
+          "problem": "Adequate means merely sufficient; top awards require excellence.",
+          "use_instead": "outstanding or exceptional"
+        }
+      ],
+      "related": [
+        {
+          "word": "sufficient",
+          "distinction": "Sufficient is more neutral; adequate carries a faint whiff of just barely enough."
+        },
+        {
+          "word": "satisfactory",
+          "distinction": "Satisfactory implies meeting standards; adequate implies meeting minimums."
+        }
+      ],
+      "triggers": [
+        "When something meets the bare minimum"
+      ],
+      "synonyms": [
+        "sufficient",
+        "satisfactory",
+        "passable",
+        "acceptable"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Deterrent",
+      "pos": [
+        "noun",
+        "adjective"
+      ],
+      "pronunciation": "dih-TER-unt",
+      "definition": "a thing that discourages or prevents someone from acting; serving to deter",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "prevention",
+        "strategy",
+        "consequence"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The fine was meant to be a deterrent, but at that scale, it functioned as a licensing fee.",
+          "why": "Critiques a punishment too small to deter."
+        },
+        {
+          "context": "professional",
+          "sentence": "Strong code review practices serve as a deterrent against technical debt.",
+          "why": "Process as preventive mechanism."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "His reputation was its own deterrent; people avoided conflict with him out of fatigue.",
+          "why": "Character trait as deterrent for unexpected reasons."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The incentive was a strong deterrent that encouraged participation.",
+          "problem": "Deterrents discourage; incentives encourage.",
+          "use_instead": "incentive or motivator"
+        }
+      ],
+      "related": [
+        {
+          "word": "disincentive",
+          "distinction": "Disincentive is more economic; deterrent can include emotional barriers."
+        },
+        {
+          "word": "obstacle",
+          "distinction": "An obstacle is in the way; a deterrent makes you choose not to proceed."
+        }
+      ],
+      "triggers": [
+        "When something prevents action through threat of consequences"
+      ],
+      "synonyms": [
+        "discouragement",
+        "disincentive",
+        "impediment",
+        "preventive"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Disproportionate",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "dis-pruh-POR-shun-it",
+      "definition": "too large or too small in comparison; lacking proper proportion or balance",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "imbalance",
+        "fairness",
+        "scale"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The policy had a disproportionate impact on low-income communities.",
+          "why": "Identifies unequal impact."
+        },
+        {
+          "context": "professional",
+          "sentence": "The team spent a disproportionate amount of time on edge cases affecting less than 1% of users.",
+          "why": "Resource allocation critique."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "His reaction was disproportionate, but then, grief doesn't measure itself.",
+          "why": "Acknowledges disproportion while defending its emotional logic."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The disproportionate allocation ensured everyone received equal shares.",
+          "problem": "Disproportionate means unequal; equal shares are proportionate.",
+          "use_instead": "equitable or proportionate"
+        }
+      ],
+      "related": [
+        {
+          "word": "excessive",
+          "distinction": "Excessive simply means too much; disproportionate means too much relative to something."
+        },
+        {
+          "word": "inordinate",
+          "distinction": "Inordinate emphasizes exceeding limits; disproportionate emphasizes imbalance."
+        }
+      ],
+      "triggers": [
+        "When an effect or allocation is out of balance"
+      ],
+      "synonyms": [
+        "unequal",
+        "excessive",
+        "imbalanced",
+        "incommensurate"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Adversary",
+      "pos": [
+        "noun"
+      ],
+      "pronunciation": "AD-vur-sair-ee",
+      "definition": "one's opponent in a contest, conflict, or dispute; an enemy or antagonist",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "conflict",
+        "opposition",
+        "strategy"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The most dangerous adversary is not the one who opposes you openly, but the one who agrees with you strategically.",
+          "why": "Redefines adversary beyond simple opposition."
+        },
+        {
+          "context": "professional",
+          "sentence": "In cybersecurity, we assume the adversary is sophisticated, persistent, and patient.",
+          "why": "Technical usage in threat modeling."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She discovered that her greatest adversary was her own willingness to believe her critic.",
+          "why": "Internal adversary framing."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "He was her closest adversary and most trusted confidant.",
+          "problem": "Adversary implies opposition; confidant implies trust.",
+          "use_instead": "ally or confidant"
+        }
+      ],
+      "related": [
+        {
+          "word": "opponent",
+          "distinction": "Opponent is for games or debates; adversary implies higher stakes."
+        },
+        {
+          "word": "antagonist",
+          "distinction": "Antagonist is literary; adversary is used in real-world conflict."
+        }
+      ],
+      "triggers": [
+        "When identifying an opponent in serious conflict"
+      ],
+      "synonyms": [
+        "opponent",
+        "rival",
+        "enemy",
+        "foe"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "In concert with",
+      "pos": [
+        "phrase"
+      ],
+      "pronunciation": "in KON-surt with",
+      "definition": "working together with; in collaboration or coordination with; acting jointly",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "collaboration",
+        "coordination",
+        "joint action"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The regulatory agencies acted in concert with industry lobbyists, raising questions about whose interests they protected.",
+          "why": "Formal phrasing implying coordination with critical undertone."
+        },
+        {
+          "context": "professional",
+          "sentence": "The engineering team worked in concert with product design.",
+          "why": "Standard collaborative language."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "Rain and wind worked in concert with his mood, which he found gratifying in a way he knew was juvenile.",
+          "why": "Pathetic fallacy acknowledged self-consciously."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "He acted in concert with himself to make the decision.",
+          "problem": "In concert with implies collaboration between separate parties.",
+          "use_instead": "independently or on his own"
+        }
+      ],
+      "related": [
+        {
+          "word": "in conjunction with",
+          "distinction": "In conjunction with emphasizes combination; in concert with emphasizes harmonized action."
+        },
+        {
+          "word": "in tandem with",
+          "distinction": "In tandem with implies parallel action; in concert with implies orchestrated action."
+        }
+      ],
+      "triggers": [
+        "When describing coordinated joint action"
+      ],
+      "synonyms": [
+        "in collaboration with",
+        "in conjunction with",
+        "together with"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Antidote",
+      "pos": [
+        "noun"
+      ],
+      "pronunciation": "AN-tih-doht",
+      "definition": "a remedy that counteracts a poison or unwanted condition; something that corrects harmful effects",
+      "register": [
+        "general",
+        "formal"
+      ],
+      "tags": [
+        "remedy",
+        "correction",
+        "counteraction"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Transparency is often prescribed as the antidote to corruption, but transparency without accountability is just performance.",
+          "why": "Accepts the metaphor then qualifies its limits."
+        },
+        {
+          "context": "professional",
+          "sentence": "Cross-functional pairing has been the best antidote to siloed thinking.",
+          "why": "Practical solution as remedy."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "Humor was her antidote, though she suspected it was also the poison.",
+          "why": "Self-aware paradox about a coping mechanism."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The antidote made the situation worse.",
+          "problem": "An antidote is by definition a remedy; if it makes things worse, it's not an antidote.",
+          "use_instead": "intervention or attempted remedy"
+        }
+      ],
+      "related": [
+        {
+          "word": "remedy",
+          "distinction": "Remedy is broader; antidote specifically counteracts something harmful."
+        },
+        {
+          "word": "cure",
+          "distinction": "Cure implies complete resolution; antidote implies neutralizing a specific harm."
+        }
+      ],
+      "triggers": [
+        "When identifying what counteracts a harmful condition"
+      ],
+      "synonyms": [
+        "remedy",
+        "cure",
+        "corrective",
+        "counteragent"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Tethered",
+      "pos": [
+        "verb",
+        "adjective"
+      ],
+      "pronunciation": "TETH-urd",
+      "definition": "tied or connected to something; bound or limited in movement or freedom",
+      "register": [
+        "general",
+        "literary"
+      ],
+      "tags": [
+        "connection",
+        "restraint",
+        "limitation"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Innovation is always tethered to economics; no idea survives first contact with a budget.",
+          "why": "Metaphorical tethering showing practical constraints."
+        },
+        {
+          "context": "professional",
+          "sentence": "The team feels tethered to legacy systems.",
+          "why": "Technical constraint as binding limitation."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She felt tethered to the town by invisible strings, each one an obligation she couldn't name.",
+          "why": "Emotional bonds as physical restraints."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "He tethered freely across the open field.",
+          "problem": "Tethered implies restraint; moving freely contradicts this.",
+          "use_instead": "roamed or wandered"
+        }
+      ],
+      "related": [
+        {
+          "word": "anchored",
+          "distinction": "Anchored implies stability; tethered implies restraint and limited range."
+        },
+        {
+          "word": "bound",
+          "distinction": "Bound is more absolute; tethered implies some range within a constraint."
+        }
+      ],
+      "triggers": [
+        "When describing being held in place or limited by a connection"
+      ],
+      "synonyms": [
+        "tied",
+        "bound",
+        "anchored",
+        "leashed"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Detached",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "dih-TACHT",
+      "definition": "separate or disconnected; lacking emotional involvement; aloof and objective",
+      "register": [
+        "general",
+        "formal"
+      ],
+      "tags": [
+        "emotion",
+        "distance",
+        "objectivity"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "A detached analysis of the crisis was exactly what was needed and exactly what no one wanted to hear.",
+          "why": "Values objectivity while acknowledging its emotional cost."
+        },
+        {
+          "context": "professional",
+          "sentence": "Try to remain detached when reviewing feedback; it's about the work, not about you.",
+          "why": "Professional advice to separate personal from professional."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He spoke about his childhood with a detached precision that suggested the feelings were still there, just under armed guard.",
+          "why": "Emotional detachment as self-protection."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She was completely detached and deeply emotionally involved.",
+          "problem": "Detached and emotionally involved are contradictory.",
+          "use_instead": "choose one"
+        }
+      ],
+      "related": [
+        {
+          "word": "aloof",
+          "distinction": "Aloof implies cool distance from people; detached is broader."
+        },
+        {
+          "word": "objective",
+          "distinction": "Objective implies fairness; detached implies distance that may or may not produce fairness."
+        }
+      ],
+      "triggers": [
+        "When describing emotional distance or lack of involvement"
+      ],
+      "synonyms": [
+        "aloof",
+        "dispassionate",
+        "impartial",
+        "remote"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Afar",
+      "pos": [
+        "adverb"
+      ],
+      "pronunciation": "uh-FAR",
+      "definition": "at or from a great distance",
+      "register": [
+        "literary",
+        "formal"
+      ],
+      "tags": [
+        "distance",
+        "perspective",
+        "observation"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Admired from afar, the institution looked noble; up close, the cracks were impossible to miss.",
+          "why": "Distance as distortion."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He watched her from afar, not because he was afraid to approach, but because proximity would have required honesty.",
+          "why": "Physical distance as avoidance."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "The village was visible from afar, a cluster of lights that promised warmth but delivered only geography.",
+          "why": "Promise vs. reality mediated by distance."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She stood afar, right next to him.",
+          "problem": "Afar means at a great distance; being right next to someone contradicts this.",
+          "use_instead": "nearby or beside"
+        }
+      ],
+      "related": [
+        {
+          "word": "distant",
+          "distinction": "Distant describes the thing; afar describes where the observer is."
+        },
+        {
+          "word": "remotely",
+          "distinction": "Remotely can mean slightly; afar always means at great distance."
+        }
+      ],
+      "triggers": [
+        "When emphasizing distance of observation"
+      ],
+      "synonyms": [
+        "far away",
+        "distantly",
+        "remotely"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Instigate",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "IN-stih-gayt",
+      "definition": "to cause an event or situation to happen; to provoke or incite, especially something negative",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "provocation",
+        "cause",
+        "conflict"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The memo instigated a chain of resignations the board had not anticipated.",
+          "why": "Triggering unforeseen consequences."
+        },
+        {
+          "context": "professional",
+          "sentence": "We need to instigate a review of our vendor contracts.",
+          "why": "Neutral use: initiating a necessary process."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She didn't start arguments, exactly. She instigated them: created the conditions and let others light the match.",
+          "why": "Distinguishes direct action from strategic provocation."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She instigated peace and harmony.",
+          "problem": "Instigate typically implies provoking conflict.",
+          "use_instead": "fostered or cultivated"
+        }
+      ],
+      "related": [
+        {
+          "word": "provoke",
+          "distinction": "Provoke emphasizes eliciting a reaction; instigate emphasizes initiating."
+        },
+        {
+          "word": "incite",
+          "distinction": "Incite implies stirring emotion; instigate implies setting something in motion."
+        }
+      ],
+      "triggers": [
+        "When someone deliberately sets a process or conflict in motion"
+      ],
+      "synonyms": [
+        "provoke",
+        "initiate",
+        "incite",
+        "trigger"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Resistant",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "rih-ZIS-tunt",
+      "definition": "opposed to or unwilling to accept something; able to withstand something",
+      "register": [
+        "general",
+        "formal"
+      ],
+      "tags": [
+        "opposition",
+        "resilience",
+        "stubbornness"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Institutions are resistant to change by design; the question is whether that inertia serves stability or stagnation.",
+          "why": "Reframes resistance as structural feature."
+        },
+        {
+          "context": "professional",
+          "sentence": "The team was resistant to the new framework until they saw the productivity gains.",
+          "why": "Overcoming change resistance through evidence."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He was resistant to apologies, not because he didn't deserve them, but because accepting one meant admitting he'd been hurt.",
+          "why": "Emotional resistance as self-protection."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She was resistant and eagerly embraced every suggestion.",
+          "problem": "Resistant implies opposition; eager embrace is the opposite.",
+          "use_instead": "receptive or open"
+        }
+      ],
+      "related": [
+        {
+          "word": "reluctant",
+          "distinction": "Reluctant implies hesitation; resistant implies active opposition."
+        },
+        {
+          "word": "immune",
+          "distinction": "Immune implies complete unaffectedness; resistant can be overcome."
+        }
+      ],
+      "triggers": [
+        "When someone opposes or withstands change"
+      ],
+      "synonyms": [
+        "opposed",
+        "reluctant",
+        "defiant",
+        "impervious"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Instill",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "in-STIL",
+      "definition": "to gradually but firmly establish an idea, attitude, or habit in a person's mind",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "influence",
+        "education",
+        "gradual"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The goal of early education is not to instill facts but to instill the habit of questioning them.",
+          "why": "Distinguishes content from disposition."
+        },
+        {
+          "context": "professional",
+          "sentence": "We need to instill a culture of ownership, not just assign responsibilities.",
+          "why": "Organizational culture building."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "Her mother had instilled in her a fear of debt so deep it functioned like a religion.",
+          "why": "Instilled values operating subconsciously."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She instilled doubt instantly.",
+          "problem": "Instill implies gradual establishment; instantly contradicts the process.",
+          "use_instead": "planted or sparked"
+        }
+      ],
+      "related": [
+        {
+          "word": "inculcate",
+          "distinction": "Inculcate implies more forceful teaching; instill is gentler."
+        },
+        {
+          "word": "imbue",
+          "distinction": "Imbue emphasizes permeation; instill emphasizes the process."
+        }
+      ],
+      "triggers": [
+        "When describing gradual establishment of values or beliefs"
+      ],
+      "synonyms": [
+        "inculcate",
+        "implant",
+        "infuse",
+        "ingrain"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Receptive",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "rih-SEP-tiv",
+      "definition": "willing to consider or accept new suggestions and ideas; open and responsive",
+      "register": [
+        "general",
+        "formal"
+      ],
+      "tags": [
+        "openness",
+        "communication",
+        "attitude"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "A receptive audience is not the same as an agreeable one; openness to hearing is not openness to being convinced.",
+          "why": "Distinguishes listening from changing."
+        },
+        {
+          "context": "professional",
+          "sentence": "She was receptive to the feedback, which made the conversation productive.",
+          "why": "Receptivity enabling constructive dialogue."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He became receptive to advice only after exhausting every wrong answer on his own.",
+          "why": "Receptivity arriving through failure."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "He was receptive and refused to listen.",
+          "problem": "Receptive means open to input; refusing to listen is the opposite.",
+          "use_instead": "closed-off or dismissive"
+        }
+      ],
+      "related": [
+        {
+          "word": "amenable",
+          "distinction": "Amenable implies willingness to agree; receptive implies willingness to listen."
+        },
+        {
+          "word": "open-minded",
+          "distinction": "Open-minded is broader; receptive is more specific to particular input."
+        }
+      ],
+      "triggers": [
+        "When someone is genuinely open to hearing new ideas"
+      ],
+      "synonyms": [
+        "open",
+        "amenable",
+        "responsive",
+        "approachable"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Outlook",
+      "pos": [
+        "noun"
+      ],
+      "pronunciation": "OWT-look",
+      "definition": "a person's point of view or attitude toward life; a forecast or prospect for the future",
+      "register": [
+        "general"
+      ],
+      "tags": [
+        "perspective",
+        "forecast",
+        "attitude"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "His outlook was shaped less by what happened to him than by what he decided it meant.",
+          "why": "Outlook as interpretive framework."
+        },
+        {
+          "context": "professional",
+          "sentence": "The economic outlook for Q3 suggests conservative hiring.",
+          "why": "Forecast usage in business planning."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She had a grim outlook and a bright smile, and people always trusted the smile.",
+          "why": "Contrast between internal perspective and external presentation."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The outlook from the window was stunning.",
+          "problem": "Outlook more commonly means perspective or forecast, not a scenic view.",
+          "use_instead": "view or vista"
+        }
+      ],
+      "related": [
+        {
+          "word": "perspective",
+          "distinction": "Perspective emphasizes how one sees things; outlook emphasizes general attitude or expectation."
+        },
+        {
+          "word": "forecast",
+          "distinction": "Forecast is data-driven; outlook is broader, including attitude."
+        }
+      ],
+      "triggers": [
+        "When describing someone's worldview or future prospects"
+      ],
+      "synonyms": [
+        "perspective",
+        "viewpoint",
+        "forecast",
+        "prognosis"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Loathe",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "LOHTH",
+      "definition": "to feel intense dislike or disgust for; to hate deeply",
+      "register": [
+        "general"
+      ],
+      "tags": [
+        "emotion",
+        "hatred",
+        "intensity"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "People loathe hypocrisy not because it's dishonest, but because it reveals the hypocrite knows better.",
+          "why": "Analyzes the specific quality triggering intense dislike."
+        },
+        {
+          "context": "professional",
+          "sentence": "Developers loathe context-switching, yet most workflows maximize it.",
+          "why": "Professional frustration with appropriate intensity."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She didn't dislike him. She loathed him, which required more energy and therefore more attention.",
+          "why": "Escalates and examines the cost."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "He was loathe to admit his mistake.",
+          "problem": "This should be loath (reluctant), not loathe (to hate).",
+          "use_instead": "loath (adjective, no e)"
+        }
+      ],
+      "related": [
+        {
+          "word": "despise",
+          "distinction": "Despise implies contempt; loathe implies visceral disgust."
+        },
+        {
+          "word": "detest",
+          "distinction": "Detest is strong dislike; loathe is stronger, implying physical revulsion."
+        },
+        {
+          "word": "loath",
+          "distinction": "Loath (no e) is an adjective meaning reluctant; loathe (with e) is a verb meaning to hate."
+        }
+      ],
+      "triggers": [
+        "When expressing intense hatred stronger than hate"
+      ],
+      "synonyms": [
+        "detest",
+        "despise",
+        "abhor",
+        "abominate"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Guardrails",
+      "pos": [
+        "noun"
+      ],
+      "pronunciation": "GARD-raylz",
+      "definition": "protective boundaries or constraints designed to prevent harm or keep something on track",
+      "register": [
+        "general",
+        "informal"
+      ],
+      "tags": [
+        "safety",
+        "constraint",
+        "governance"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Guardrails are most effective when they're invisible, guiding behavior without people feeling constrained.",
+          "why": "Design principle about good constraints."
+        },
+        {
+          "context": "professional",
+          "sentence": "We need guardrails on this process, not a full approval chain.",
+          "why": "Distinguishes lightweight constraints from heavy governance."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He lived without guardrails, which sounded romantic until you saw the wreckage.",
+          "why": "Subverts the appeal of unrestricted freedom."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The guardrails gave the team complete, unrestricted freedom.",
+          "problem": "Guardrails are constraints; unrestricted freedom means no guardrails.",
+          "use_instead": "autonomy or free rein"
+        }
+      ],
+      "related": [
+        {
+          "word": "constraints",
+          "distinction": "Constraints can feel restrictive; guardrails implies protective boundaries enabling safe movement."
+        },
+        {
+          "word": "safeguards",
+          "distinction": "Safeguards protect against specific threats; guardrails keep things on track broadly."
+        }
+      ],
+      "triggers": [
+        "When discussing protective boundaries in processes or behavior"
+      ],
+      "synonyms": [
+        "constraints",
+        "safeguards",
+        "boundaries",
+        "limits"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Intuitive",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "in-TOO-ih-tiv",
+      "definition": "using or based on what one feels to be true without conscious reasoning; easy to use without instruction",
+      "register": [
+        "general"
+      ],
+      "tags": [
+        "instinct",
+        "design",
+        "understanding"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The intuitive response is often wrong, which is why we need systems that force deliberation.",
+          "why": "Warns against trusting gut reactions."
+        },
+        {
+          "context": "professional",
+          "sentence": "The interface needs to be intuitive enough that users don't need a tutorial.",
+          "why": "UX design standard."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She had an intuitive understanding of people, which she used mostly to avoid them.",
+          "why": "Social intelligence applied to self-protection."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The intuitive manual was 500 pages long.",
+          "problem": "Intuitive implies needing no instruction; 500 pages is the opposite.",
+          "use_instead": "comprehensive or exhaustive"
+        }
+      ],
+      "related": [
+        {
+          "word": "instinctive",
+          "distinction": "Instinctive implies automatic, biological response; intuitive implies subtler understanding."
+        },
+        {
+          "word": "user-friendly",
+          "distinction": "User-friendly is about design; intuitive is broader."
+        }
+      ],
+      "triggers": [
+        "When describing something easily understood without explanation"
+      ],
+      "synonyms": [
+        "instinctive",
+        "natural",
+        "innate",
+        "user-friendly"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Counter intuitive",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "KOWN-tur in-TOO-ih-tiv",
+      "definition": "contrary to what common sense or intuition would suggest; unexpectedly opposite to what seems obvious",
+      "register": [
+        "general",
+        "formal"
+      ],
+      "tags": [
+        "surprise",
+        "logic",
+        "paradox"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The counter intuitive truth is that adding more lanes often increases traffic rather than reducing it.",
+          "why": "Classic example where reality contradicts common sense."
+        },
+        {
+          "context": "professional",
+          "sentence": "It's counter intuitive, but slowing the release cycle actually increased output quality and velocity.",
+          "why": "Doing less produces more."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "Forgiveness was counter intuitive; it felt like losing a weapon she might still need.",
+          "why": "Emotional logic conflicting with received wisdom."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "It was counter intuitive: water flows downhill.",
+          "problem": "Water flowing downhill is exactly what intuition predicts.",
+          "use_instead": "obvious or self-evident"
+        }
+      ],
+      "related": [
+        {
+          "word": "paradoxical",
+          "distinction": "Paradoxical implies logical contradiction; counter intuitive implies contradiction with gut feeling."
+        },
+        {
+          "word": "unexpected",
+          "distinction": "Unexpected is broader; counter intuitive specifically means against what common sense predicts."
+        }
+      ],
+      "triggers": [
+        "When a truth contradicts what most people would expect"
+      ],
+      "synonyms": [
+        "paradoxical",
+        "unexpected",
+        "surprising"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Copious",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "KOH-pee-us",
+      "definition": "abundant in supply or quantity; plentiful",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "abundance",
+        "quantity",
+        "excess"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Despite copious evidence to the contrary, the narrative persisted, sustained by repetition rather than proof.",
+          "why": "Abundance of evidence failing to change minds."
+        },
+        {
+          "context": "professional",
+          "sentence": "She took copious notes, which proved invaluable when disputes arose weeks later.",
+          "why": "Practical benefit of thoroughness."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "His apologies were copious and precise and utterly beside the point.",
+          "why": "Abundance failing to achieve its purpose."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The copious shortage delayed the project.",
+          "problem": "Copious means abundant; shortage means scarcity.",
+          "use_instead": "severe or critical"
+        }
+      ],
+      "related": [
+        {
+          "word": "abundant",
+          "distinction": "Abundant emphasizes sufficiency; copious emphasizes sheer quantity."
+        },
+        {
+          "word": "prolific",
+          "distinction": "Prolific describes productive output; copious describes quantity already produced."
+        }
+      ],
+      "triggers": [
+        "When emphasizing a large quantity"
+      ],
+      "synonyms": [
+        "abundant",
+        "plentiful",
+        "profuse",
+        "ample"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Unabated",
+      "pos": [
+        "adjective",
+        "adverb"
+      ],
+      "pronunciation": "un-uh-BAY-tid",
+      "definition": "without any reduction in intensity or strength; continuing at full force",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "persistence",
+        "intensity",
+        "continuation"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Demand continued unabated even as interest rates climbed, confounding the models.",
+          "why": "Persistence despite expected deterrents."
+        },
+        {
+          "context": "professional",
+          "sentence": "Disruption in the industry continues unabated.",
+          "why": "Strategic observation about sustained pressure."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "Her anger continued unabated long after the reason for it became irrelevant, which is how she knew it wasn't really about him.",
+          "why": "Persistent emotion revealing deeper cause."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The unabated calm brought the crisis to a gentle end.",
+          "problem": "Unabated is almost always used for something forceful that continues.",
+          "use_instead": "sustained or enduring"
+        }
+      ],
+      "related": [
+        {
+          "word": "unrelenting",
+          "distinction": "Unrelenting implies deliberate refusal to ease up; unabated implies natural continuation."
+        },
+        {
+          "word": "persistent",
+          "distinction": "Persistent implies continuation; unabated emphasizes no reduction in intensity."
+        }
+      ],
+      "triggers": [
+        "When something continues at full intensity despite expectations it would diminish"
+      ],
+      "synonyms": [
+        "undiminished",
+        "unrelenting",
+        "persistent",
+        "sustained"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Imbued",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "im-BYOOD",
+      "definition": "inspired or permeated with a feeling, quality, or idea; deeply filled or saturated",
+      "register": [
+        "formal",
+        "literary"
+      ],
+      "tags": [
+        "permeation",
+        "quality",
+        "influence"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The Constitution is imbued with the tensions of its era.",
+          "why": "Shows how a text carries contradictions of its creation."
+        },
+        {
+          "context": "professional",
+          "sentence": "The brand needs to be imbued with trust before we can expand.",
+          "why": "Brand strategy requiring quality permeation."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "The house was imbued with the smell of coffee and old arguments, neither of which ever fully dissipated.",
+          "why": "Physical and emotional qualities layered."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She imbued the money into her bank account.",
+          "problem": "Imbued means permeated with a quality, not deposited.",
+          "use_instead": "deposited"
+        }
+      ],
+      "related": [
+        {
+          "word": "infused",
+          "distinction": "Infused implies adding a quality; imbued implies deeper permeation."
+        },
+        {
+          "word": "saturated",
+          "distinction": "Saturated implies filled to capacity; imbued implies permeation with a specific quality."
+        }
+      ],
+      "triggers": [
+        "When something is deeply filled with a particular quality"
+      ],
+      "synonyms": [
+        "infused",
+        "permeated",
+        "saturated",
+        "steeped"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Insurmountable",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "in-sur-MOWN-tuh-bul",
+      "definition": "too great to be overcome; impossible to surmount",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "impossibility",
+        "obstacle",
+        "scale"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "What seemed insurmountable in theory turned out to be merely difficult in practice.",
+          "why": "Distinguishes perceived from actual impossibility."
+        },
+        {
+          "context": "professional",
+          "sentence": "The technical debt is significant but not insurmountable.",
+          "why": "Calibrating severity."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "The distance between them was not insurmountable, just uninteresting to cross.",
+          "why": "Reframes inability as unwillingness."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The insurmountable challenge was easily overcome.",
+          "problem": "Insurmountable means impossible to overcome.",
+          "use_instead": "minor or trivial"
+        }
+      ],
+      "related": [
+        {
+          "word": "insuperable",
+          "distinction": "Synonymous; insuperable is more formal."
+        },
+        {
+          "word": "overwhelming",
+          "distinction": "Overwhelming implies being crushed; insurmountable implies a barrier that cannot be passed."
+        }
+      ],
+      "triggers": [
+        "When an obstacle appears truly impossible to overcome"
+      ],
+      "synonyms": [
+        "insuperable",
+        "impassable",
+        "unconquerable",
+        "invincible"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Solicited",
+      "pos": [
+        "verb",
+        "adjective"
+      ],
+      "pronunciation": "suh-LIS-ih-tid",
+      "definition": "asked for or sought out; requested or invited, especially formally",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "request",
+        "invitation",
+        "formality"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The feedback was solicited but not wanted, a common institutional performance.",
+          "why": "Critiques the gap between asking and acting."
+        },
+        {
+          "context": "professional",
+          "sentence": "We solicited proposals from three vendors before deciding.",
+          "why": "Standard procurement language."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He solicited her opinion and then visibly suffered through it.",
+          "why": "Asking for honesty you're not ready for."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The unsolicited advice was solicited by everyone.",
+          "problem": "Unsolicited and solicited are contradictory.",
+          "use_instead": "welcomed or appreciated"
+        }
+      ],
+      "related": [
+        {
+          "word": "requested",
+          "distinction": "Requested is more casual; solicited implies a more formal process."
+        },
+        {
+          "word": "invited",
+          "distinction": "Invited implies welcoming; solicited implies actively seeking."
+        }
+      ],
+      "triggers": [
+        "When something was formally asked for"
+      ],
+      "synonyms": [
+        "requested",
+        "sought",
+        "invited",
+        "petitioned"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Unprovoked",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "un-pruh-VOHKT",
+      "definition": "not caused by anything done or said; occurring without justification",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "aggression",
+        "causation",
+        "innocence"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The attack was described as unprovoked, though the word does different work depending on who controls the narrative.",
+          "why": "Questions the framing of provocation."
+        },
+        {
+          "context": "professional",
+          "sentence": "The unprovoked criticism caught everyone off guard.",
+          "why": "Unexpected aggression in professional setting."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "His kindness was unprovoked, which made it suspicious in a world that runs on transactions.",
+          "why": "Applies unprovoked to something positive."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The unprovoked response came after hours of goading.",
+          "problem": "If there was goading, the response was provoked.",
+          "use_instead": "provoked or retaliatory"
+        }
+      ],
+      "related": [
+        {
+          "word": "unsolicited",
+          "distinction": "Unsolicited means not asked for; unprovoked means not caused by prior action."
+        },
+        {
+          "word": "gratuitous",
+          "distinction": "Gratuitous means unnecessary; unprovoked means without preceding cause."
+        }
+      ],
+      "triggers": [
+        "When an action occurs without preceding cause"
+      ],
+      "synonyms": [
+        "unjustified",
+        "unwarranted",
+        "gratuitous",
+        "uncalled-for"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Contend",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "kun-TEND",
+      "definition": "to assert or maintain a position in argument; to compete or struggle with difficulties",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "argument",
+        "competition",
+        "assertion"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Critics contend that the reforms were cosmetic, designed to preserve the status quo.",
+          "why": "Standard argumentative framing."
+        },
+        {
+          "context": "professional",
+          "sentence": "We're contending with three competing priorities and no clear signal.",
+          "why": "Struggle against multiple challenges."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She contended with his absence the way one contends with weather: by adapting.",
+          "why": "Metaphorical coping."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "He contended that the sky is blue, which surprised no one.",
+          "problem": "Contend implies arguing a debatable point; obvious facts don't need contending.",
+          "use_instead": "observed or noted"
+        }
+      ],
+      "related": [
+        {
+          "word": "argue",
+          "distinction": "Argue is more general; contend implies a more formal, sustained assertion."
+        },
+        {
+          "word": "assert",
+          "distinction": "Assert states a position; contend implies defending it against opposition."
+        }
+      ],
+      "triggers": [
+        "When attributing a debatable position",
+        "When describing struggle against challenges"
+      ],
+      "synonyms": [
+        "argue",
+        "assert",
+        "maintain",
+        "compete"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Maladaptive",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "mal-uh-DAP-tiv",
+      "definition": "not providing adequate adjustment to the situation; counterproductive as a coping mechanism",
+      "register": [
+        "formal",
+        "psychological"
+      ],
+      "tags": [
+        "psychology",
+        "behavior",
+        "dysfunction"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "What begins as a survival strategy often hardens into a maladaptive pattern that outlasts the threat.",
+          "why": "Coping mechanisms becoming dysfunctional over time."
+        },
+        {
+          "context": "professional",
+          "sentence": "The team's maladaptive response to deadline pressure was to cut testing.",
+          "why": "Organizational behavior worsening the situation."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "His humor was maladaptive: it kept people at a distance he didn't actually want.",
+          "why": "Defense mechanism achieving the opposite of the deeper need."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "Her maladaptive habits led to a healthy lifestyle.",
+          "problem": "Maladaptive means counterproductive; healthy outcomes contradict this.",
+          "use_instead": "adaptive or healthy"
+        }
+      ],
+      "related": [
+        {
+          "word": "dysfunctional",
+          "distinction": "Dysfunctional means not working; maladaptive specifically means failing to adapt appropriately."
+        },
+        {
+          "word": "counterproductive",
+          "distinction": "Counterproductive means working against the goal; maladaptive emphasizes poor adaptation."
+        }
+      ],
+      "triggers": [
+        "When a behavior is counterproductive despite being intended to help"
+      ],
+      "synonyms": [
+        "dysfunctional",
+        "counterproductive",
+        "self-defeating"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Conjoin",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "kun-JOYN",
+      "definition": "to join together; to unite or combine two or more things",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "union",
+        "combination",
+        "joining"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The amendment conjoined two unrelated provisions, a legislative maneuver obscuring the intent of each.",
+          "why": "Strategic joining used to conceal."
+        },
+        {
+          "context": "professional",
+          "sentence": "The merger conjoined two companies with fundamentally different cultures.",
+          "why": "Business combination where joining doesn't equal unity."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "Grief and relief conjoined in her chest, and she couldn't tell where one ended and the other began.",
+          "why": "Emotional union of contradictory feelings."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "He conjoined the two halves by cutting them apart.",
+          "problem": "Conjoin means to join; cutting apart is separation.",
+          "use_instead": "separated or divided"
+        }
+      ],
+      "related": [
+        {
+          "word": "merge",
+          "distinction": "Merge implies blending into one; conjoin implies joining while retaining distinct identities."
+        },
+        {
+          "word": "unite",
+          "distinction": "Unite emphasizes becoming one; conjoin emphasizes the act of joining."
+        }
+      ],
+      "triggers": [
+        "When describing formal joining of two distinct things"
+      ],
+      "synonyms": [
+        "unite",
+        "combine",
+        "merge",
+        "fuse"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Jeopardize",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "JEP-ur-dyze",
+      "definition": "to put at risk of being lost, harmed, or destroyed; to endanger",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "risk",
+        "danger",
+        "consequence"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Short-term political gains should not jeopardize the long-term credibility of the institution.",
+          "why": "Trade-off between immediate benefit and lasting risk."
+        },
+        {
+          "context": "professional",
+          "sentence": "Deploying untested code could jeopardize platform stability.",
+          "why": "Risk assessment in technical decisions."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He refused to jeopardize the friendship by telling her the truth, which is exactly how he jeopardized it.",
+          "why": "Ironic self-defeating logic."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The safety measures jeopardized everyone's protection.",
+          "problem": "Safety measures protect; they don't endanger.",
+          "use_instead": "ensured or strengthened"
+        }
+      ],
+      "related": [
+        {
+          "word": "endanger",
+          "distinction": "Endanger is broader; jeopardize implies putting something valuable at risk through a decision."
+        },
+        {
+          "word": "compromise",
+          "distinction": "Compromise can mean to weaken; jeopardize implies more severe risk."
+        }
+      ],
+      "triggers": [
+        "When an action puts something valuable at risk"
+      ],
+      "synonyms": [
+        "endanger",
+        "imperil",
+        "risk",
+        "threaten"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Diplomatic",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "dip-luh-MAT-ik",
+      "definition": "skilled in managing sensitive situations tactfully; careful to avoid causing offense",
+      "register": [
+        "general",
+        "formal"
+      ],
+      "tags": [
+        "tact",
+        "communication",
+        "sensitivity"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The statement was diplomatic in the way that only evasion can be: technically truthful, practically meaningless.",
+          "why": "Critiques diplomatic language as calculated vagueness."
+        },
+        {
+          "context": "professional",
+          "sentence": "She gave a diplomatic response that acknowledged the concern without committing.",
+          "why": "Tactful non-commitment."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He was diplomatic when what she wanted was honesty, which is how politeness becomes its own cruelty.",
+          "why": "Diplomacy as avoidance disguised as courtesy."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "His diplomatic insult offended everyone.",
+          "problem": "Diplomatic implies tactful; an insult that offends everyone is not diplomatic.",
+          "use_instead": "blunt or pointed"
+        }
+      ],
+      "related": [
+        {
+          "word": "tactful",
+          "distinction": "Tactful emphasizes sensitivity; diplomatic emphasizes strategic management."
+        },
+        {
+          "word": "politic",
+          "distinction": "Politic means shrewd; diplomatic means careful and considerate."
+        }
+      ],
+      "triggers": [
+        "When describing tactful handling of sensitive situations"
+      ],
+      "synonyms": [
+        "tactful",
+        "politic",
+        "discreet",
+        "judicious"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Misinformed",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "mis-in-FORMD",
+      "definition": "having incorrect or inaccurate information; misled or mistaken due to wrong information",
+      "register": [
+        "general",
+        "formal"
+      ],
+      "tags": [
+        "error",
+        "information",
+        "belief"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "A misinformed public is more dangerous than an uninformed one, because it acts on beliefs it thinks are facts.",
+          "why": "Distinguishes ignorance from confident wrongness."
+        },
+        {
+          "context": "professional",
+          "sentence": "The client was misinformed about the timeline; we need to reset expectations.",
+          "why": "Correcting wrong information."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He wasn't lying, exactly. He was misinformed and too proud to check.",
+          "why": "Distinguishes deception from confident ignorance."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She was misinformed and had all the correct facts.",
+          "problem": "Misinformed means having wrong information; correct facts contradicts this.",
+          "use_instead": "well-informed"
+        }
+      ],
+      "related": [
+        {
+          "word": "uninformed",
+          "distinction": "Uninformed means lacking information; misinformed means having wrong information."
+        },
+        {
+          "word": "misled",
+          "distinction": "Misled implies someone deliberately gave wrong info; misinformed can be accidental."
+        }
+      ],
+      "triggers": [
+        "When someone holds incorrect beliefs due to wrong information"
+      ],
+      "synonyms": [
+        "misled",
+        "mistaken",
+        "deceived",
+        "ill-informed"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Salacious",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "suh-LAY-shus",
+      "definition": "having or conveying undue interest in sexual matters; lustful or lecherous",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "sexuality",
+        "scandal",
+        "appetite"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The salacious details dominated the coverage, crowding out substantive discussion.",
+          "why": "Critiques how scandal displaces important discourse."
+        },
+        {
+          "context": "professional",
+          "sentence": "The tabloid's salacious reporting overshadowed legitimate governance concerns.",
+          "why": "Media criticism."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She told the story with salacious relish, savoring the scandal the way others savor dessert.",
+          "why": "Character who enjoys the lurid."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The salacious documentary about climate change was well-researched.",
+          "problem": "Salacious relates to sexual content; climate change is not sexual.",
+          "use_instead": "compelling or provocative"
+        }
+      ],
+      "related": [
+        {
+          "word": "lurid",
+          "distinction": "Lurid is broader, covering anything sensational; salacious specifically implies sexual content."
+        },
+        {
+          "word": "prurient",
+          "distinction": "Prurient emphasizes unhealthy curiosity; salacious emphasizes the content itself."
+        }
+      ],
+      "triggers": [
+        "When describing inappropriately sexual or scandal-focused content"
+      ],
+      "synonyms": [
+        "lurid",
+        "prurient",
+        "lascivious",
+        "lewd"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Commensurate",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "kuh-MEN-sur-it",
+      "definition": "corresponding in size, extent, or degree; proportionate to; in proper proportion",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "proportion",
+        "fairness",
+        "comparison"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The punishment should be commensurate with the offense, but proportionality is easier to state than to apply.",
+          "why": "Engages with the ideal and its difficulty."
+        },
+        {
+          "context": "professional",
+          "sentence": "Compensation should be commensurate with experience and scope.",
+          "why": "Standard HR language."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "His apology was not commensurate with the damage, but then, what words would have been?",
+          "why": "Acknowledges impossibility of proportionate response."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "Her entry-level salary was commensurate with her 20 years of experience.",
+          "problem": "Entry-level pay for 20 years experience is the opposite of commensurate.",
+          "use_instead": "incommensurate or disproportionate"
+        }
+      ],
+      "related": [
+        {
+          "word": "proportionate",
+          "distinction": "Proportionate emphasizes correct ratio; commensurate emphasizes appropriate correspondence."
+        },
+        {
+          "word": "equivalent",
+          "distinction": "Equivalent means exactly equal; commensurate means appropriately proportional."
+        }
+      ],
+      "triggers": [
+        "When assessing whether something is proportional to what it corresponds to"
+      ],
+      "synonyms": [
+        "proportionate",
+        "corresponding",
+        "equivalent",
+        "appropriate"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Prelapsarian",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "pree-lap-SAIR-ee-un",
+      "definition": "characteristic of the time before the Fall of Man; relating to any innocent or carefree period before a loss of innocence",
+      "register": [
+        "literary",
+        "academic"
+      ],
+      "tags": [
+        "innocence",
+        "nostalgia",
+        "theology"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The nostalgia for a prelapsarian internet reveals more about our present anxieties than the actual past.",
+          "why": "Applies theological concept to tech culture."
+        },
+        {
+          "context": "academic",
+          "sentence": "The poem evokes a prelapsarian world where knowledge and innocence coexist.",
+          "why": "Literary analysis."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "She remembered a prelapsarian version of herself, before the diagnosis, and wondered if that person had been happier or just less informed.",
+          "why": "Personal loss of innocence."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The prelapsarian chaos of the war zone was horrifying.",
+          "problem": "Prelapsarian implies innocence; chaos and horror are postlapsarian.",
+          "use_instead": "apocalyptic or hellish"
+        }
+      ],
+      "related": [
+        {
+          "word": "edenic",
+          "distinction": "Edenic emphasizes paradise; prelapsarian emphasizes the state before a fall."
+        },
+        {
+          "word": "idyllic",
+          "distinction": "Idyllic means peacefully beautiful; prelapsarian implies a state before corruption occurred."
+        }
+      ],
+      "triggers": [
+        "When describing innocence before a defining loss"
+      ],
+      "synonyms": [
+        "innocent",
+        "edenic",
+        "pristine",
+        "unfallen"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Nepotism",
+      "pos": [
+        "noun"
+      ],
+      "pronunciation": "NEP-uh-tiz-um",
+      "definition": "the practice of showing favoritism to relatives or close friends, especially by giving them positions of power",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "corruption",
+        "favoritism",
+        "power"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Nepotism doesn't just fill positions unfairly; it erodes the belief that merit matters.",
+          "why": "Identifies systemic damage beyond the individual appointment."
+        },
+        {
+          "context": "professional",
+          "sentence": "The promotion raised nepotism concerns given the candidate is the director's nephew.",
+          "why": "Real-world scenario where appearance of favoritism matters."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He got the job through nepotism, which he knew, and talent, which he didn't.",
+          "why": "Character underestimating his own competence."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The nepotism of the hiring process ensured only qualified candidates were selected.",
+          "problem": "Nepotism means favoritism based on relationships, not merit.",
+          "use_instead": "rigor or meritocracy"
+        }
+      ],
+      "related": [
+        {
+          "word": "cronyism",
+          "distinction": "Cronyism favors friends; nepotism specifically favors family."
+        },
+        {
+          "word": "favoritism",
+          "distinction": "Favoritism is broader; nepotism is the specific family form."
+        }
+      ],
+      "triggers": [
+        "When family connections influence hiring or power"
+      ],
+      "synonyms": [
+        "favoritism",
+        "cronyism",
+        "patronage"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Dilapidate",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "dih-LAP-ih-dayt",
+      "definition": "to cause or allow to fall into disrepair; to deteriorate through misuse or neglect",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "decay",
+        "neglect",
+        "deterioration"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Decades of underfunding had dilapidated the infrastructure to the point where maintenance cost more than replacement.",
+          "why": "Shows how neglect compounds costs."
+        },
+        {
+          "context": "professional",
+          "sentence": "The legacy codebase has been allowed to dilapidate; any new feature requires twice the effort.",
+          "why": "Metaphorical application to software."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "The house had dilapidated with the kind of thoroughness that only sustained indifference can achieve.",
+          "why": "Decay as product of active neglect."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The brand-new building was already dilapidated.",
+          "problem": "Dilapidation requires time and neglect.",
+          "use_instead": "poorly constructed or defective"
+        }
+      ],
+      "related": [
+        {
+          "word": "deteriorate",
+          "distinction": "Deteriorate is broader; dilapidate implies physical decay through neglect."
+        },
+        {
+          "word": "decay",
+          "distinction": "Decay is natural; dilapidate implies human neglect as the cause."
+        }
+      ],
+      "triggers": [
+        "When describing physical decline due to neglect"
+      ],
+      "synonyms": [
+        "deteriorate",
+        "decay",
+        "crumble",
+        "degrade"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Temperament",
+      "pos": [
+        "noun"
+      ],
+      "pronunciation": "TEM-pur-uh-ment",
+      "definition": "a person's natural disposition; the combination of mental, physical, and emotional traits defining habitual responses",
+      "register": [
+        "general",
+        "formal"
+      ],
+      "tags": [
+        "personality",
+        "character",
+        "disposition"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "Leadership is partly a matter of temperament: the ability to remain steady when everyone else is reacting.",
+          "why": "Identifies temperament as a leadership prerequisite."
+        },
+        {
+          "context": "professional",
+          "sentence": "It's her temperament that makes her exceptional under pressure.",
+          "why": "Distinguishes competence from disposition."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "His temperament was volcanic: long stretches of calm punctuated by eruptions that surprised even him.",
+          "why": "Natural metaphor for unpredictable pattern."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "He changed his temperament overnight.",
+          "problem": "Temperament is innate and enduring; it doesn't change overnight.",
+          "use_instead": "attitude or behavior"
+        }
+      ],
+      "related": [
+        {
+          "word": "personality",
+          "distinction": "Personality is the broader social self; temperament is the underlying emotional disposition."
+        },
+        {
+          "word": "disposition",
+          "distinction": "Disposition implies a general tendency; temperament implies a more fundamental trait."
+        }
+      ],
+      "triggers": [
+        "When discussing fundamental emotional and behavioral tendencies"
+      ],
+      "synonyms": [
+        "disposition",
+        "character",
+        "nature",
+        "constitution"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Trite",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "TRYTE",
+      "definition": "lacking freshness or effectiveness because of constant use; hackneyed, stale, unoriginal",
+      "register": [
+        "general",
+        "formal"
+      ],
+      "tags": [
+        "criticism",
+        "originality",
+        "language"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The observation that 'actions speak louder than words' is trite, but the reason it persists is that it's rarely practiced.",
+          "why": "Acknowledges triteness while defending the underlying truth."
+        },
+        {
+          "context": "professional",
+          "sentence": "The pitch deck was full of trite phrases like 'synergy' that signaled nothing.",
+          "why": "Critique of empty business language."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "Every metaphor he reached for was trite, but he used them anyway, because originality was less important than being understood.",
+          "why": "Defends clarity over novelty."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "Her trite ideas revolutionized the industry.",
+          "problem": "Trite means unoriginal; revolutionary ideas are not trite.",
+          "use_instead": "bold or groundbreaking"
+        }
+      ],
+      "related": [
+        {
+          "word": "cliche",
+          "distinction": "Cliche is a specific overused phrase; trite describes anything lacking freshness."
+        },
+        {
+          "word": "banal",
+          "distinction": "Banal implies boring ordinariness; trite implies staleness from repetition."
+        }
+      ],
+      "triggers": [
+        "When critiquing something for being unoriginal due to overuse"
+      ],
+      "synonyms": [
+        "hackneyed",
+        "cliched",
+        "banal",
+        "stale"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Preemptive",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "pree-EMP-tiv",
+      "definition": "serving to prevent an anticipated event; acting before someone else can act first",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "prevention",
+        "strategy",
+        "timing"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The preemptive strike was justified on intelligence that later proved fabricated.",
+          "why": "Questions the foundation of preemptive action."
+        },
+        {
+          "context": "professional",
+          "sentence": "We should issue a preemptive communication to stakeholders before the news breaks.",
+          "why": "Crisis management strategy."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "Her apology was preemptive, issued before she'd even done the thing she was going to be sorry for.",
+          "why": "Comic use showing someone who knows they're about to misbehave."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The preemptive response came three weeks after the incident.",
+          "problem": "Preemptive means before the event; after the fact is reactive.",
+          "use_instead": "delayed or reactive"
+        }
+      ],
+      "related": [
+        {
+          "word": "preventive",
+          "distinction": "Preventive aims to stop something; preemptive specifically implies acting before an anticipated threat."
+        },
+        {
+          "word": "proactive",
+          "distinction": "Proactive means taking initiative generally; preemptive specifically means acting to prevent."
+        }
+      ],
+      "triggers": [
+        "When an action is taken to prevent an anticipated event"
+      ],
+      "synonyms": [
+        "preventive",
+        "proactive",
+        "anticipatory",
+        "precautionary"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Append",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "uh-PEND",
+      "definition": "to add something to the end of a written document, list, or piece of information",
+      "register": [
+        "formal",
+        "technical"
+      ],
+      "tags": [
+        "addition",
+        "writing",
+        "data"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The committee voted to append a dissenting opinion to the report.",
+          "why": "Formal procedural use."
+        },
+        {
+          "context": "professional",
+          "sentence": "Please append the updated figures to the appendix.",
+          "why": "Standard professional instruction."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He appended a postscript that said more than the letter itself.",
+          "why": "The added part carrying more weight."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "She appended the introduction to the beginning.",
+          "problem": "Append means to add to the end; adding to the beginning is prepending.",
+          "use_instead": "prepended or prefixed"
+        }
+      ],
+      "related": [
+        {
+          "word": "attach",
+          "distinction": "Attach is broader; append specifically means adding to the end."
+        },
+        {
+          "word": "annex",
+          "distinction": "Annex implies adding supplementary material; append means adding to the end of existing content."
+        }
+      ],
+      "triggers": [
+        "When adding information to the end of a document"
+      ],
+      "synonyms": [
+        "attach",
+        "add",
+        "supplement",
+        "affix"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Inflammatory",
+      "pos": [
+        "adjective"
+      ],
+      "pronunciation": "in-FLAM-uh-tor-ee",
+      "definition": "tending to arouse strong feeling, especially anger; provocative and likely to cause unrest",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "provocation",
+        "rhetoric",
+        "conflict"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The speech was deliberately inflammatory, designed not to persuade but to polarize.",
+          "why": "Identifies inflammatory rhetoric as strategic choice."
+        },
+        {
+          "context": "professional",
+          "sentence": "Let's rephrase that section; the wording could be seen as inflammatory.",
+          "why": "Communication risk management."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He had an inflammatory effect on rooms, not because of what he said, but because of what people imagined he was about to say.",
+          "why": "Reputation as its own provocation."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "Her inflammatory remarks calmed the crowd.",
+          "problem": "Inflammatory means provoking anger; calming is the opposite.",
+          "use_instead": "conciliatory or soothing"
+        }
+      ],
+      "related": [
+        {
+          "word": "provocative",
+          "distinction": "Provocative can be positive; inflammatory is almost always negative."
+        },
+        {
+          "word": "incendiary",
+          "distinction": "Incendiary is stronger, implying deliberate intent; inflammatory can be inadvertent."
+        }
+      ],
+      "triggers": [
+        "When language is likely to provoke anger"
+      ],
+      "synonyms": [
+        "provocative",
+        "incendiary",
+        "inciting",
+        "rabble-rousing"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Underpin",
+      "pos": [
+        "verb"
+      ],
+      "pronunciation": "UN-dur-pin",
+      "definition": "to support, justify, or form the basis of; to provide a foundation for an argument or structure",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "foundation",
+        "support",
+        "structure"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The assumptions that underpin the model have not been tested in conditions resembling the current crisis.",
+          "why": "Questions the foundation by examining assumptions."
+        },
+        {
+          "context": "professional",
+          "sentence": "We need to understand the data that underpins this recommendation.",
+          "why": "Due diligence."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "Trust underpinned their friendship, or so she believed until it didn't.",
+          "why": "Foundation less solid than assumed."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The conclusion underpins the evidence that supports it.",
+          "problem": "Evidence underpins conclusions, not the reverse.",
+          "use_instead": "is supported by"
+        }
+      ],
+      "related": [
+        {
+          "word": "undergird",
+          "distinction": "Synonymous but less common."
+        },
+        {
+          "word": "support",
+          "distinction": "Support is broader; underpin specifically implies foundational support from below."
+        }
+      ],
+      "triggers": [
+        "When identifying what provides the foundation for an argument or system"
+      ],
+      "synonyms": [
+        "support",
+        "undergird",
+        "buttress",
+        "sustain"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Compatriot",
+      "pos": [
+        "noun"
+      ],
+      "pronunciation": "kum-PAY-tree-ut",
+      "definition": "a fellow citizen or national of a country; a person from the same country as another",
+      "register": [
+        "formal"
+      ],
+      "tags": [
+        "nationality",
+        "identity",
+        "solidarity"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "She felt a kinship with her compatriots abroad that she had never felt at home, which said more about distance than about patriotism.",
+          "why": "Explores how shared nationality gains meaning through separation."
+        },
+        {
+          "context": "professional",
+          "sentence": "The delegation included compatriots from three different industries, united by national interest rather than sector.",
+          "why": "Professional context where shared nationality creates alignment."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He nodded at the stranger the way you nod at a compatriot in a foreign airport: a silent acknowledgment that you share something neither of you chose.",
+          "why": "Captures the involuntary bond of shared origin."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "His compatriot from the rival nation helped him escape.",
+          "problem": "Compatriot means someone from the same country; a rival nation is not the same country.",
+          "use_instead": "ally or accomplice"
+        }
+      ],
+      "related": [
+        {
+          "word": "countryman",
+          "distinction": "Countryman is less formal and can feel archaic; compatriot is neutral and widely used."
+        },
+        {
+          "word": "colleague",
+          "distinction": "Colleague implies professional connection; compatriot implies national connection."
+        }
+      ],
+      "triggers": [
+        "When identifying someone from the same country",
+        "When shared nationality creates a bond or alignment"
+      ],
+      "synonyms": [
+        "countryman",
+        "fellow citizen",
+        "national"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Derivative",
+      "pos": [
+        "adjective",
+        "noun"
+      ],
+      "pronunciation": "dih-RIV-uh-tiv",
+      "definition": "imitative of the work of another person; not original; (n.) something that is based on or developed from another source",
+      "register": [
+        "formal",
+        "general"
+      ],
+      "tags": [
+        "originality",
+        "criticism",
+        "imitation"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The criticism that the work is derivative misses the point: all art builds on what came before. The question is whether it adds anything.",
+          "why": "Engages with the critique while reframing the standard."
+        },
+        {
+          "context": "professional",
+          "sentence": "The competitor's product is derivative of ours, but their distribution strategy is genuinely innovative.",
+          "why": "Distinguishes between derivative product and original strategy."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "His style was derivative, but derivative of the right people, which in some circles passes for taste.",
+          "why": "Comic observation about imitation as social positioning."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "Her derivative approach was completely original and groundbreaking.",
+          "problem": "Derivative means imitative; original and groundbreaking contradict this.",
+          "use_instead": "innovative or pioneering"
+        }
+      ],
+      "related": [
+        {
+          "word": "imitative",
+          "distinction": "Imitative is neutral about what's copied; derivative implies copying that fails to add value."
+        },
+        {
+          "word": "unoriginal",
+          "distinction": "Unoriginal is a blunt negative; derivative is more precise, implying traceable influence."
+        }
+      ],
+      "triggers": [
+        "When critiquing work for being too imitative",
+        "When something clearly derives from an existing source without adding enough"
+      ],
+      "synonyms": [
+        "imitative",
+        "unoriginal",
+        "secondary",
+        "borrowed"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
+    },
+    {
+      "word": "Obscure",
+      "pos": [
+        "adjective",
+        "verb"
+      ],
+      "pronunciation": "ub-SKYOOR",
+      "definition": "(adj.) not discovered or known about; uncertain; hard to understand; (v.) to keep from being seen or understood; to conceal",
+      "register": [
+        "general",
+        "formal"
+      ],
+      "tags": [
+        "hiddenness",
+        "complexity",
+        "concealment"
+      ],
+      "enriched": true,
+      "examples": [
+        {
+          "context": "essay",
+          "sentence": "The regulation was written in language so obscure that compliance became a matter of interpretation rather than instruction.",
+          "why": "Obscurity of language creating practical ambiguity."
+        },
+        {
+          "context": "professional",
+          "sentence": "The error was caused by an obscure configuration flag that wasn't documented anywhere.",
+          "why": "Technical use: something hidden and hard to find."
+        },
+        {
+          "context": "creative writing",
+          "sentence": "He preferred obscure references not because they were better, but because they made him feel like the only person in the room who had done the reading.",
+          "why": "Obscurity as intellectual performance."
+        }
+      ],
+      "misuses": [
+        {
+          "wrong": "The obscure celebrity was recognized by everyone.",
+          "problem": "Obscure means not well-known; being recognized by everyone contradicts this.",
+          "use_instead": "famous or prominent"
+        }
+      ],
+      "related": [
+        {
+          "word": "esoteric",
+          "distinction": "Esoteric implies specialized knowledge for a small group; obscure implies simply not well-known or hard to find."
+        },
+        {
+          "word": "arcane",
+          "distinction": "Arcane implies mysterious and secret; obscure implies hidden but not necessarily mysterious."
+        }
+      ],
+      "triggers": [
+        "When something is not well-known or hard to find",
+        "When language or meaning is deliberately or accidentally unclear"
+      ],
+      "synonyms": [
+        "unknown",
+        "hidden",
+        "unclear",
+        "abstruse"
+      ],
+      "date_added": "2026-04-03",
+      "version": 2
     }
   ]
 }
