@@ -655,10 +655,6 @@ function renderCards() {
 
 function renderDetail(w) {
     let html = '';
-    if (w.definition) {
-        html += `<div class="detail-section"><div class="detail-title">Definition</div>
-            <div style="font-size:14px;color:#3a3835;line-height:1.55;">${esc(w.definition)}</div></div>`;
-    }
     if (w.triggers && w.triggers.length) {
         html += `<div class="detail-section"><div class="detail-title">When to use</div>
             <div class="trigger-list">${w.triggers.map(t => esc(t)).join(' &middot; ')}</div></div>`;
@@ -713,6 +709,14 @@ function collapseCard(card) {
     if (detail) detail.style.display = 'none';
     const arrow = card.querySelector('.toggle-arrow');
     if (arrow) arrow.classList.remove('open');
+    if (compactMode) {
+        card.querySelectorAll('.card-collapsible').forEach(function(el) {
+            el.style.maxHeight = '0';
+            el.style.opacity = '0';
+            el.style.margin = '0';
+            el.style.overflow = 'hidden';
+        });
+    }
 }
 
 function toggleCard(idx) {
@@ -731,6 +735,12 @@ function toggleCard(idx) {
             if (detail) detail.style.display = 'block';
             const arrow = card.querySelector('.toggle-arrow');
             if (arrow) arrow.classList.add('open');
+            card.querySelectorAll('.card-collapsible').forEach(function(el) {
+                el.style.maxHeight = '';
+                el.style.opacity = '';
+                el.style.margin = '';
+                el.style.overflow = '';
+            });
         }
     }
 }
