@@ -3,3 +3,6 @@
 !.gitignore
 !index.html
 !vocab.py
+!dashboard/
+!dashboard/vocab_dashboard.html
+!dashboard/generate_dashboard.py
