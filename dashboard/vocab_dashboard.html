@@ -655,6 +655,10 @@ function renderCards() {
 
 function renderDetail(w) {
     let html = '';
+    if (w.definition) {
+        html += `<div class="detail-section"><div class="detail-title">Definition</div>
+            <div style="font-size:14px;color:#3a3835;line-height:1.55;">${esc(w.definition)}</div></div>`;
+    }
     if (w.triggers && w.triggers.length) {
         html += `<div class="detail-section"><div class="detail-title">When to use</div>
             <div class="trigger-list">${w.triggers.map(t => esc(t)).join(' &middot; ')}</div></div>`;
